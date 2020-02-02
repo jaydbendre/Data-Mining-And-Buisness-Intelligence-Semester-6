@@ -9,7 +9,6 @@ def update_delay(value):
     current_time = pd.to_datetime(value["Time"], format="%I:%M %p")
     status = value["Status"].split(" ")
     if len(status) > 1:
-        print(status)
         if status[1] != "to":
             arrival_time = pd.to_datetime(
                 status[1] + " " + status[2], format="%I:%M %p"
@@ -20,14 +19,16 @@ def update_delay(value):
 
 
 def update_status(value):
-    # 0 : Landed
-    # 1 : Cancelled
-    # 2 : Diverted
+    """
+    0 : Landed
+    1 : Canceled
+    2 : Diverted
+    """
 
     status = value.split(" ")
     if status[0] == "Landed":
         return 0
-    elif status[0] == "Cancelled":
+    elif status[0] == "Canceled":
         return 1
     else:
         return 2
