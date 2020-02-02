@@ -42,7 +42,7 @@ def insert_date(value):
         return np.nan
 
 
-data = pd.read_csv("Datasets/AirplaneData26-01-2020.csv")
+data = pd.read_csv("Datasets/Arrivals/AirplaneData26-01-2020.csv")
 data = pd.DataFrame(data[["Time", "Source", "Flight Name", "Status"]])
 data["delay"] = data[["Time", "Status"]].apply(update_delay, 1)
 data["Arrival"] = data["Status"].apply(insert_date, 1)
