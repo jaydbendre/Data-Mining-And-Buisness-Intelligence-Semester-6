@@ -26,13 +26,15 @@ def update_status(value):
     2 : Diverted
     """
 
-    status = value.split(" ")
-    if status[0] == "Landed":
-        return 0
+    status = value["Status"].split(" ")
+    if status[0] == "Landed" and value["delay"] == 0:
+        return "On-Time"
+    elif status[0] == "Landed" and value["delay"] > 0:
+        return "Delayed"
     elif status[0] == "Canceled":
-        return 1
+        return "Canceled"
     else:
-        return 2
+        return "Diverted"
 
 
 def insert_date(value):
@@ -44,10 +46,11 @@ def insert_date(value):
 
 
 data = pd.read_csv("Datasets/Arrivals/AirplaneData26-01-2020.csv")
+# DataFrame is like a subset of the dataset so redudant columns have been removed
 data = pd.DataFrame(data[["Time", "Source", "Flight Name", "Status"]])
 data["delay"] = data[["Time", "Status"]].apply(update_delay, 1)
 data["Arrival"] = data["Status"].apply(insert_date, 1)
-data["Status"] = data["Status"].apply(update_status, 1)
+data["Status"] = data[["Status", "delay"]].apply(update_status, 1)
 change_time = lambda x: pd.to_datetime(x, format="%I:%M %p").time()
 data["Time"] = data["Time"].map(change_time)
 
