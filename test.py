@@ -43,7 +43,10 @@ def insert_date(value):
 
 
 data = pd.read_csv("Datasets/AirplaneData26-01-2020.csv")
+data = pd.DataFrame(data[["Time", "Source", "Flight Name", "Status"]])
 data["delay"] = data[["Time", "Status"]].apply(update_delay, 1)
 data["Arrival"] = data["Status"].apply(insert_date, 1)
 data["Status"] = data["Status"].apply(update_status, 1)
-print(data.head(100))
+change_time = lambda x: pd.to_datetime(x, format="%I:%M %p").time()
+data["Time"] = data["Time"].map(change_time)
+print(data.head(500))
