@@ -3,6 +3,7 @@ import numpy as np
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
 import datetime as dt
+from scipy.stats import chisquare, chi2_contingency
 
 
 def update_delay(value):
@@ -49,4 +50,55 @@ data["Arrival"] = data["Status"].apply(insert_date, 1)
 data["Status"] = data["Status"].apply(update_status, 1)
 change_time = lambda x: pd.to_datetime(x, format="%I:%M %p").time()
 data["Time"] = data["Time"].map(change_time)
+
+
+print("Dataset for airplane traffic in Mumbai")
 print(data.head(500))
+print("\n\n")
+# DATASET READY FOR OPERATIONS
+print("Description of the dataset")
+print(data.describe())
+print("\n\n")
+print("Shape of the dataset")
+print(data.shape)
+print("\n\n")
+print("Number of data points : ")
+print(data.size)
+print("\n\n")
+print("Number of null Values column wise ")
+print(data.isnull().sum())
+print("\n\n")
+print("Number of flights per Airline Agency")
+print(data["Flight Name"].value_counts())
+print("\n\n")
+print("5 Point summary of the data on the basis of delay time of the flights")
+Q1, median, Q3 = np.nanpercentile(data["delay"], [25, 50, 75])
+min, max = data["delay"].min(), data["delay"].max()
+print(
+    "Min : {} \nMax : {}\nQ1 : {}\nQ3 : {}\nMedian : {}".format(
+        min, max, Q1, Q3, median
+    )
+)
+print("\n\n")
+print("Finding correlation between Status and delay")
+relation = data.corr(method="pearson")
+print(relation)
+print("\n\n")
+print("Frequency Table for category and type")
+table = pd.crosstab(data["Flight Name"], data["Status"])
+print(table)
+print("\n\n")
+print("Chi Squared test to find out whether flight name and flight status are related")
+chi, p, df1, expected = chi2_contingency(table)
+print("Chi Square value = {0:0.3f}\np value = {1:0.3f}".format(chi, p))
+print("\n\n")
+print("Grouped data by Flight Name")
+grouped_data = data.groupby(["Flight Name"])
+print("Grouped Data")
+print(grouped_data.describe())
+print("\n\n")
+print("Description of the grouped data delay")
+print(grouped_data["delay"].describe())
+print("\n\n")
+print("Mean delay offered by per flight company")
+print(grouped_data["delay"].mean().sort_values(ascending=False))
