@@ -34,7 +34,16 @@ def update_status(value):
         return 2
 
 
+def insert_date(value):
+    date = value.split(" ")
+    if len(date) > 1 and date[1] != "to":
+        return pd.to_datetime(date[1] + " " + date[2], format="%I:%M %p").time()
+    else:
+        return np.nan
+
+
 data = pd.read_csv("AirplaneData26-01-2020.csv")
 data["delay"] = data[["Time", "Status"]].apply(update_delay, 1)
+data["Arrival"] = data["Status"].apply(insert_date, 1)
 data["Status"] = data["Status"].apply(update_status, 1)
 print(data.head(100))
