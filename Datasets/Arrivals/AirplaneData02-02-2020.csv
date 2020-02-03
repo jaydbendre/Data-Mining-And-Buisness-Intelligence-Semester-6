@@ -1,4 +1,4 @@
-TIME,FLIGHT,FROM,AIRLINE,AIRCRAFT,STATUS
+Time,FlightNumber,Source,Flight Name,Aircraft,Status
 12:05 AM,AF218,Paris (CDG),Air France,B77W (F-GZNK),Landed 12:48 AM
 12:05 AM,6E5383,Hyderabad (HYD),IndiGo,A20N (VT-ITI),Landed 12:23 AM
 12:10 AM,G82608,Jaipur (JAI),GoAir,A320 (VT-GOO),Landed 12:57 AM
