@@ -1,4 +1,4 @@
-Time,Flight Number,Destination,Flight Name,Status
+Time,Flight Number,Destination,Flight Name,Aircraft,Status
 8:55 AM,SG63,Dhaka (DAC),SpiceJet,B738 (VT-SLN),Departed 11:14 AM
 8:55 AM,6E382,Hyderabad (HYD),IndiGo,A320 (VT-IDT),Departed 9:19 AM
 9:00 AM,AI671,Chennai (MAA),Air India,A20N (VT-EXG),Departed 11:45 AM
