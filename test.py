@@ -33,6 +33,8 @@ def update_status(value):
         return "Delayed"
     elif status[0] == "Canceled":
         return "Canceled"
+    elif staus[0] == "Unknown"
+        return np.nan
     else:
         return "Diverted"
 
