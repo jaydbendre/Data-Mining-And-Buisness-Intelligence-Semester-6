@@ -47,7 +47,9 @@ def insert_date(value):
         return np.nan
 
 
-data = pd.read_csv("Datasets/Arrivals/AirplaneData26-01-2020.csv")
+#No Invalid Bytes
+data = pd.read_csv("Datasets/Arrivals/AirplaneData26-01-2020.csv", encoding = 'utf8')
+
 # DataFrame is like a subset of the dataset so redudant columns have been removed
 data = pd.DataFrame(data[["Time", "Source", "Flight Name", "Status"]])
 data["delay"] = data[["Time", "Status"]].apply(update_delay, 1)
