@@ -6,116 +6,69 @@ import datetime as dt
 from scipy.stats import chisquare, chi2_contingency
 
 
-def update_delay(value):
-    current_time = pd.to_datetime(value["Time"], format="%I:%M %p")
+def update_source(value):
+    if value["type"] == "D":
+        return "Mumbai"
+    else:
+        return value["Source"]
+
+
+def update_destination(value):
+    if value["type"] == "A":
+        return "Mumbai"
+    else:
+        return value["Destination"]
+
+
+def update_timestamp_init(value):
+    timestamp = str(value["date"]) + " " + str(value["Time"])
+    timestamp = pd.to_datetime(timestamp, format="%Y-%m-%d %H:%M:%S")
+    return timestamp
+
+
+def update_actual_time(value):
     status = value["Status"].split(" ")
-    if len(status) == 3:
-        if status[1] != "to":
-            arrival_time = pd.to_datetime(
-                status[1] + " " + status[2], format="%I:%M %p"
+    if len(status) == 3 and status[1] != "to":
+        time = value["date"] + " " + status[1] + " " + status[2]
+        timestamp = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
+        timedelta = timestamp - pd.to_datetime(
+            value["date"], format="%Y-%m-%d %H:%M:%S"
+        )
+        if timedelta > dt.timedelta(hours=12):
+            value["date"] = pd.to_datetime(
+                value["date"], format="%Y-%m-%d"
+            ) - dt.timedelta(days=1)
+            value["date"] = value["date"].date()
+            time = str(value["date"]) + " " + status[1] + " " + status[2]
+            timestamp = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
+            timedelta = timestamp - pd.to_datetime(
+                value["date"], format="%Y-%m-%d %H:%M:%S"
             )
-            return pd.Timedelta(abs(current_time - arrival_time)).seconds / 60
-    else:
-        return 0
-
-
-def update_status(value):
-    """
-    0 : Landed
-    1 : Canceled
-    2 : Diverted
-    """
-
-    status = value["Status"].split(" ")
-    if status[0] == "Landed" and value["delay"] == 0:
-        return "On-Time"
-    elif status[0] == "Landed" and value["delay"] > 0:
-        return "Delayed"
-    elif status[0] == "Canceled":
-        return "Canceled"
-    elif status[0] == "Unknown":
-        return np.nan
-    else:
-        return "Diverted"
-
-
-def insert_date(value):
-    date = value.split(" ")
-    if len(date) > 1 and date[1] != "to":
-        return pd.to_datetime(date[1] + " " + date[2], format="%I:%M %p").time()
+        return timestamp
     else:
         return np.nan
 
 
-#No Invalid Bytes
-data = pd.read_csv("Datasets/Arrivals/AirplaneData02-02-2020.csv", encoding = 'utf8')
-data1 = pd.read_csv("Datasets/Departures/AirplaneData02-02-2020.csv", encoding = 'utf8')
-
-# print(data1.columns)
-
-# DataFrame is like a subset of the dataset so redudant columns have been removed
-data = pd.DataFrame(data[["Time", "Source", "Flight Name", "Status"]])
-data1 = pd.DataFrame(data1[["Time", "Destination", "Flight Name", "Status"]])
+def add_delay(value):
+    if value["Actual_Time"] or value["Time"]:
+        time = pd.to_datetime(value["Time"], format="%Y-%m-%d %H:%M:%S")
+        actual_time = pd.to_datetime(value["Actual_Time"], format="%Y-%m-%d %H:%M:%S")
+        return pd.Timedelta(abs(time - actual_time)).seconds / 60
+    else:
+        return np.nan
 
 
-data = data.append(data1)
+dataset = pd.read_csv("Datasets/FinalMergedDataset/dataset.csv")
+df = pd.DataFrame(
+    dataset[["Time", "date", "Source", "Flight Name", "Status", "type", "Destination"]]
+)
 
-# data["delay"] = data[["Time", "Status"]].apply(update_delay, 1)
-# data["Arrival"] = data["Status"].apply(insert_date, 1)
-# data["Status"] = data[["Status", "delay"]].apply(update_status, 1)
-# change_time = lambda x: pd.to_datetime(x, format="%I:%M %p").time()
-# data["Time"] = data["Time"].map(change_time)
+df["Source"] = df[["Source", "type"]].apply(update_source, 1)
+df["Destination"] = df[["Destination", "type"]].apply(update_destination, 1)
+df["Time"] = df[["date", "Time"]].apply(update_timestamp_init, 1)
+df["Actual_Time"] = df[["Time", "Status", "date"]].apply(update_actual_time, 1)
+df = df.dropna()
+df["Delay"] = df[["Time", "Actual_Time"]].apply(add_delay, 1)
 
-print(data.head())
-
-# print("Dataset for airplane traffic in Mumbai")
-# print(data.head(500))
-# print("\n\n")
-# # DATASET READY FOR OPERATIONS
-# print("Description of the dataset")
-# print(data.describe())
-# print("\n\n")
-# print("Shape of the dataset")
-# print(data.shape)
-# print("\n\n")
-# print("Number of data points : ")
-# print(data.size)
-# print("\n\n")
-# print("Number of null Values column wise ")
-# print(data.isnull().sum())
-# print("\n\n")
-# print("Number of flights per Airline Agency")
-# print(data["Flight Name"].value_counts())
-# print("\n\n")
-# print("5 Point summary of the data on the basis of delay time of the flights")
-# Q1, median, Q3 = np.nanpercentile(data["delay"], [25, 50, 75])
-# min, max = data["delay"].min(), data["delay"].max()
-# print(
-#     "Min : {} \nMax : {}\nQ1 : {}\nQ3 : {}\nMedian : {}".format(
-#         min, max, Q1, Q3, median
-#     )
-# )
-# print("\n\n")
-# print("Finding correlation between Status and delay")
-# relation = data.corr(method="pearson")
-# print(relation)
-# print("\n\n")
-# print("Frequency Table for category and type")
-# table = pd.crosstab(data["Flight Name"], data["Status"])
-# print(table)
-# print("\n\n")
-# print("Chi Squared test to find out whether flight name and flight status are related")
-# chi, p, df1, expected = chi2_contingency(table)
-# print("Chi Square value = {0:0.3f}\np value = {1:0.3f}".format(chi, p))
-# print("\n\n")
-# print("Grouped data by Flight Name")
-# grouped_data = data.groupby(["Flight Name"])
-# print("Grouped Data")
-# print(grouped_data.describe())
-# print("\n\n")
-# print("Description of the grouped data delay")
-# print(grouped_data["delay"].describe())
-# print("\n\n")
-# print("Mean delay offered by per flight company")
-# print(grouped_data["delay"].mean().sort_values(ascending=False))
-
+cleaned_df = pd.DataFrame(df[["Source","Destination","type","Time","Actual_Time","Delay"]])
+print(cleaned_df)
