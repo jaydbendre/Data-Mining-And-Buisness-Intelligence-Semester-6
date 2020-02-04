@@ -50,25 +50,60 @@ def update_actual_time(value):
 
 
 def add_delay(value):
-    if value["Actual_Time"] or value["Time"]:
-        time = pd.to_datetime(value["Time"], format="%Y-%m-%d %H:%M:%S")
-        actual_time = pd.to_datetime(value["Actual_Time"], format="%Y-%m-%d %H:%M:%S")
-        return pd.Timedelta(abs(time - actual_time)).seconds / 60
-    else:
+    time = pd.to_datetime(value["Time"], format="%Y-%m-%d %H:%M:%S")
+    actual_time = pd.to_datetime(value["Actual_Time"], format="%Y-%m-%d %H:%M:%S")
+    if pd.isnull(actual_time):
         return np.nan
+    else:
+        return pd.Timedelta(abs(time - actual_time)).seconds / 60
 
 
-dataset = pd.read_csv("Datasets/FinalMergedDataset/dataset.csv")
-df = pd.DataFrame(
-    dataset[["Time", "date", "Source", "Flight Name", "Status", "type", "Destination"]]
-)
+def update_status(value):
+    value = value.split(" ")[0]
+    if value == "Landed" or value == "Departed":
+        return 0
+    elif value == "Canceled":
+        return 1
+    elif value == "Diverted":
+        return 2
+    else:
+        return 3
 
-df["Source"] = df[["Source", "type"]].apply(update_source, 1)
-df["Destination"] = df[["Destination", "type"]].apply(update_destination, 1)
-df["Time"] = df[["date", "Time"]].apply(update_timestamp_init, 1)
-df["Actual_Time"] = df[["Time", "Status", "date"]].apply(update_actual_time, 1)
-df = df.dropna()
-df["Delay"] = df[["Time", "Actual_Time"]].apply(add_delay, 1)
 
-cleaned_df = pd.DataFrame(df[["Source","Destination","type","Time","Actual_Time","Delay"]])
-print(cleaned_df)
+def dataCleaner():
+    dataset = pd.read_csv("Datasets/FinalMergedDataset/dataset.csv")
+    df = pd.DataFrame(
+        dataset[
+            ["Time", "date", "Source", "Flight Name", "Status", "type", "Destination"]
+        ]
+    )
+
+    print(df["Status"])
+    df["Source"] = df[["Source", "type"]].apply(update_source, 1)
+    df["Destination"] = df[["Destination", "type"]].apply(update_destination, 1)
+    df["Time"] = df[["date", "Time"]].apply(update_timestamp_init, 1)
+    df["Actual_Time"] = df[["Time", "Status", "date"]].apply(update_actual_time, 1)
+    # df = df.dropna()
+    df["Status"] = df["Status"].apply(update_status, 1)
+    df["Delay"] = df[["Time", "Actual_Time"]].apply(add_delay, 1)
+    df = df.dropna()
+    cleaned_df = pd.DataFrame(
+        df[
+            [
+                "Source",
+                "Destination",
+                "Flight Name",
+                "type",
+                "Status",
+                "Time",
+                "Actual_Time",
+                "Delay",
+            ]
+        ]
+    )
+
+    with open("Datasets/FinalMergedDataset/cleaned_dataset.csv", "w") as f:
+        cleaned_df.to_csv(path_or_buf=f, index=False)
+
+
+dataCleaner()
