@@ -67,3 +67,5 @@ def dataMerger():
         )
     )
 
+
+dataMerger()
