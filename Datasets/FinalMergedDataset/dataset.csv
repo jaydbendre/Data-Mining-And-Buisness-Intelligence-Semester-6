@@ -2506,3 +2506,798 @@ Time,Source,Flight Name,Status,date,type,Destination
 23:55:00,,Vistara,Departed 12:11 AM,2020-02-04,D,Singapore (SIN)
 23:59:00,Patna (PAT),Air India,Landed 12:57 AM,2020-02-04,A,
 23:59:00,Ahmedabad (AMD),SpiceJet,Landed 11:54 PM,2020-02-04,A,
+04:40:00,,Etihad,Departed 4:31 AM,2020-02-05,D,Abu Dhabi (AUH)
+04:50:00,Kannur (CNN),GoAir,Landed 4:47 AM,2020-02-05,A,
+04:50:00,Cochin (COK),IndiGo,Landed 4:41 AM,2020-02-05,A,
+04:50:00,,Lufthansa Cargo,Unknown,2020-02-05,D,Hong Kong (HKG)
+04:50:00,,SpiceXpress,Departed 5:57 AM,2020-02-05,D,Bengaluru (BLR)
+04:55:00,Bahrain (BAH),Gulf Air,Landed 4:42 AM,2020-02-05,A,
+04:55:00,Brussels (BRU),Singapore Airlines,Unknown,2020-02-05,A,
+04:55:00,Delhi (DEL),GoAir,Landed 5:10 AM,2020-02-05,A,
+04:55:00,,GoAir,Departed 4:58 AM,2020-02-05,D,Goa (GOI)
+04:55:00,,Air Arabia,Departed 5:15 AM,2020-02-05,D,Sharjah (SHJ)
+05:00:00,Jeddah (JED),Air India (Star Alliance Livery),Landed 4:51 AM,2020-02-05,A,
+05:00:00,Port Louis (MRU),Air Mauritius,Landed 4:46 AM,2020-02-05,A,
+05:00:00,,IndiGo,Departed 5:07 AM,2020-02-05,D,Kolkata (CCU)
+05:05:00,Doha (DOH),Qatar Cargo,Landed 4:36 AM,2020-02-05,A,
+05:05:00,,flydubai,Departed 5:28 AM,2020-02-05,D,Dubai (DXB)
+05:05:00,,IndiGo,Departed 5:19 AM,2020-02-05,D,Kuwait City (KWI)
+05:10:00,Istanbul (IST),Turkish Airlines,Landed 4:53 AM,2020-02-05,A,
+05:10:00,Riyadh (RUH),IndiGo,Landed 4:59 AM,2020-02-05,A,
+05:10:00,,GoAir,Departed 5:05 AM,2020-02-05,D,Cochin (COK)
+05:10:00,,Blue Dart Aviation,Departed 5:23 AM,2020-02-05,D,Bengaluru (BLR)
+05:10:00,,RwandAir,Estimated dep. 4:15 AM,2020-02-05,D,Kigali (KGL)
+05:15:00,Ahmedabad (AMD),Air India,Landed 5:59 AM,2020-02-05,A,
+05:15:00,,IndiGo,Departed 5:33 AM,2020-02-05,D,Vadodara (BDQ)
+05:20:00,,AirAsia,Departed 5:21 AM,2020-02-05,D,Delhi (DEL)
+05:20:00,,SpiceJet,Departed 5:17 AM,2020-02-05,D,Jaipur (JAI)
+05:20:00,,IndiGo,Departed 5:27 AM,2020-02-05,D,Jaipur (JAI)
+05:20:00,,SpiceXpress,Departed 5:36 AM,2020-02-05,D,Bengaluru (BLR)
+05:25:00,Hyderabad (HYD),IndiGo,Landed 5:13 AM,2020-02-05,A,
+05:25:00,,Blue Dart Aviation,Departed 5:39 AM,2020-02-05,D,Hyderabad (HYD)
+05:31:00,,Air India,Departed 6:55 AM,2020-02-05,D,Ahmedabad (AMD)
+05:31:00,,Air Seychelles,Departed 5:40 AM,2020-02-05,D,Victoria (SEZ)
+05:31:00,,SpiceJet,Departed 5:48 AM,2020-02-05,D,Kolkata (CCU)
+05:31:00,,Vistara,Departed 5:46 AM,2020-02-05,D,Delhi (DEL)
+05:35:00,Nairobi (NBO),Kenya Airways (SkyTeam Livery),Landed 5:16 AM,2020-02-05,A,
+05:35:00,,Air India,Departed 5:37 AM,2020-02-05,D,Nagpur (NAG)
+05:35:00,,IndiGo,Departed 5:35 AM,2020-02-05,D,Ranchi (IXR)
+05:40:00,Bangkok (DMK),Thai Lion Air,Landed 6:01 AM,2020-02-05,A,
+05:40:00,,Air India,Departed 11:17 AM,2020-02-05,D,Chennai (MAA)
+05:45:00,Muscat (MCT),GoAir,Landed 5:55 AM,2020-02-05,A,
+05:45:00,,GoAir,Departed 6:20 AM,2020-02-05,D,Jaipur (JAI)
+05:45:00,,Air India,Departed 5:52 AM,2020-02-05,D,Bhopal (BHO)
+05:45:00,,SpiceJet,Departed 5:54 AM,2020-02-05,D,Hyderabad (HYD)
+05:50:00,Abu Dhabi (AUH),Air India,Landed 5:48 AM,2020-02-05,A,
+05:50:00,,GoAir,Departed 6:07 AM,2020-02-05,D,Chennai (MAA)
+05:50:00,,Alliance Air,Unknown,2020-02-05,D,Surat (STV)
+05:55:00,Goa (GOI),Air india (Star Alliance Livery),Landed 5:59 AM,2020-02-05,A,
+05:55:00,,SpiceJet,Departed 6:15 AM,2020-02-05,D,Guwahati (GAU)
+05:55:00,,SpiceJet,Departed 7:57 AM,2020-02-05,D,Jammu (IXJ)
+06:00:00,,GoAir,Departed 6:17 AM,2020-02-05,D,Bengaluru (BLR)
+06:00:00,,GoAir,Departed 6:18 AM,2020-02-05,D,Delhi (DEL)
+06:00:00,,SpiceJet,Departed 6:00 AM,2020-02-05,D,Delhi (DEL)
+06:00:00,,Vistara,Departed 6:10 AM,2020-02-05,D,Bengaluru (BLR)
+06:05:00,,GoAir,Departed 6:08 AM,2020-02-05,D,Nagpur (NAG)
+06:05:00,,Air India,Departed 6:29 AM,2020-02-05,D,Cochin (COK)
+06:05:00,,Air India,Departed 6:23 AM,2020-02-05,D,Chandigarh (IXC)
+06:05:00,,Vistara,Departed 6:03 AM,2020-02-05,D,Chennai (MAA)
+06:05:00,,IndiGo,Departed 6:14 AM,2020-02-05,D,Bengaluru (BLR)
+06:05:00,,IndiGo,Departed 6:11 AM,2020-02-05,D,Delhi (DEL)
+06:10:00,,Air India,Departed 6:04 AM,2020-02-05,D,Aurangabad (IXU)
+06:10:00,,Air india (Star Alliance Livery),Departed 7:35 AM,2020-02-05,D,Kolkata (CCU)
+06:10:00,,Vistara,Departed 6:28 AM,2020-02-05,D,Hyderabad (HYD)
+06:10:00,,IndiGo,Departed 6:31 AM,2020-02-05,D,Chennai (MAA)
+06:15:00,Frankfurt (FRA),Air India,Landed 6:52 AM,2020-02-05,A,
+06:15:00,Kuwait City (KWI),Kuwait Airways,Landed 5:33 AM,2020-02-05,A,
+06:15:00,Delhi (DEL),Air India,Landed 6:18 AM,2020-02-05,A,
+06:15:00,,Air India,Departed 6:48 AM,2020-02-05,D,Goa (GOI)
+06:15:00,,Air India,Departed 6:40 AM,2020-02-05,D,Bengaluru (BLR)
+06:15:00,,IndiGo,Departed 6:44 AM,2020-02-05,D,Hyderabad (HYD)
+06:20:00,Hyderabad (HYD),IndiGo,Landed 6:12 AM,2020-02-05,A,
+06:20:00,,IndiGo,Departed 6:46 AM,2020-02-05,D,Abu Dhabi (AUH)
+06:25:00,Dubai (DXB),SpiceJet,Landed 6:22 AM,2020-02-05,A,
+06:25:00,,IndiGo,Departed 6:33 AM,2020-02-05,D,Aurangabad (IXU)
+06:25:00,,SpiceJet,Departed 6:36 AM,2020-02-05,D,Hyderabad (HYD)
+06:30:00,Ahmedabad (AMD),IndiGo,Landed 6:24 AM,2020-02-05,A,
+06:30:00,,Gulf Air,Departed 6:41 AM,2020-02-05,D,Bahrain (BAH)
+06:30:00,,Vistara,Departed 6:51 AM,2020-02-05,D,Delhi (DEL)
+06:30:00,,IndiGo,Departed 6:38 AM,2020-02-05,D,Indore (IDR)
+06:35:00,,Kenya Airways (SkyTeam Livery),Departed 6:58 AM,2020-02-05,D,Nairobi (NBO)
+06:35:00,,SpiceJet,Departed 6:52 AM,2020-02-05,D,Dehradun (DED)
+06:40:00,Muscat (MCT),Oman Air,Landed 6:10 AM,2020-02-05,A,
+06:40:00,Ahmedabad (AMD),SpiceJet,Landed 6:06 AM,2020-02-05,A,
+06:40:00,Goa (GOI),SpiceJet,Landed 6:36 AM,2020-02-05,A,
+06:40:00,Bengaluru (BLR),IndiGo,Landed 6:22 AM,2020-02-05,A,
+06:45:00,Nagpur (NAG),IndiGo,Landed 6:32 AM,2020-02-05,A,
+06:45:00,,Air Mauritius,Departed 7:10 AM,2020-02-05,D,Port Louis (MRU)
+06:45:00,,IndiGo,Departed 6:59 AM,2020-02-05,D,Delhi (DEL)
+06:50:00,Chennai (MAA),GoAir,Landed 6:50 AM,2020-02-05,A,
+06:50:00,,SpiceJet,Departed 7:09 AM,2020-02-05,D,Patna (PAT)
+06:50:00,,Turkish Airlines,Departed 7:19 AM,2020-02-05,D,Istanbul (IST)
+06:50:00,,Thai Lion Air,Departed 7:17 AM,2020-02-05,D,Bangkok (DMK)
+06:55:00,Jeddah (JED),SpiceJet,Landed 9:07 AM,2020-02-05,A,
+06:55:00,Sharjah (SHJ),Air India Express (Hawa Mahal/Ujjayanta Palace),Landed 6:42 AM,2020-02-05,A,
+06:55:00,,Singapore Airlines,Unknown,2020-02-05,D,Singapore (SIN)
+06:55:00,,Vistara,Departed 7:07 AM,2020-02-05,D,Kolkata (CCU)
+07:00:00,Riyadh (RUH),SpiceJet,Landed 6:31 AM,2020-02-05,A,
+07:00:00,,Air India,Departed 7:54 AM,2020-02-05,D,Nairobi (NBO)
+07:00:00,,Air India (Star Alliance Livery),Departed 8:06 AM,2020-02-05,D,London (LHR)
+07:00:00,,Air India,Departed 8:04 AM,2020-02-05,D,Delhi (DEL)
+07:00:00,,Vistara,Departed 7:15 AM,2020-02-05,D,Bengaluru (BLR)
+07:05:00,Hyderabad (HYD),Corendon Airlines,Landed 6:41 AM,2020-02-05,A,
+07:05:00,Delhi (DEL),IndiGo,Landed 7:03 AM,2020-02-05,A,
+07:05:00,Jaipur (JAI),IndiGo,Landed 6:37 AM,2020-02-05,A,
+07:05:00,,Air India,Departed 7:23 AM,2020-02-05,D,Indore (IDR)
+07:05:00,,Alliance Air,Departed 7:25 AM,2020-02-05,D,Bhuj (BHJ)
+07:10:00,Bengaluru (BLR),AirAsia,Landed 6:46 AM,2020-02-05,A,
+07:10:00,Bengaluru (BLR),SpiceJet,Landed 6:56 AM,2020-02-05,A,
+07:10:00,,IndiGo,Departed 7:24 AM,2020-02-05,D,Guwahati (GAU)
+07:15:00,Addis Ababa (ADD),Ethiopian Airlines,Landed 6:29 AM,2020-02-05,A,
+07:15:00,Hyderabad (HYD),Air India,Landed 6:54 AM,2020-02-05,A,
+07:15:00,Chennai (MAA),IndiGo,Landed 7:16 AM,2020-02-05,A,
+07:15:00,,Kuwait Airways,Departed 7:21 AM,2020-02-05,D,Kuwait City (KWI)
+07:20:00,Bengaluru (BLR),GoAir,Landed 7:35 AM,2020-02-05,A,
+07:20:00,Bengaluru (BLR),IndiGo,Landed 7:03 AM,2020-02-05,A,
+07:20:00,,SpiceJet,Departed 7:27 AM,2020-02-05,D,Delhi (DEL)
+07:25:00,Tel Aviv (TLV),El Al Israel Airlines,Landed 7:09 AM,2020-02-05,A,
+07:25:00,Abu Dhabi (AUH),Etihad,Landed 7:14 AM,2020-02-05,A,
+07:25:00,,SpiceJet,Departed 7:47 AM,2020-02-05,D,Chennai (MAA)
+07:25:00,,IndiGo,Departed 7:38 AM,2020-02-05,D,Ahmedabad (AMD)
+07:25:00,,IndiGo,Departed 7:49 AM,2020-02-05,D,Bhopal (BHO)
+07:30:00,,Vistara,Departed 8:02 AM,2020-02-05,D,Delhi (DEL)
+07:35:00,,GoAir,Departed 7:50 AM,2020-02-05,D,Ahmedabad (AMD)
+07:35:00,,Qatar Cargo,Departed 8:18 AM,2020-02-05,D,Doha (DOH)
+07:35:00,,IndiGo,Departed 7:34 AM,2020-02-05,D,Bengaluru (BLR)
+07:40:00,Chennai (MAA),SpiceJet,Landed 7:39 AM,2020-02-05,A,
+07:40:00,Cochin (COK),SpiceJet,Landed 7:46 AM,2020-02-05,A,
+07:45:00,Delhi (DEL),IndiGo,Landed 7:34 AM,2020-02-05,A,
+07:45:00,,Corendon Airlines,Departed 8:11 AM,2020-02-05,D,Varanasi (VNS)
+07:45:00,,Air India Express (Hawa Mahal/Ujjayanta Palace),Departed 8:24 AM,2020-02-05,D,Vijayawada (VGA)
+07:45:00,,IndiGo,Departed 8:16 AM,2020-02-05,D,Delhi (DEL)
+07:45:00,,IndiGo,Departed 8:13 AM,2020-02-05,D,Kolkata (CCU)
+07:50:00,Bengaluru (BLR),IndiGo,Landed 7:48 AM,2020-02-05,A,
+07:50:00,,SpiceJet,Departed 8:26 AM,2020-02-05,D,Siliguri (IXB)
+07:50:00,,AirAsia,Departed 8:30 AM,2020-02-05,D,Bengaluru (BLR)
+07:55:00,Goa (GOI),GoAir,Landed 7:29 AM,2020-02-05,A,
+07:55:00,Delhi (DEL),AirAsia,Landed 7:41 AM,2020-02-05,A,
+07:55:00,Vadodara (BDQ),IndiGo,Landed 7:57 AM,2020-02-05,A,
+07:55:00,Surat (STV),Alliance Air,Unknown,2020-02-05,A,
+07:55:00,,Air India,Departed 8:40 AM,2020-02-05,D,Lucknow (LKO)
+08:00:00,Kuwait City (KWI),Air India,Landed 7:46 AM,2020-02-05,A,
+08:00:00,Delhi (DEL),Vistara,Landed 7:54 AM,2020-02-05,A,
+08:00:00,,Air India,Canceled,2020-02-05,D,Delhi (DEL)
+08:00:00,,GoAir,Departed 8:48 AM,2020-02-05,D,Delhi (DEL)
+08:10:00,Chennai (MAA),Air India,Landed 8:14 AM,2020-02-05,A,
+08:10:00,,SpiceJet,Departed 8:43 AM,2020-02-05,D,Thiruvananthapuram (TRV)
+08:15:00,Bengaluru (BLR),Vistara,Landed 8:18 AM,2020-02-05,A,
+08:15:00,Hyderabad (HYD),IndiGo,Landed 8:14 AM,2020-02-05,A,
+08:15:00,,IndiGo,Departed 8:44 AM,2020-02-05,D,Bengaluru (BLR)
+08:20:00,,Air India,Departed 9:15 AM,2020-02-05,D,Dehradun (DED)
+08:20:00,,SpiceJet,Departed 9:05 AM,2020-02-05,D,Bengaluru (BLR)
+08:20:00,,Air India,Canceled,2020-02-05,D,Hong Kong (HKG)
+08:25:00,Dubai (DXB),Emirates,Landed 8:09 AM,2020-02-05,A,
+08:25:00,Bangkok (BKK),Air India,Landed 8:51 AM,2020-02-05,A,
+08:25:00,,Etihad,Departed 8:46 AM,2020-02-05,D,Abu Dhabi (AUH)
+08:25:00,,IndiGo,Departed 9:00 AM,2020-02-05,D,Delhi (DEL)
+08:30:00,Kolkata (CCU),IndiGo,Landed 8:31 AM,2020-02-05,A,
+08:30:00,,IndiGo,Departed 8:52 AM,2020-02-05,D,Dubai (DXB)
+08:30:00,,IndiGo,Departed 9:07 AM,2020-02-05,D,Nagpur (NAG)
+08:35:00,Delhi (DEL),SpiceJet,Landed 7:58 AM,2020-02-05,A,
+08:35:00,Bengaluru (BLR),Air India,Landed 8:24 AM,2020-02-05,A,
+08:35:00,Chennai (MAA),SpiceJet,Landed 8:28 AM,2020-02-05,A,
+08:35:00,,GoAir,Departed 8:54 AM,2020-02-05,D,Chandigarh (IXC)
+08:35:00,,IndiGo,Departed 9:02 AM,2020-02-05,D,Siliguri (IXB)
+08:40:00,Hyderabad (HYD),SpiceJet,Landed 8:40 AM,2020-02-05,A,
+08:40:00,Chennai (MAA),IndiGo,Landed 8:39 AM,2020-02-05,A,
+08:40:00,Indore (IDR),IndiGo,Landed 8:29 AM,2020-02-05,A,
+08:40:00,Delhi (DEL),IndiGo,Landed 8:20 AM,2020-02-05,A,
+08:40:00,,AirAsia,Departed 9:12 AM,2020-02-05,D,Delhi (DEL)
+08:45:00,Dubai (DXB),Air India,Landed 8:06 AM,2020-02-05,A,
+08:45:00,Delhi (DEL),Vistara,Landed 8:51 AM,2020-02-05,A,
+08:45:00,,Vistara,Departed 9:17 AM,2020-02-05,D,Delhi (DEL)
+08:50:00,Surat (STV),SpiceJet,Unknown,2020-02-05,A,
+08:50:00,Kolkata (CCU),SpiceJet,Landed 9:02 AM,2020-02-05,A,
+08:50:00,Bengaluru (BLR),IndiGo,Landed 8:33 AM,2020-02-05,A,
+08:50:00,Dubai (DXB),IndiGo,Landed 8:41 AM,2020-02-05,A,
+08:50:00,,IndiGo,Departed 9:20 AM,2020-02-05,D,Patna (PAT)
+08:55:00,Ahmedabad (AMD),IndiGo,Landed 8:46 AM,2020-02-05,A,
+08:55:00,,Air India,Departed 9:28 AM,2020-02-05,D,Kozhikode (CCJ)
+08:55:00,,SpiceJet,Departed 11:00 AM,2020-02-05,D,Dhaka (DAC)
+08:55:00,,IndiGo,Departed 9:23 AM,2020-02-05,D,Hyderabad (HYD)
+09:00:00,Ahmedabad (AMD),Air India,Landed 9:55 AM,2020-02-05,A,
+09:00:00,Chennai (MAA),Vistara,Landed 8:58 AM,2020-02-05,A,
+09:00:00,,Air India,Departed 9:46 AM,2020-02-05,D,Chennai (MAA)
+09:00:00,,Air India,Departed 10:09 AM,2020-02-05,D,Delhi (DEL)
+09:05:00,Kozhikode (CCJ),Air India,Landed 9:16 AM,2020-02-05,A,
+09:05:00,Delhi (DEL),Air India,Landed 9:13 AM,2020-02-05,A,
+09:05:00,,Vistara,Departed 9:25 AM,2020-02-05,D,Bengaluru (BLR)
+09:10:00,Delhi (DEL),GoAir,Landed 9:14 AM,2020-02-05,A,
+09:15:00,Aurangabad (IXU),IndiGo,Landed 9:22 AM,2020-02-05,A,
+09:15:00,Chennai (MAA),IndiGo,Landed 8:53 AM,2020-02-05,A,
+09:15:00,,SpiceJet,Departed 9:30 AM,2020-02-05,D,Jaisalmer (JSA)
+09:15:00,,SpiceJet,Departed 9:37 AM,2020-02-05,D,Jodhpur (JDH)
+09:15:00,,Air India,Departed 10:03 AM,2020-02-05,D,Bengaluru (BLR)
+09:20:00,Nagpur (NAG),Air India,Landed 9:12 AM,2020-02-05,A,
+09:20:00,Delhi (DEL),SpiceJet,Landed 9:38 AM,2020-02-05,A,
+09:20:00,,SpiceJet,Departed 9:55 AM,2020-02-05,D,Coimbatore (CJB)
+09:20:00,,IndiGo,Departed 9:34 AM,2020-02-05,D,Chandigarh (IXC)
+09:25:00,,SpiceJet,Departed 10:11 AM,2020-02-05,D,Porbandar (PBD)
+09:25:00,,IndiGo,Departed 9:34 AM,2020-02-05,D,Kolkata (CCU)
+09:25:00,,IndiGo,Departed 9:57 AM,2020-02-05,D,Raipur (RPR)
+09:30:00,Bhopal (BHO),Air India,Landed 9:04 AM,2020-02-05,A,
+09:30:00,Goa (GOI),Air India,Landed 9:24 AM,2020-02-05,A,
+09:30:00,,SpiceJet,Departed 9:52 AM,2020-02-05,D,Dubai (DXB)
+09:30:00,,IndiGo,Departed 9:40 AM,2020-02-05,D,Delhi (DEL)
+09:35:00,Bengaluru (BLR),SpiceJet,Landed 9:50 AM,2020-02-05,A,
+09:35:00,,Air India,Departed 10:29 AM,2020-02-05,D,Jodhpur (JDH)
+09:35:00,,IndiGo,Departed 9:50 AM,2020-02-05,D,Bengaluru (BLR)
+09:40:00,Delhi (DEL),IndiGo,Landed 9:26 AM,2020-02-05,A,
+09:40:00,,IndiGo,Departed 10:00 AM,2020-02-05,D,Chennai (MAA)
+09:45:00,Cochin (COK),GoAir,Landed 9:31 AM,2020-02-05,A,
+09:45:00,Jaipur (JAI),SpiceJet,Landed 9:23 AM,2020-02-05,A,
+09:45:00,Delhi (DEL),Vistara,Landed 9:42 AM,2020-02-05,A,
+09:45:00,,Vistara,Departed 10:27 AM,2020-02-05,D,Chennai (MAA)
+09:50:00,Coimbatore (CJB),IndiGo,Landed 9:32 AM,2020-02-05,A,
+09:50:00,Kolkata (CCU),IndiGo,Landed 10:02 AM,2020-02-05,A,
+09:50:00,,GoAir,Departed 10:20 AM,2020-02-05,D,Delhi (DEL)
+09:55:00,Bengaluru (BLR),GoAir,Landed 10:25 AM,2020-02-05,A,
+09:55:00,Bengaluru (BLR),Vistara,Landed 9:59 AM,2020-02-05,A,
+09:55:00,Hyderabad (HYD),Vistara,Landed 9:48 AM,2020-02-05,A,
+09:55:00,,IndiGo,Departed 10:18 AM,2020-02-05,D,Mangalore (IXE)
+10:00:00,,Air India,Departed 12:17 PM,2020-02-05,D,Delhi (DEL)
+10:05:00,Cochin (COK),IndiGo,Landed 10:00 AM,2020-02-05,A,
+10:05:00,Lucknow (LKO),IndiGo,Landed 9:48 AM,2020-02-05,A,
+10:10:00,Delhi (DEL),GoAir,Landed 10:22 AM,2020-02-05,A,
+10:10:00,Lucknow (LKO),GoAir,Landed 10:06 AM,2020-02-05,A,
+10:10:00,,SpiceJet,Departed 10:57 AM,2020-02-05,D,Delhi (DEL)
+10:15:00,Delhi (DEL),Air India,Canceled,2020-02-05,A,
+10:15:00,Doha (DOH),IndiGo,Landed 10:18 AM,2020-02-05,A,
+10:20:00,Indore (IDR),IndiGo,Landed 10:22 AM,2020-02-05,A,
+10:20:00,,IndiGo,Departed 10:32 AM,2020-02-05,D,Bhubaneswar (BBI)
+10:25:00,,Emirates,Departed 11:22 AM,2020-02-05,D,Dubai (DXB)
+10:25:00,,Air India,Departed 11:03 AM,2020-02-05,D,Frankfurt (FRA)
+10:25:00,,Air India,Departed 11:12 AM,2020-02-05,D,Mangalore (IXE)
+10:25:00,,Air India,Departed 11:45 AM,2020-02-05,D,Varanasi (VNS)
+10:25:00,,SpiceJet,Departed 10:49 AM,2020-02-05,D,Patna (PAT)
+10:25:00,,Vistara,Departed 11:12 AM,2020-02-05,D,Delhi (DEL)
+10:30:00,Ahmedabad (AMD),IndiGo,Landed 10:34 AM,2020-02-05,A,
+10:30:00,,IndiGo,Departed 10:41 AM,2020-02-05,D,Amritsar (ATQ)
+10:30:00,,GoAir,Departed 10:35 AM,2020-02-05,D,Jammu (IXJ)
+10:30:00,,Oman Air,Departed 10:44 AM,2020-02-05,D,Muscat (MCT)
+10:30:00,,SpiceJet,Departed 10:38 AM,2020-02-05,D,Kanpur (KNU)
+10:30:00,,IndiGo,Departed 10:52 AM,2020-02-05,D,Indore (IDR)
+10:35:00,Bengaluru (BLR),Air India,Landed 10:33 AM,2020-02-05,A,
+10:35:00,Delhi (DEL),SpiceJet,Landed 10:44 AM,2020-02-05,A,
+10:35:00,Singapore (SIN),Singapore Airlines,Landed 10:37 AM,2020-02-05,A,
+10:40:00,Jaipur (JAI),GoAir,Landed 10:31 AM,2020-02-05,A,
+10:40:00,Delhi (DEL),IndiGo,Landed 10:41 AM,2020-02-05,A,
+10:40:00,,Air India,Departed 11:25 AM,2020-02-05,D,Raipur (RPR)
+10:40:00,,IndiGo,Departed 11:34 AM,2020-02-05,D,Male (MLE)
+10:45:00,Ahmedabad (AMD),GoAir,Landed 10:48 AM,2020-02-05,A,
+10:45:00,Hyderabad (HYD),SpiceJet,Landed 10:14 AM,2020-02-05,A,
+10:45:00,,IndiGo,Departed 11:08 AM,2020-02-05,D,Jammu (IXJ)
+10:50:00,Nagpur (NAG),GoAir,Landed 11:14 AM,2020-02-05,A,
+10:50:00,Kolkata (CCU),SpiceJet,Landed 10:45 AM,2020-02-05,A,
+10:50:00,Cochin (COK),Air India,Landed 11:15 AM,2020-02-05,A,
+10:50:00,,GoAir,Departed 11:31 AM,2020-02-05,D,Ranchi (IXR)
+10:50:00,,Vistara,Departed 11:36 AM,2020-02-05,D,Varanasi (VNS)
+10:55:00,,GoAir,Departed 11:39 AM,2020-02-05,D,Lucknow (LKO)
+11:00:00,Chennai (MAA),IndiGo,Landed 10:54 AM,2020-02-05,A,
+11:00:00,Bhopal (BHO),IndiGo,Landed 10:57 AM,2020-02-05,A,
+11:00:00,,Vistara,Departed 11:59 AM,2020-02-05,D,Udaipur (UDR)
+11:00:00,,IndiGo,Departed 11:52 AM,2020-02-05,D,Jodhpur (JDH)
+11:05:00,Ranchi (IXR),IndiGo,Landed 10:52 AM,2020-02-05,A,
+11:05:00,,IndiGo,Departed 11:56 AM,2020-02-05,D,Delhi (DEL)
+11:10:00,Delhi (DEL),Air India,Landed 11:41 AM,2020-02-05,A,
+11:10:00,Delhi (DEL),Vistara,Landed 11:06 AM,2020-02-05,A,
+11:10:00,,IndiGo,Departed 11:54 AM,2020-02-05,D,Allahabad (IXD)
+11:15:00,London (LHR),British Airways,Landed 11:30 AM,2020-02-05,A,
+11:15:00,Bhubaneswar (BBI),IndiGo,Landed 11:23 AM,2020-02-05,A,
+11:15:00,Kolkata (CCU),IndiGo,Landed 11:19 AM,2020-02-05,A,
+11:15:00,,IndiGo,Departed 12:09 PM,2020-02-05,D,Doha (DOH)
+11:20:00,Bengaluru (BLR),Vistara,Landed 11:36 AM,2020-02-05,A,
+11:20:00,Bengaluru (BLR),IndiGo,Landed 11:38 AM,2020-02-05,A,
+11:20:00,,GoAir,Departed 12:02 PM,2020-02-05,D,Patna (PAT)
+11:20:00,,IndiGo,Departed 12:04 PM,2020-02-05,D,Goa (GOI)
+11:25:00,Udaipur (UDR),IndiGo,Landed 11:07 AM,2020-02-05,A,
+11:25:00,Bhuj (BHJ),Alliance Air,Landed 11:09 AM,2020-02-05,A,
+11:25:00,,SpiceJet,Departed 12:12 PM,2020-02-05,D,Rajkot (RAJ)
+11:25:00,,Vistara,Departed 12:14 PM,2020-02-05,D,Goa (GOI)
+11:30:00,Jaipur (JAI),IndiGo,Landed 11:29 AM,2020-02-05,A,
+11:30:00,,GoAir,Departed 12:24 PM,2020-02-05,D,Goa (GOI)
+11:30:00,,SpiceJet,Departed 12:29 PM,2020-02-05,D,Goa (GOI)
+11:35:00,Port Blair (IXZ),GoAir,Landed 11:28 AM,2020-02-05,A,
+11:35:00,Hyderabad (HYD),IndiGo,Landed 11:45 AM,2020-02-05,A,
+11:35:00,Ahmedabad (AMD),IndiGo,Landed 11:20 AM,2020-02-05,A,
+11:35:00,,IndiGo,Departed 12:38 PM,2020-02-05,D,Nagpur (NAG)
+11:40:00,Phuket (HKT),GoAir,Landed 11:50 AM,2020-02-05,A,
+11:40:00,Delhi (DEL),Vistara,Landed 12:00 PM,2020-02-05,A,
+11:40:00,,Air India,Departed 1:13 PM,2020-02-05,D,Jamnagar (JGA)
+11:40:00,,Ethiopian Airlines,Departed 12:07 PM,2020-02-05,D,Addis Ababa (ADD)
+11:40:00,,IndiGo,Departed 12:27 PM,2020-02-05,D,Kolkata (CCU)
+11:45:00,Dehradun (DED),SpiceJet,Landed 11:50 AM,2020-02-05,A,
+11:45:00,Delhi (DEL),IndiGo,Landed 11:34 AM,2020-02-05,A,
+11:50:00,,Singapore Airlines,Departed 12:45 PM,2020-02-05,D,Singapore (SIN)
+11:55:00,Kuala Lumpur (KUL),Malaysia Airlines,Landed 12:05 PM,2020-02-05,A,
+11:55:00,Shanghai (PVG),Emirates,Unknown,2020-02-05,A,
+11:55:00,,Vistara,Departed 12:49 PM,2020-02-05,D,Delhi (DEL)
+11:55:00,,IndiGo,Departed 1:09 PM,2020-02-05,D,Chandigarh (IXC)
+12:00:00,,GoAir,Departed 12:33 PM,2020-02-05,D,Ahmedabad (AMD)
+12:00:00,,Air India,Departed 12:51 PM,2020-02-05,D,Jaipur (JAI)
+12:00:00,,IndiGo,Departed 12:53 PM,2020-02-05,D,Coimbatore (CJB)
+12:05:00,Nagpur (NAG),IndiGo,Landed 12:27 PM,2020-02-05,A,
+12:05:00,Guwahati (GAU),IndiGo,Landed 12:00 PM,2020-02-05,A,
+12:05:00,,Alliance Air,Departed 12:58 PM,2020-02-05,D,Diu (DIU)
+12:05:00,,Air India,Departed 1:07 PM,2020-02-05,D,Bhubaneswar (BBI)
+12:05:00,,SpiceJet,Departed 12:50 PM,2020-02-05,D,Gorakhpur (GOP)
+12:10:00,Kolkata (CCU),SpiceJet,Landed 12:30 PM,2020-02-05,A,
+12:10:00,Bengaluru (BLR),IndiGo,Landed 12:10 PM,2020-02-05,A,
+12:10:00,,IndiGo,Departed 1:00 PM,2020-02-05,D,Varanasi (VNS)
+12:15:00,Delhi (DEL),Air India,Landed 12:55 PM,2020-02-05,A,
+12:15:00,Vijayawada (VGA),Air India Express (Hawa Mahal/Ujjayanta Palace),Landed 12:11 PM,2020-02-05,A,
+12:15:00,,GoAir,Departed 12:37 PM,2020-02-05,D,Delhi (DEL)
+12:15:00,,Vistara,Departed 1:02 PM,2020-02-05,D,Udaipur (UDR)
+12:15:00,,IndiGo,Departed 12:35 PM,2020-02-05,D,Udaipur (UDR)
+12:15:00,,IndiGo,Departed 1:29 PM,2020-02-05,D,Hyderabad (HYD)
+12:20:00,Delhi (DEL),IndiGo,Landed 12:03 PM,2020-02-05,A,
+12:25:00,,SpiceJet,Departed 1:05 PM,2020-02-05,D,Amritsar (ATQ)
+12:25:00,,SpiceJet,Departed 1:20 PM,2020-02-05,D,Guwahati (GAU)
+12:25:00,,IndiGo,Departed 1:18 PM,2020-02-05,D,Ahmedabad (AMD)
+12:25:00,,IndiGo,Departed 12:57 PM,2020-02-05,D,Patna (PAT)
+12:30:00,Porbandar (PBD),SpiceJet,Unknown,2020-02-05,A,
+12:30:00,Varanasi (VNS),IndiGo,Landed 12:13 PM,2020-02-05,A,
+12:30:00,,El Al Israel Airlines,Departed 1:33 PM,2020-02-05,D,Tel Aviv (TLV)
+12:35:00,Bengaluru (BLR),AirAsia,Landed 12:22 PM,2020-02-05,A,
+12:35:00,Delhi (DEL),Vistara,Landed 1:11 PM,2020-02-05,A,
+12:35:00,Delhi (DEL),IndiGo,Landed 12:16 PM,2020-02-05,A,
+12:40:00,Jammu (IXJ),SpiceJet,Landed 2:29 PM,2020-02-05,A,
+12:40:00,Nanded (NDC),Trujet,Unknown,2020-02-05,A,
+12:40:00,,GoAir,Departed 1:39 PM,2020-02-05,D,Bangkok (BKK)
+12:40:00,,IndiGo,Departed 1:42 PM,2020-02-05,D,Bengaluru (BLR)
+12:45:00,Delhi (DEL),SpiceJet,Landed 12:38 PM,2020-02-05,A,
+12:45:00,,Vistara,Departed 1:33 PM,2020-02-05,D,Goa (GOI)
+12:45:00,,Trujet,Unknown,2020-02-05,D,Kolhapur (KLH)
+12:45:00,,IndiGo,Departed 1:47 PM,2020-02-05,D,Jeddah (JED)
+12:45:00,,Alliance Air,Unknown,2020-02-05,D,Indore (IDR)
+12:50:00,Delhi (DEL),GoAir,Landed 12:42 PM,2020-02-05,A,
+12:50:00,,SpiceJet,Departed 1:26 PM,2020-02-05,D,Varanasi (VNS)
+12:55:00,Thiruvananthapuram (TRV),SpiceJet,Landed 1:24 PM,2020-02-05,A,
+12:55:00,,IndiGo,Departed 1:52 PM,2020-02-05,D,Delhi (DEL)
+13:00:00,New York (EWR),Air India,Landed 11:53 AM,2020-02-05,A,
+13:00:00,Thiruvananthapuram (TRV),IndiGo,Landed 1:07 PM,2020-02-05,A,
+13:00:00,,Malaysia Airlines,Departed 2:00 PM,2020-02-05,D,Kuala Lumpur (KUL)
+13:00:00,,IndiGo,Departed 1:37 PM,2020-02-05,D,Goa (GOI)
+13:05:00,Lucknow (LKO),Air India,Landed 1:14 PM,2020-02-05,A,
+13:05:00,Kolkata (CCU),Air india (Star Alliance Livery),Landed 1:31 PM,2020-02-05,A,
+13:05:00,Belgaum (IXG),Star Air,Landed 1:00 PM,2020-02-05,A,
+13:05:00,Kolkata (CCU),Vistara,Landed 1:27 PM,2020-02-05,A,
+13:05:00,,SpiceJet,Departed 1:05 PM,2020-02-05,D,Kandla (IXY)
+13:10:00,Muscat (MCT),Oman Air,Landed 12:32 PM,2020-02-05,A,
+13:10:00,,Air India Express (Hawa Mahal/Ujjayanta Palace),Departed 2:13 PM,2020-02-05,D,Dubai (DXB)
+13:10:00,,IndiGo,Departed 2:02 PM,2020-02-05,D,Chennai (MAA)
+13:15:00,,British Airways,Departed 2:06 PM,2020-02-05,D,London (LHR)
+13:15:00,,AirAsia,Departed 3:57 PM,2020-02-05,D,Chennai (MAA)
+13:15:00,,IndiGo,Departed 3:06 PM,2020-02-05,D,Lucknow (LKO)
+13:20:00,Jodhpur (JDH),SpiceJet,Landed 1:34 PM,2020-02-05,A,
+13:20:00,Riyadh (RUH),Air India,Landed 1:12 PM,2020-02-05,A,
+13:20:00,Bengaluru (BLR),Vistara,Landed 1:18 PM,2020-02-05,A,
+13:20:00,,Trujet,Departed 5:12 PM,2020-02-05,D,Nanded (NDC)
+13:20:00,,IndiGo,Departed 1:50 PM,2020-02-05,D,Dehradun (DED)
+13:25:00,Jaisalmer (JSA),SpiceJet,Landed 1:03 PM,2020-02-05,A,
+13:25:00,,SpiceJet,Departed 2:11 PM,2020-02-05,D,Madurai (IXM)
+13:30:00,,Emirates,Unknown,2020-02-05,D,Dubai (DWC)
+13:30:00,,SpiceJet,Departed 2:12 PM,2020-02-05,D,Delhi (DEL)
+13:35:00,Jodhpur (JDH),Air India,Landed 2:08 PM,2020-02-05,A,
+13:35:00,Belgaum (IXG),SpiceJet,Landed 1:38 PM,2020-02-05,A,
+13:35:00,,Star Air,Departed 2:06 PM,2020-02-05,D,Belgaum (IXG)
+13:40:00,Kozhikode (CCJ),IndiGo,Landed 1:44 PM,2020-02-05,A,
+13:40:00,Delhi (DEL),IndiGo,Landed 1:45 PM,2020-02-05,A,
+13:40:00,,Air India,Departed 2:21 PM,2020-02-05,D,Delhi (DEL)
+13:40:00,,IndiGo,Departed 2:40 PM,2020-02-05,D,Delhi (DEL)
+13:45:00,Mangalore (IXE),IndiGo,Landed 1:51 PM,2020-02-05,A,
+13:45:00,Hyderabad (HYD),IndiGo,Landed 2:07 PM,2020-02-05,A,
+13:45:00,Raipur (RPR),IndiGo,Landed 1:40 PM,2020-02-05,A,
+13:50:00,,SpiceJet,Departed 2:25 PM,2020-02-05,D,Hyderabad (HYD)
+13:50:00,,IndiGo,Departed 2:24 PM,2020-02-05,D,Goa (GOI)
+13:55:00,Chandigarh (IXC),GoAir,Landed 2:29 PM,2020-02-05,A,
+13:55:00,Kolkata (CCU),IndiGo,Landed 2:18 PM,2020-02-05,A,
+14:00:00,Aurangabad (IXU),Air India,Landed 12:52 PM,2020-02-05,A,
+14:00:00,Siliguri (IXB),SpiceJet,Landed 2:40 PM,2020-02-05,A,
+14:00:00,Dubai (DXB),Emirates,Landed 1:54 PM,2020-02-05,A,
+14:00:00,Coimbatore (CJB),SpiceJet,Landed 2:01 PM,2020-02-05,A,
+14:00:00,Delhi (DEL),Vistara,Landed 2:40 PM,2020-02-05,A,
+14:00:00,,Air india (Star Alliance Livery),Departed 3:07 PM,2020-02-05,D,Riyadh (RUH)
+14:05:00,,Vistara,Departed 3:04 PM,2020-02-05,D,Kolkata (CCU)
+14:10:00,,Air India,Departed 3:20 PM,2020-02-05,D,Hyderabad (HYD)
+14:10:00,,SpiceJet,Departed 2:35 PM,2020-02-05,D,Jabalpur (JLR)
+14:15:00,Delhi (DEL),AirAsia,Landed 2:38 PM,2020-02-05,A,
+14:15:00,Rajkot (RAJ),SpiceJet,Landed 2:53 PM,2020-02-05,A,
+14:15:00,Singapore (SIN),Vistara,Landed 1:51 PM,2020-02-05,A,
+14:15:00,Chennai (MAA),Vistara,Landed 2:50 PM,2020-02-05,A,
+14:20:00,Jabalpur (JLR),SpiceJet,Landed 2:20 PM,2020-02-05,A,
+14:20:00,,IndiGo,Departed 2:49 PM,2020-02-05,D,Thiruvananthapuram (TRV)
+14:25:00,Singapore (SIN),IndiGo,Landed 2:10 PM,2020-02-05,A,
+14:25:00,Goa (GOI),IndiGo,Landed 2:47 PM,2020-02-05,A,
+14:25:00,,IndiGo,Departed 2:55 PM,2020-02-05,D,Raipur (RPR)
+14:25:00,,IndiGo,Departed 3:18 PM,2020-02-05,D,Lucknow (LKO)
+14:30:00,Diu (DIU),Alliance Air,Landed 3:17 PM,2020-02-05,A,
+14:30:00,Hubli (HBX),Air India,Landed 2:58 PM,2020-02-05,A,
+14:30:00,Chennai (MAA),IndiGo,Landed 2:35 PM,2020-02-05,A,
+14:30:00,Kuwait City (KWI),IndiGo,Landed 2:16 PM,2020-02-05,A,
+14:30:00,Patna (PAT),IndiGo,Landed 2:47 PM,2020-02-05,A,
+14:30:00,,Vistara,Departed 2:52 PM,2020-02-05,D,Jodhpur (JDH)
+14:35:00,Goa (GOI),GoAir,Landed 3:01 PM,2020-02-05,A,
+14:35:00,Bengaluru (BLR),IndiGo,Landed 2:43 PM,2020-02-05,A,
+14:35:00,,GoAir,Departed 2:44 PM,2020-02-05,D,Bengaluru (BLR)
+14:35:00,,Air India,Departed 3:10 PM,2020-02-05,D,Bangkok (BKK)
+14:40:00,Goa (GOI),Vistara,Landed 3:12 PM,2020-02-05,A,
+14:40:00,Chandigarh (IXC),IndiGo,Landed 3:02 PM,2020-02-05,A,
+14:40:00,,GoAir,Departed 2:46 PM,2020-02-05,D,Abu Dhabi (AUH)
+14:40:00,,Vistara,Departed 4:02 PM,2020-02-05,D,Delhi (DEL)
+14:40:00,,IndiGo,Departed 3:01 PM,2020-02-05,D,Delhi (DEL)
+14:45:00,Udaipur (UDR),Vistara,Landed 3:11 PM,2020-02-05,A,
+14:45:00,,Air India,Departed 3:49 PM,2020-02-05,D,Udaipur (UDR)
+14:45:00,,SpiceJet,Departed 3:12 PM,2020-02-05,D,Andal (RDP)
+14:45:00,,SpiceJet,Departed 3:12 PM,2020-02-05,D,Kolkata (CCU)
+14:45:00,,IndiGo,Departed 3:24 PM,2020-02-05,D,Chennai (MAA)
+14:50:00,,SpiceJet,Departed 3:26 PM,2020-02-05,D,Belgaum (IXG)
+14:50:00,,IndiGo,Departed 2:58 PM,2020-02-05,D,Dubai (DXB)
+14:55:00,Goa (GOI),SpiceJet,Landed 3:05 PM,2020-02-05,A,
+15:00:00,Delhi (DEL),Vistara,Landed 3:14 PM,2020-02-05,A,
+15:00:00,Jodhpur (JDH),IndiGo,Landed 3:28 PM,2020-02-05,A,
+15:00:00,,AirAsia,Departed 3:32 PM,2020-02-05,D,Delhi (DEL)
+15:05:00,Abu Dhabi (AUH),Etihad,Landed 2:23 PM,2020-02-05,A,
+15:05:00,Siliguri (IXB),IndiGo,Landed 3:23 PM,2020-02-05,A,
+15:05:00,,Air India,Departed 4:17 PM,2020-02-05,D,Hubli (HBX)
+15:10:00,Ahmedabad (AMD),GoAir,Landed 3:33 PM,2020-02-05,A,
+15:10:00,Delhi (DEL),Air India,Landed 3:59 PM,2020-02-05,A,
+15:10:00,,GoAir,Departed 3:29 PM,2020-02-05,D,Goa (GOI)
+15:10:00,,SpiceJet,Unknown,2020-02-05,D,Thiruvananthapuram (TRV)
+15:15:00,Lucknow (LKO),IndiGo,Landed 3:33 PM,2020-02-05,A,
+15:15:00,Nagpur (NAG),IndiGo,Landed 3:36 PM,2020-02-05,A,
+15:15:00,,GoAir,Departed 3:52 PM,2020-02-05,D,Lucknow (LKO)
+15:15:00,,IndiGo,Departed 3:43 PM,2020-02-05,D,Goa (GOI)
+15:20:00,Kolhapur (KLH),Trujet,Unknown,2020-02-05,A,
+15:20:00,Ahmedabad (AMD),IndiGo,Landed 3:55 PM,2020-02-05,A,
+15:20:00,,Alliance Air,Departed 4:12 PM,2020-02-05,D,Shirdi (SAG)
+15:25:00,,Air India,Departed 3:57 PM,2020-02-05,D,Aurangabad (IXU)
+15:25:00,,IndiGo,Departed 4:23 PM,2020-02-05,D,Bhopal (BHO)
+15:30:00,Guwahati (GAU),SpiceJet,Landed 3:44 PM,2020-02-05,A,
+15:30:00,,Emirates,Departed 4:06 PM,2020-02-05,D,Dubai (DXB)
+15:30:00,,IndiGo,Departed 3:47 PM,2020-02-05,D,Vadodara (BDQ)
+15:35:00,Bhubaneswar (BBI),IndiGo,Landed 3:27 PM,2020-02-05,A,
+15:35:00,,SpiceJet,Departed 4:29 PM,2020-02-05,D,Goa (GOI)
+15:35:00,,SpiceJet,Departed 3:55 PM,2020-02-05,D,Jaipur (JAI)
+15:35:00,,IndiGo,Departed 4:01 PM,2020-02-05,D,Delhi (DEL)
+15:40:00,Chennai (MAA),GoAir,Landed 4:23 PM,2020-02-05,A,
+15:45:00,Jamnagar (JGA),Air India,Landed 4:06 PM,2020-02-05,A,
+15:45:00,Nairobi (NBO),Kenya Airways,Landed 3:55 PM,2020-02-05,A,
+15:45:00,Goa (GOI),IndiGo,Landed 3:45 PM,2020-02-05,A,
+15:45:00,,Vistara,Departed 4:37 PM,2020-02-05,D,Delhi (DEL)
+15:45:00,,IndiGo,Departed 4:31 PM,2020-02-05,D,Mangalore (IXE)
+15:50:00,Allahabad (IXD),IndiGo,Landed 4:45 PM,2020-02-05,A,
+15:50:00,,SpiceJet,Departed 4:10 PM,2020-02-05,D,Udaipur (UDR)
+15:55:00,Lucknow (LKO),GoAir,Landed 4:30 PM,2020-02-05,A,
+15:55:00,Kathmandu (KTM),Nepal Airlines,Landed 4:57 PM,2020-02-05,A,
+15:55:00,Coimbatore (CJB),Air India,Landed 4:34 PM,2020-02-05,A,
+15:55:00,,IndiGo,Departed 4:20 PM,2020-02-05,D,Hyderabad (HYD)
+15:55:00,,IndiGo,Departed 4:53 PM,2020-02-05,D,Bengaluru (BLR)
+16:00:00,Udaipur (UDR),Vistara,Landed 4:24 PM,2020-02-05,A,
+16:00:00,Goa (GOI),Vistara,Landed 4:27 PM,2020-02-05,A,
+16:00:00,,Vistara,Departed 4:51 PM,2020-02-05,D,Bengaluru (BLR)
+16:00:00,,IndiGo,Departed 5:03 PM,2020-02-05,D,Nagpur (NAG)
+16:00:00,,Air India,Canceled,2020-02-05,D,Delhi (DEL)
+16:05:00,Patna (PAT),SpiceJet,Landed 4:08 PM,2020-02-05,A,
+16:05:00,Dubai (DXB),IndiGo,Landed 3:52 PM,2020-02-05,A,
+16:05:00,Goa (GOI),IndiGo,Landed 4:16 PM,2020-02-05,A,
+16:05:00,,Vistara,Departed 4:45 PM,2020-02-05,D,Chandigarh (IXC)
+16:10:00,,GoAir,Departed 4:25 PM,2020-02-05,D,Ranchi (IXR)
+16:10:00,,SpiceJet,Departed 4:32 PM,2020-02-05,D,Cochin (COK)
+16:10:00,,IndiGo,Departed 4:48 PM,2020-02-05,D,Kolkata (CCU)
+16:15:00,Amritsar (ATQ),IndiGo,Landed 4:11 PM,2020-02-05,A,
+16:15:00,Jaipur (JAI),Air India,Landed 4:52 PM,2020-02-05,A,
+16:15:00,Varanasi (VNS),Air India,Landed 4:49 PM,2020-02-05,A,
+16:15:00,Dhaka (DAC),SpiceJet,Landed 5:37 PM,2020-02-05,A,
+16:15:00,,Oman Air,Departed 4:40 PM,2020-02-05,D,Muscat (MCT)
+16:15:00,,IndiGo,Departed 4:42 PM,2020-02-05,D,Goa (GOI)
+16:20:00,Kanpur (KNU),SpiceJet,Landed 3:48 PM,2020-02-05,A,
+16:20:00,Hyderabad (HYD),IndiGo,Unknown,2020-02-05,A,
+16:20:00,Coimbatore (CJB),IndiGo,Landed 5:13 PM,2020-02-05,A,
+16:20:00,,IndiGo,Departed 5:00 PM,2020-02-05,D,Indore (IDR)
+16:25:00,,Vistara,Departed 4:40 PM,2020-02-05,D,Dubai (DXB)
+16:30:00,Ranchi (IXR),GoAir,Landed 4:38 PM,2020-02-05,A,
+16:30:00,Bengaluru (BLR),IndiGo,Landed 5:01 PM,2020-02-05,A,
+16:30:00,,IndiGo,Departed 5:48 PM,2020-02-05,D,Ahmedabad (AMD)
+16:35:00,,IndiGo,Departed 4:56 PM,2020-02-05,D,Delhi (DEL)
+16:40:00,Delhi (DEL),GoAir,Landed 4:38 PM,2020-02-05,A,
+16:40:00,Chennai (MAA),Vistara,Landed 4:42 PM,2020-02-05,A,
+16:40:00,Udaipur (UDR),IndiGo,Landed 7:55 PM,2020-02-05,A,
+16:40:00,,Air India,Departed 5:19 PM,2020-02-05,D,Bengaluru (BLR)
+16:45:00,,Kenya Airways,Departed 5:40 PM,2020-02-05,D,Nairobi (NBO)
+16:50:00,Chennai (MAA),Air India,Landed 5:15 PM,2020-02-05,A,
+16:50:00,Indore (IDR),Alliance Air,Unknown,2020-02-05,A,
+16:50:00,,Air India,Departed 5:17 PM,2020-02-05,D,Jeddah (JED)
+16:50:00,,IndiGo,Departed 5:11 PM,2020-02-05,D,Varanasi (VNS)
+16:50:00,,IndiGo,Departed 5:14 PM,2020-02-05,D,Guwahati (GAU)
+16:55:00,,IndiGo,Departed 5:28 PM,2020-02-05,D,Jaipur (JAI)
+16:55:00,,IndiGo,Departed 5:25 PM,2020-02-05,D,Hyderabad (HYD)
+17:00:00,Patna (PAT),GoAir,Landed 5:12 PM,2020-02-05,A,
+17:00:00,,GoAir,Departed 5:26 PM,2020-02-05,D,Bhubaneswar (BBI)
+17:00:00,,Air India,Departed 5:34 PM,2020-02-05,D,Delhi (DEL)
+17:00:00,,Vistara,Departed 5:37 PM,2020-02-05,D,Delhi (DEL)
+17:05:00,Dubai (DXB),SpiceJet,Landed 5:05 PM,2020-02-05,A,
+17:05:00,Delhi (DEL),IndiGo,Landed 5:18 PM,2020-02-05,A,
+17:05:00,,GoAir,Departed 5:32 PM,2020-02-05,D,Chandigarh (IXC)
+17:05:00,,Air India,Departed 7:37 PM,2020-02-05,D,Cochin (COK)
+17:05:00,,SpiceJet,Departed 5:31 PM,2020-02-05,D,Kolkata (CCU)
+17:10:00,Varanasi (VNS),IndiGo,Landed 5:41 PM,2020-02-05,A,
+17:10:00,,IndiGo,Departed 6:19 PM,2020-02-05,D,Bhubaneswar (BBI)
+17:10:00,,IndiGo,Departed 5:51 PM,2020-02-05,D,Bengaluru (BLR)
+17:15:00,,Etihad,Departed 5:22 PM,2020-02-05,D,Abu Dhabi (AUH)
+17:15:00,,SpiceJet,Unknown,2020-02-05,D,Dehradun (DED)
+17:15:00,,SpiceJet,Departed 5:32 PM,2020-02-05,D,Delhi (DEL)
+17:20:00,Bengaluru (BLR),IndiGo,Landed 5:22 PM,2020-02-05,A,
+17:20:00,Chandigarh (IXC),IndiGo,Landed 6:08 PM,2020-02-05,A,
+17:20:00,,Air India,Departed 5:55 PM,2020-02-05,D,Thiruvananthapuram (TRV)
+17:25:00,Visakhapatnam (VTZ),Air India,Landed 5:46 PM,2020-02-05,A,
+17:25:00,Shirdi (SAG),Alliance Air,Landed 6:11 PM,2020-02-05,A,
+17:25:00,,GoAir,Departed 5:45 PM,2020-02-05,D,Cochin (COK)
+17:25:00,,Nepal Airlines,Departed 6:17 PM,2020-02-05,D,Kathmandu (KTM)
+17:25:00,,IndiGo,Departed 9:18 PM,2020-02-05,D,Udaipur (UDR)
+17:30:00,,Air India,Departed 6:11 PM,2020-02-05,D,Goa (GOI)
+17:30:00,,Vistara,Departed 5:54 PM,2020-02-05,D,Kolkata (CCU)
+17:30:00,,Vistara,Departed 5:43 PM,2020-02-05,D,Bengaluru (BLR)
+17:35:00,Bhubaneswar (BBI),Air India,Landed 6:17 PM,2020-02-05,A,
+17:35:00,,SpiceJet,Departed 5:35 PM,2020-02-05,D,Surat (STV)
+17:40:00,Gorakhpur (GOP),SpiceJet,Landed 5:57 PM,2020-02-05,A,
+17:40:00,Delhi (DEL),Vistara,Landed 5:55 PM,2020-02-05,A,
+17:40:00,Chennai (MAA),IndiGo,Landed 6:15 PM,2020-02-05,A,
+17:40:00,,Air India,Departed 7:41 PM,2020-02-05,D,Ahmedabad (AMD)
+17:45:00,Dubai (DXB),Emirates,Landed 5:23 PM,2020-02-05,A,
+17:45:00,Varanasi (VNS),SpiceJet,Landed 5:56 PM,2020-02-05,A,
+17:45:00,Kolkata (CCU),IndiGo,Landed 6:21 PM,2020-02-05,A,
+17:45:00,,IndiGo,Departed 6:14 PM,2020-02-05,D,Delhi (DEL)
+17:50:00,Delhi (DEL),AirAsia,Landed 5:44 PM,2020-02-05,A,
+17:50:00,Chennai (MAA),AirAsia,Landed 8:08 PM,2020-02-05,A,
+17:50:00,Male (MLE),IndiGo,Landed 5:30 PM,2020-02-05,A,
+17:55:00,,Vistara,Departed 5:59 PM,2020-02-05,D,Chennai (MAA)
+17:55:00,,IndiGo,Departed 6:39 PM,2020-02-05,D,Kolkata (CCU)
+18:00:00,Srinagar (SXR),GoAir,Landed 7:00 PM,2020-02-05,A,
+18:00:00,,IndiGo,Departed 6:25 PM,2020-02-05,D,Ahmedabad (AMD)
+18:00:00,,IndiGo,Departed 7:22 PM,2020-02-05,D,Bengaluru (BLR)
+18:05:00,Amritsar (ATQ),SpiceJet,Landed 6:39 PM,2020-02-05,A,
+18:05:00,Delhi (DEL),SpiceJet,Landed 6:02 PM,2020-02-05,A,
+18:05:00,Lucknow (LKO),IndiGo,Landed 8:34 PM,2020-02-05,A,
+18:10:00,Chandigarh (IXC),Air India,Landed 6:29 PM,2020-02-05,A,
+18:10:00,Madurai (IXM),SpiceJet,Landed 6:46 PM,2020-02-05,A,
+18:10:00,Dehradun (DED),IndiGo,Landed 6:49 PM,2020-02-05,A,
+18:10:00,,GoAir,Departed 6:22 PM,2020-02-05,D,Chennai (MAA)
+18:15:00,Bengaluru (BLR),GoAir,Landed 6:03 PM,2020-02-05,A,
+18:15:00,Indore (IDR),Air India,Landed 6:18 PM,2020-02-05,A,
+18:15:00,Jodhpur (JDH),Vistara,Landed 6:55 PM,2020-02-05,A,
+18:15:00,Delhi (DEL),IndiGo,Landed 6:39 PM,2020-02-05,A,
+18:15:00,,Air India,Departed 8:19 PM,2020-02-05,D,Delhi (DEL)
+18:20:00,Goa (GOI),GoAir,Landed 6:26 PM,2020-02-05,A,
+18:20:00,,IndiGo,Departed 7:57 PM,2020-02-05,D,Vadodara (BDQ)
+18:20:00,,IndiGo,Departed 6:36 PM,2020-02-05,D,Dubai (DXB)
+18:25:00,Srinagar (SXR),IndiGo,Landed 7:12 PM,2020-02-05,A,
+18:25:00,Tokyo (NRT),All Nippon Airways,Landed 6:28 PM,2020-02-05,A,
+18:25:00,Vadodara (BDQ),IndiGo,Landed 6:34 PM,2020-02-05,A,
+18:25:00,,SpiceJet,Departed 6:28 PM,2020-02-05,D,Chennai (MAA)
+18:30:00,Varanasi (VNS),Vistara,Landed 6:42 PM,2020-02-05,A,
+18:30:00,,Air India,Departed 6:45 PM,2020-02-05,D,Chennai (MAA)
+18:30:00,,GoAir,Departed 6:31 PM,2020-02-05,D,Delhi (DEL)
+18:30:00,,AirAsia,Departed 9:44 PM,2020-02-05,D,Bengaluru (BLR)
+18:30:00,,SpiceJet,Departed 7:25 PM,2020-02-05,D,Bengaluru (BLR)
+18:30:00,,Vistara,Departed 7:30 PM,2020-02-05,D,Delhi (DEL)
+18:30:00,,Alliance Air,Departed 7:18 PM,2020-02-05,D,Bhavnagar (BHU)
+18:35:00,Goa (GOI),IndiGo,Landed 6:34 PM,2020-02-05,A,
+18:35:00,,AirAsia,Departed 6:48 PM,2020-02-05,D,Hyderabad (HYD)
+18:40:00,Nagpur (NAG),GoAir,Landed 6:49 PM,2020-02-05,A,
+18:40:00,Hyderabad (HYD),Air India,Landed 6:57 PM,2020-02-05,A,
+18:40:00,Udaipur (UDR),Air India,Landed 7:32 PM,2020-02-05,A,
+18:40:00,,GoAir,Departed 7:07 PM,2020-02-05,D,Nagpur (NAG)
+18:40:00,,IndiGo,Departed 8:16 PM,2020-02-05,D,Chennai (MAA)
+18:45:00,Raipur (RPR),IndiGo,Landed 6:52 PM,2020-02-05,A,
+18:45:00,,SpiceJet,Departed 7:09 PM,2020-02-05,D,Jaipur (JAI)
+18:45:00,,SpiceJet,Departed 7:20 PM,2020-02-05,D,Delhi (DEL)
+18:45:00,,IndiGo,Departed 8:22 PM,2020-02-05,D,Delhi (DEL)
+18:50:00,Goa (GOI),SpiceJet,Landed 7:10 PM,2020-02-05,A,
+18:50:00,Bhopal (BHO),IndiGo,Landed 8:04 PM,2020-02-05,A,
+18:50:00,Bangkok (BKK),IndiGo,Landed 7:02 PM,2020-02-05,A,
+18:55:00,Bengaluru (BLR),IndiGo,Landed 7:29 PM,2020-02-05,A,
+18:55:00,,IndiGo,Departed 8:04 PM,2020-02-05,D,Cochin (COK)
+19:00:00,Hong Kong (HKG),Cathay Pacific Cargo,Landed 7:08 PM,2020-02-05,A,
+19:00:00,,Air India,Departed 8:06 PM,2020-02-05,D,Visakhapatnam (VTZ)
+19:00:00,,Air India,Canceled,2020-02-05,D,Delhi (DEL)
+19:00:00,,SpiceJet,Departed 7:41 PM,2020-02-05,D,Coimbatore (CJB)
+19:05:00,Delhi (DEL),Vistara,Landed 7:41 PM,2020-02-05,A,
+19:05:00,,Vistara,Departed 7:32 PM,2020-02-05,D,Delhi (DEL)
+19:05:00,,Vistara,Departed 8:46 PM,2020-02-05,D,Bengaluru (BLR)
+19:05:00,,IndiGo,Departed 8:08 PM,2020-02-05,D,Hyderabad (HYD)
+19:10:00,Delhi (DEL),Air India,Landed 7:14 PM,2020-02-05,A,
+19:10:00,Abu Dhabi (AUH),Etihad,Landed 6:59 PM,2020-02-05,A,
+19:10:00,Kolkata (CCU),IndiGo,Landed 7:16 PM,2020-02-05,A,
+19:10:00,,Emirates,Departed 7:58 PM,2020-02-05,D,Dubai (DXB)
+19:10:00,,GoAir,Departed 7:39 PM,2020-02-05,D,Jaipur (JAI)
+19:15:00,Guwahati (GAU),SpiceJet,Landed 8:11 PM,2020-02-05,A,
+19:15:00,Goa (GOI),IndiGo,Landed 7:24 PM,2020-02-05,A,
+19:15:00,,IndiGo,Departed 8:01 PM,2020-02-05,D,Bengaluru (BLR)
+19:15:00,,IndiGo,Departed 9:59 PM,2020-02-05,D,Coimbatore (CJB)
+19:20:00,Delhi (DEL),IndiGo,Landed 7:21 PM,2020-02-05,A,
+19:20:00,Ranchi (IXR),IndiGo,Landed 7:43 PM,2020-02-05,A,
+19:20:00,Chennai (MAA),IndiGo,Landed 7:04 PM,2020-02-05,A,
+19:20:00,,Vistara,Departed 8:33 PM,2020-02-05,D,Hyderabad (HYD)
+19:25:00,,GoAir,Departed 8:25 PM,2020-02-05,D,Ahmedabad (AMD)
+19:25:00,,Air India,Departed 8:22 PM,2020-02-05,D,Hyderabad (HYD)
+19:25:00,,IndiGo,Departed 8:28 PM,2020-02-05,D,Indore (IDR)
+19:25:00,,IndiGo,Departed 8:54 PM,2020-02-05,D,Lucknow (LKO)
+19:30:00,Jeddah (JED),Saudia,Landed 7:56 PM,2020-02-05,A,
+19:30:00,Jaipur (JAI),IndiGo,Landed 7:33 PM,2020-02-05,A,
+19:30:00,,Air India,Departed 9:34 PM,2020-02-05,D,Nagpur (NAG)
+19:30:00,,IndiGo,Departed 9:37 PM,2020-02-05,D,Chennai (MAA)
+19:30:00,,IndiGo,Departed 8:11 PM,2020-02-05,D,Riyadh (RUH)
+19:35:00,Indore (IDR),IndiGo,Landed 8:05 PM,2020-02-05,A,
+19:35:00,,GoAir,Departed 8:43 PM,2020-02-05,D,Lucknow (LKO)
+19:40:00,Udaipur (UDR),SpiceJet,Landed 7:37 PM,2020-02-05,A,
+19:40:00,Thiruvananthapuram (TRV),SpiceJet,Unknown,2020-02-05,A,
+19:40:00,Hyderabad (HYD),IndiGo,Landed 7:53 PM,2020-02-05,A,
+19:40:00,,SpiceJet,Departed 8:36 PM,2020-02-05,D,Kolkata (CCU)
+19:45:00,Colombo (CMB),SriLankan Airlines,Landed 7:50 PM,2020-02-05,A,
+19:45:00,Kolkata (CCU),Air India,Landed 8:15 PM,2020-02-05,A,
+19:45:00,,Vistara,Departed 9:24 PM,2020-02-05,D,Delhi (DEL)
+19:50:00,Delhi (DEL),IndiGo,Landed 7:55 PM,2020-02-05,A,
+19:50:00,,Air India,Departed 8:39 PM,2020-02-05,D,Dubai (DXB)
+19:50:00,,SpiceJet,Departed 8:31 PM,2020-02-05,D,Jeddah (JED)
+19:55:00,,SpiceJet,Departed 8:51 PM,2020-02-05,D,Mangalore (IXE)
+19:55:00,,IndiGo,Departed 8:49 PM,2020-02-05,D,Jaipur (JAI)
+19:55:00,,IndiGo,Departed 9:09 PM,2020-02-05,D,Bengaluru (BLR)
+20:00:00,,Air India,Departed 8:59 PM,2020-02-05,D,Delhi (DEL)
+20:00:00,,All Nippon Airways,Departed 9:01 PM,2020-02-05,D,Tokyo (NRT)
+20:00:00,,IndiGo,Departed 9:22 PM,2020-02-05,D,Ahmedabad (AMD)
+20:00:00,,IndiGo,Departed 9:03 PM,2020-02-05,D,Delhi (DEL)
+20:05:00,Delhi (DEL),Vistara,Landed 8:55 PM,2020-02-05,A,
+20:05:00,,IndiGo,Departed 9:06 PM,2020-02-05,D,Hyderabad (HYD)
+20:05:00,,IndiGo,Departed 8:56 PM,2020-02-05,D,Doha (DOH)
+20:10:00,Jaipur (JAI),SpiceJet,Landed 8:03 PM,2020-02-05,A,
+20:10:00,,IndiGo,Departed 9:32 PM,2020-02-05,D,Chennai (MAA)
+20:15:00,Delhi (DEL),Air India,Canceled,2020-02-05,A,
+20:15:00,Kolkata (CCU),Vistara,Landed 9:18 PM,2020-02-05,A,
+20:15:00,Bengaluru (BLR),Vistara,Landed 8:52 PM,2020-02-05,A,
+20:15:00,Ahmedabad (AMD),IndiGo,Landed 8:34 PM,2020-02-05,A,
+20:20:00,Delhi (DEL),GoAir,Landed 8:44 PM,2020-02-05,A,
+20:20:00,Bengaluru (BLR),IndiGo,Landed 8:45 PM,2020-02-05,A,
+20:20:00,,IndiGo,Departed 9:11 PM,2020-02-05,D,Bengaluru (BLR)
+20:25:00,Lucknow (LKO),GoAir,Landed 9:36 PM,2020-02-05,A,
+20:25:00,Bahrain (BAH),Gulf Air,Landed 8:15 PM,2020-02-05,A,
+20:25:00,,SpiceJet,Departed 9:17 PM,2020-02-05,D,Delhi (DEL)
+20:25:00,,IndiGo,Departed 9:27 PM,2020-02-05,D,Kozhikode (CCJ)
+20:30:00,Goa (GOI),Air India,Landed 9:06 PM,2020-02-05,A,
+20:30:00,,Air India,Departed 9:42 PM,2020-02-05,D,Kolkata (CCU)
+20:30:00,,IndiGo,Departed 9:14 PM,2020-02-05,D,Kolkata (CCU)
+20:30:00,,IndiGo,Departed 9:29 PM,2020-02-05,D,Nagpur (NAG)
+20:35:00,Dubai (DXB),Emirates,Landed 8:27 PM,2020-02-05,A,
+20:35:00,Andal (RDP),SpiceJet,Landed 8:55 PM,2020-02-05,A,
+20:35:00,Cochin (COK),IndiGo,Landed 8:33 PM,2020-02-05,A,
+20:40:00,Nairobi (NBO),Air India,Landed 8:23 PM,2020-02-05,A,
+20:40:00,Ahmedabad (AMD),Air India,Landed 11:11 PM,2020-02-05,A,
+20:40:00,Hyderabad (HYD),SpiceJet,Landed 9:05 PM,2020-02-05,A,
+20:40:00,,Cathay Pacific Cargo,Departed 9:54 PM,2020-02-05,D,Hong Kong (HKG)
+20:40:00,,IndiGo,Departed 11:08 PM,2020-02-05,D,Muscat (MCT)
+20:45:00,Sharjah (SHJ),Air Arabia,Landed 8:19 PM,2020-02-05,A,
+20:45:00,Hyderabad (HYD),IndiGo,Landed 8:38 PM,2020-02-05,A,
+20:45:00,Guwahati (GAU),IndiGo,Landed 9:07 PM,2020-02-05,A,
+20:45:00,,SriLankan Airlines,Departed 9:39 PM,2020-02-05,D,Colombo (CMB)
+20:50:00,Kolkata (CCU),SpiceJet,Landed 9:28 PM,2020-02-05,A,
+20:50:00,Delhi (DEL),SpiceJet,Landed 9:51 PM,2020-02-05,A,
+20:50:00,Mangalore (IXE),IndiGo,Landed 9:02 PM,2020-02-05,A,
+20:50:00,,SpiceJet,Departed 10:05 PM,2020-02-05,D,Cochin (COK)
+20:55:00,Cochin (COK),SpiceJet,Landed 9:13 PM,2020-02-05,A,
+20:55:00,,Vistara,Departed 10:43 PM,2020-02-05,D,Delhi (DEL)
+20:55:00,,IndiGo,Departed 10:18 PM,2020-02-05,D,Delhi (DEL)
+20:55:00,,IndiGo,Departed 10:00 PM,2020-02-05,D,Ahmedabad (AMD)
+21:00:00,,GoAir,Departed 10:32 PM,2020-02-05,D,Bengaluru (BLR)
+21:00:00,,Vistara,Departed 10:35 PM,2020-02-05,D,Chennai (MAA)
+21:05:00,Bengaluru (BLR),Air India,Landed 9:11 PM,2020-02-05,A,
+21:05:00,,Air India,Departed 9:57 PM,2020-02-05,D,Hyderabad (HYD)
+21:05:00,,Vistara,Departed 10:46 PM,2020-02-05,D,Bengaluru (BLR)
+21:10:00,Delhi (DEL),IndiGo,Landed 8:58 PM,2020-02-05,A,
+21:10:00,,SpiceJet,Departed 9:49 PM,2020-02-05,D,Delhi (DEL)
+21:10:00,,Saudia,Departed 10:23 PM,2020-02-05,D,Jeddah (JED)
+21:10:00,,Etihad,Departed 9:47 PM,2020-02-05,D,Abu Dhabi (AUH)
+21:10:00,,SpiceJet,Departed 9:51 PM,2020-02-05,D,Riyadh (RUH)
+21:15:00,Delhi (DEL),Air India,Landed 9:22 PM,2020-02-05,A,
+21:15:00,Delhi (DEL),Vistara,Landed 9:56 PM,2020-02-05,A,
+21:15:00,,GoAir,Departed 10:34 PM,2020-02-05,D,Delhi (DEL)
+21:20:00,Vadodara (BDQ),IndiGo,Landed 10:23 PM,2020-02-05,A,
+21:20:00,,Air India,Departed 10:52 PM,2020-02-05,D,Goa (GOI)
+21:20:00,,SpiceJet,Departed 10:27 PM,2020-02-05,D,Goa (GOI)
+21:20:00,,IndiGo,Departed 10:11 PM,2020-02-05,D,Cochin (COK)
+21:25:00,Ahmedabad (AMD),GoAir,Landed 10:04 PM,2020-02-05,A,
+21:25:00,Indore (IDR),IndiGo,Landed 9:26 PM,2020-02-05,A,
+21:25:00,,Air Arabia,Departed 10:21 PM,2020-02-05,D,Sharjah (SHJ)
+21:25:00,,IndiGo,Departed 10:47 PM,2020-02-05,D,Coimbatore (CJB)
+21:30:00,Bengaluru (BLR),IndiGo,Landed 9:27 PM,2020-02-05,A,
+21:30:00,Bhavnagar (BHU),Alliance Air,Landed 9:58 PM,2020-02-05,A,
+21:30:00,,Air India,Departed 10:29 PM,2020-02-05,D,Delhi (DEL)
+21:30:00,,SpiceJet,Departed 11:26 PM,2020-02-05,D,Hyderabad (HYD)
+21:30:00,,IndiGo,Departed 10:06 PM,2020-02-05,D,Hyderabad (HYD)
+21:30:00,,IndiGo,Departed 10:15 PM,2020-02-05,D,Bangkok (BKK)
+21:35:00,Chandigarh (IXC),Vistara,Landed 9:47 PM,2020-02-05,A,
+21:35:00,,Gulf Air,Departed 10:13 PM,2020-02-05,D,Bahrain (BAH)
+21:35:00,,IndiGo,Departed 10:40 PM,2020-02-05,D,Chennai (MAA)
+21:40:00,New York (EWR),United Airlines,Landed 10:04 PM,2020-02-05,A,
+21:40:00,,SpiceJet,Departed 10:59 PM,2020-02-05,D,Bengaluru (BLR)
+21:45:00,Ranchi (IXR),GoAir,Landed 9:16 PM,2020-02-05,A,
+21:45:00,Delhi (DEL),IndiGo,Landed 9:43 PM,2020-02-05,A,
+21:50:00,Bengaluru (BLR),Vistara,Landed 9:36 PM,2020-02-05,A,
+21:50:00,Hong Kong (HKG),Air India,Canceled,2020-02-05,A,
+21:50:00,,SpiceJet,Departed 11:22 PM,2020-02-05,D,Delhi (DEL)
+21:50:00,,IndiGo,Departed 10:38 PM,2020-02-05,D,Bengaluru (BLR)
+21:55:00,Delhi (DEL),Vistara,Landed 10:36 PM,2020-02-05,A,
+21:55:00,,Vistara,Departed 11:20 PM,2020-02-05,D,Delhi (DEL)
+22:00:00,Abu Dhabi (AUH),GoAir,Landed 9:33 PM,2020-02-05,A,
+22:00:00,Bangkok (BKK),Thai Airways,Landed 10:57 PM,2020-02-05,A,
+22:00:00,Aurangabad (IXU),Air India,Landed 10:41 PM,2020-02-05,A,
+22:00:00,,Emirates,Departed 11:05 PM,2020-02-05,D,Dubai (DXB)
+22:05:00,Delhi (DEL),GoAir,Landed 10:09 PM,2020-02-05,A,
+22:05:00,Varanasi (VNS),Corendon Airlines,Landed 10:07 PM,2020-02-05,A,
+22:05:00,Delhi (DEL),SpiceJet,Landed 10:51 PM,2020-02-05,A,
+22:10:00,Cochin (COK),GoAir,Landed 10:18 PM,2020-02-05,A,
+22:10:00,Cochin (COK),Air India,Landed 12:04 AM,2020-02-05,A,
+22:10:00,Delhi (DEL),Air India,Canceled,2020-02-05,A,
+22:10:00,Singapore (SIN),Singapore Airlines,Landed 9:47 PM,2020-02-05,A,
+22:10:00,,GoAir,Departed 11:12 PM,2020-02-05,D,Goa (GOI)
+22:10:00,,IndiGo,Departed 10:51 PM,2020-02-05,D,Kolkata (CCU)
+22:15:00,Dehradun (DED),SpiceJet,Unknown,2020-02-05,A,
+22:15:00,Dubai (DXB),IndiGo,Landed 9:56 PM,2020-02-05,A,
+22:15:00,,Air India,Departed 11:10 PM,2020-02-05,D,Kuwait City (KWI)
+22:20:00,Kuala Lumpur (KUL),Malindo Air,Landed 10:14 PM,2020-02-05,A,
+22:20:00,Singapore (SIN),Air India,Landed 10:44 PM,2020-02-05,A,
+22:20:00,Nagpur (NAG),IndiGo,Landed 10:13 PM,2020-02-05,A,
+22:25:00,Bhubaneswar (BBI),GoAir,Landed 10:32 PM,2020-02-05,A,
+22:25:00,Chandigarh (IXC),GoAir,Landed 11:08 PM,2020-02-05,A,
+22:25:00,Kuala Lumpur (KUL),Malaysia Airlines,Landed 10:22 PM,2020-02-05,A,
+22:25:00,Thiruvananthapuram (TRV),Air India,Landed 11:04 PM,2020-02-05,A,
+22:25:00,Kolkata (CCU),IndiGo,Landed 10:50 PM,2020-02-05,A,
+22:25:00,,IndiGo,Departed 10:56 PM,2020-02-05,D,Delhi (DEL)
+22:30:00,Hyderabad (HYD),AirAsia,Landed 10:32 PM,2020-02-05,A,
+22:30:00,Zurich (ZRH),Swiss,Landed 11:16 PM,2020-02-05,A,
+22:30:00,,Air India,Departed 12:01 AM,2020-02-05,D,Abu Dhabi (AUH)
+22:35:00,New York (JFK),Delta Air Lines,Landed 9:38 PM,2020-02-05,A,
+22:35:00,Dubai (DXB),Air India Express (Kathakali/Bharatanatyam Livery),Landed 10:58 PM,2020-02-05,A,
+22:35:00,Patna (PAT),SpiceJet,Landed 11:03 PM,2020-02-05,A,
+22:35:00,Chennai (MAA),Vistara,Landed 10:43 PM,2020-02-05,A,
+22:40:00,,Air India,Departed 11:15 PM,2020-02-05,D,Amritsar (ATQ)
+22:40:00,,Vistara,Departed 11:54 PM,2020-02-05,D,Delhi (DEL)
+22:45:00,Bengaluru (BLR),SpiceJet,Landed 11:28 PM,2020-02-05,A,
+22:45:00,Delhi (DEL),SpiceJet,Unknown,2020-02-05,A,
+22:45:00,,Corendon Airlines,Departed 11:49 PM,2020-02-05,D,Hyderabad (HYD)
+22:45:00,,SpiceJet,Departed 12:00 AM,2020-02-05,D,Ahmedabad (AMD)
+22:50:00,Delhi (DEL),Vistara,Landed 11:09 PM,2020-02-05,A,
+22:50:00,,GoAir,Departed 11:29 PM,2020-02-05,D,Bengaluru (BLR)
+22:50:00,,GoAir,Departed 11:40 PM,2020-02-05,D,Ahmedabad (AMD)
+22:55:00,Dehradun (DED),Air India,Landed 10:49 PM,2020-02-05,A,
+22:55:00,Hyderabad (HYD),Vistara,Landed 11:59 PM,2020-02-05,A,
+22:55:00,Delhi (DEL),SpiceJet,Landed 11:24 PM,2020-02-05,A,
+22:55:00,,SpiceJet,Departed 11:35 PM,2020-02-05,D,Chennai (MAA)
+23:00:00,Bangkok (BKK),GoAir,Landed 11:19 PM,2020-02-05,A,
+23:00:00,Bengaluru (BLR),AirAsia,Landed 11:30 PM,2020-02-05,A,
+23:00:00,Delhi (DEL),IndiGo,Landed 11:29 PM,2020-02-05,A,
+23:05:00,Chennai (MAA),SpiceJet,Landed 10:59 PM,2020-02-05,A,
+23:05:00,,GoAir,Departed 11:32 PM,2020-02-05,D,Delhi (DEL)
+23:05:00,,AirAsia,Departed 11:43 PM,2020-02-05,D,Goa (GOI)
+23:05:00,,SpiceJet,Departed 11:52 PM,2020-02-05,D,Dubai (DXB)
+23:10:00,Delhi (DEL),Air India,Landed 11:39 PM,2020-02-05,A,
+23:10:00,Delhi (DEL),AirAsia,Landed 11:37 PM,2020-02-05,A,
+23:10:00,,GoAir,Departed 11:31 PM,2020-02-05,D,Muscat (MCT)
+23:10:00,,IndiGo,Departed 11:24 PM,2020-02-05,D,Bengaluru (BLR)
+23:15:00,Bangkok (BKK),Bangkok Airways (Krabi Livery),Landed 11:18 PM,2020-02-05,A,
+23:15:00,,GoAir,Departed 12:10 AM,2020-02-05,D,Kolkata (CCU)
+23:15:00,,Malindo Air,Departed 11:45 PM,2020-02-05,D,Kuala Lumpur (KUL)
+23:20:00,Chennai (MAA),Air India,Landed 11:39 PM,2020-02-05,A,
+23:20:00,,Thai Airways,Departed 2:29 AM,2020-02-05,D,Bangkok (BKK)
+23:25:00,Jaipur (JAI),SpiceJet,Landed 11:20 PM,2020-02-05,A,
+23:25:00,Bengaluru (BLR),Vistara,Landed 12:42 AM,2020-02-05,A,
+23:30:00,Hyderabad (HYD),Air India,Landed 11:50 PM,2020-02-05,A,
+23:30:00,,Air India,Departed 12:37 AM,2020-02-05,D,Muscat (MCT)
+23:35:00,,Malaysia Airlines,Departed 12:13 AM,2020-02-05,D,Kuala Lumpur (KUL)
+23:35:00,,AirAsia,Departed 12:29 AM,2020-02-05,D,Bengaluru (BLR)
+23:35:00,,Singapore Airlines,Departed 11:57 PM,2020-02-05,D,Singapore (SIN)
+23:40:00,Visakhapatnam (VTZ),Air India,Landed 12:24 AM,2020-02-05,A,
+23:40:00,Coimbatore (CJB),SpiceJet,Landed 11:46 PM,2020-02-05,A,
+23:40:00,Bengaluru (BLR),IndiGo,Landed 11:59 PM,2020-02-05,A,
+23:40:00,,Air India Express (Samai/Diya Livery),Departed 12:19 AM,2020-02-05,D,Sharjah (SHJ)
+23:45:00,Kolkata (CCU),SpiceJet,Landed 12:19 AM,2020-02-05,A,
+23:45:00,Chennai (MAA),SpiceJet,Landed 11:48 PM,2020-02-05,A,
+23:45:00,Mangalore (IXE),SpiceJet,Landed 12:10 AM,2020-02-05,A,
+23:50:00,Delhi (DEL),GoAir,Landed 11:42 PM,2020-02-05,A,
+23:50:00,Delhi (DEL),SpiceJet,Landed 12:11 AM,2020-02-05,A,
+23:50:00,Delhi (DEL),Vistara,Landed 11:55 PM,2020-02-05,A,
+23:50:00,,Air India,Departed 12:35 AM,2020-02-05,D,Singapore (SIN)
+23:55:00,Kolkata (CCU),Vistara,Landed 12:04 AM,2020-02-05,A,
+23:55:00,Chennai (MAA),IndiGo,Landed 12:31 AM,2020-02-05,A,
+23:55:00,,Vistara,Departed 12:08 AM,2020-02-05,D,Singapore (SIN)
+23:58:00,,Air India,Departed 1:34 AM,2020-02-05,D,Colombo (CMB)
+23:59:00,Ahmedabad (AMD),SpiceJet,Landed 12:10 AM,2020-02-05,A,
