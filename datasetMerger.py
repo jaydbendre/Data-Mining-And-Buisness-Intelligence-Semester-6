@@ -1,5 +1,12 @@
+"""
+Main Purpose of this program is to merge all the dataset files into one dataset as dataset is available on a day basis and not a aggregate dataset
+"""
 import os
 import pandas as pd
+
+"""
+Updates the string to time
+"""
 
 
 def update_time(value):
@@ -29,6 +36,9 @@ def dataMerger():
 
     file = pd.DataFrame()
 
+    """
+    Merges all the files and adds dates to the dataset
+    """
     for arrival, departure in zip(arrival_files, departure_files):
 
         date = pd.to_datetime(arrival[12:-4], format="%d-%m-%Y").date()
