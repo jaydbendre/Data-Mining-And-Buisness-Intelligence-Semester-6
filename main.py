@@ -6,8 +6,9 @@ import numpy as np
 
 
 def main():
-    dataMerger()
-    dataCleaner()
+
+    # dataMerger()
+    # dataCleaner()
 
     data = pd.read_csv("Datasets/FinalMergedDataset/cleaned_dataset.csv")
 

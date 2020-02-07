@@ -60,14 +60,7 @@ def add_delay(value):
 
 def update_status(value):
     value = value.split(" ")[0]
-    if value == "Landed" or value == "Departed":
-        return 0
-    elif value == "Canceled":
-        return 1
-    elif value == "Diverted":
-        return 2
-    else:
-        return 3
+    return value
 
 
 def dataCleaner():
@@ -78,15 +71,25 @@ def dataCleaner():
         ]
     )
 
-    print(df["Status"])
+    # print(df["Status"])
     df["Source"] = df[["Source", "type"]].apply(update_source, 1)
     df["Destination"] = df[["Destination", "type"]].apply(update_destination, 1)
     df["Time"] = df[["date", "Time"]].apply(update_timestamp_init, 1)
     df["Actual_Time"] = df[["Time", "Status", "date"]].apply(update_actual_time, 1)
     # df = df.dropna()
     df["Status"] = df["Status"].apply(update_status, 1)
+    map_dict = {
+        "Landed": 0,
+        "Departed": 1,
+        "Unknown": 2,
+        "Diverted": 3,
+        "Canceled": 4,
+        "Estimated": -1,
+    }
+    df["Status"] = df.Status.replace(map_dict)
+    df["Status"] = df["Status"].astype(int)
     df["Delay"] = df[["Time", "Actual_Time"]].apply(add_delay, 1)
-    df = df.dropna()
+    # df = df.dropna()
     cleaned_df = pd.DataFrame(
         df[
             [
