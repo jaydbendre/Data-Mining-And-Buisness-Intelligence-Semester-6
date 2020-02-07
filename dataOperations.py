@@ -4,16 +4,17 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 from scipy.stats import chisquare, chi2_contingency
+import matplotlib.pyplot as plt
+
+data = pd.read_csv("Datasets/FinalMergedDataset/cleaned_dataset.csv")
+
+data = pd.DataFrame(data)
 
 
 def main():
 
     dataMerger()
     dataCleaner()
-
-    data = pd.read_csv("Datasets/FinalMergedDataset/cleaned_dataset.csv")
-
-    data = pd.DataFrame(data)
 
     print("1. Printing data within the dataset")
     print(data)
