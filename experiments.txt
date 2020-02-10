@@ -5,3 +5,5 @@ corelation analysis- how data is related
 exp1: exp to study diff phases of DM and perform data analysis for given domain/case study
 exp2: exp to perform data preprocessing using python
 exp3: expt to perform exploratory data analysis and data visualisation(detection of outliers etc) using python 
+
+https://www.fusioncharts.com/blog/best-python-data-visualization-libraries/
