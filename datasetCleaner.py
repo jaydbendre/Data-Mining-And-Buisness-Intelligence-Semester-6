@@ -46,7 +46,7 @@ def update_actual_time(value):
         date_timestamp =  pd.to_datetime(
             value["Time"], format="%Y-%m-%d %H:%M:%S")
         # print(timestamp,date_timestamp)
-        timedelta = pd.Timedelta(timestamp -date_timestamp).seconds/3600
+        timedelta = pd.Timedelta(timestamp - date_timestamp).seconds/3600
         # timedelta = dt.timedelta(timedelta)
         # print(timedelta)
         # print(dt.timedelta(hours=12))
