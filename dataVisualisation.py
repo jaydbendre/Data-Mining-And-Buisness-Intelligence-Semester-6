@@ -1,6 +1,6 @@
 import seaborn as sns
-import matplot.pyplot as plt
-
+import matplotlib.pyplot as plt
+import pandas as pd
 data = pd.read_csv("Datasets/FinalMergedDataset/cleaned_dataset.csv")
 
 data = pd.DataFrame(data)
