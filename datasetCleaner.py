@@ -40,42 +40,24 @@ def update_actual_time(value):
     status = value["Status"].split(" ")
     if len(status) == 3 and status[1] != "to":
         time = value["date"] + " " + status[1] + " " + status[2]
-        
-        timestamp = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
-        
-        date_timestamp =  pd.to_datetime(
+        scheduled_time =  pd.to_datetime(
             value["Time"], format="%Y-%m-%d %H:%M:%S")
-        # print(timestamp,date_timestamp)
-        timedelta = pd.Timedelta(timestamp -date_timestamp).seconds/3600
-        # timedelta = dt.timedelta(timedelta)
-        # print(timedelta)
-        # print(dt.timedelta(hours=12))
-        hour_delay = pd.Timedelta(pd.to_datetime("12:00:00",format="%H:%M:%S") - pd.to_datetime("00:00:00",format="%H:%M:%S")).seconds/3600
+        actual_time = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
         
-        if timedelta > hour_delay:
-            # print("Hi")
-            if timestamp > date_timestamp:
-                print("Hi")
-                value["date"] = pd.to_datetime(
+        if actual_time > pd.to_datetime(value["date"]+" "+"00:00:00",format="%Y-%m-%d %H:%M:%S") and (scheduled_time >= pd.to_datetime(value["date"]+" "+"23:00:00",format="%Y-%m-%d %H:%M:%S")) :
+            value["date"] = pd.to_datetime(
                     value["date"], format="%Y-%m-%d"
-                ) + dt.timedelta(days=1)
-            else:
-                value["date"] = pd.to_datetime(
-                    value["date"], format="%Y-%m-%d"
-                )+ dt.timedelta(days=1)
+                ) + dt.timedelta(days=1)  
             value["date"] = value["date"].date()
             time = str(value["date"]) + " " + status[1] + " " + status[2]
-            timestamp = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
-            timedelta = timestamp - pd.to_datetime(
-                value["date"], format="%Y-%m-%d %H:%M:%S"
-            )
-            print(timestamp)
-            return timestamp
-        else:
-            return timestamp
+            scheduled_time =  pd.to_datetime(
+            value["Time"], format="%Y-%m-%d %H:%M:%S")
+            actual_time = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
+        
+        timedelta = pd.Timedelta(actual_time -scheduled_time).seconds/3600
+        return actual_time
     else:
         return np.nan
-
 
 def add_delay(value):
     time = pd.to_datetime(value["Time"], format="%Y-%m-%d %H:%M:%S")
