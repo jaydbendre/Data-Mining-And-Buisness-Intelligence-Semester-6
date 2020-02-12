@@ -1,0 +1,448 @@
+Time,Flight Number,Source,Flight Name,Aircraft,Status
+12:05 AM,AI732,Patna (PAT),Air India,A319 (VT-SCV),Landed 1:14 AM
+12:05 AM,AF218,Paris (CDG),Air France,B77W (F-GSQD),Landed 12:04 AM
+12:05 AM,AI630,Nagpur (NAG),Air India,A319 (VT-SCG),Landed 12:10 AM
+12:05 AM,6E5383,Hyderabad (HYD),IndiGo,A320 (VT-IFK),Landed 11:55 PM
+12:10 AM,G82608,Jaipur (JAI),GoAir,A20N (VT-WJB),Landed 11:32 PM
+12:10 AM,6E665,Delhi (DEL),IndiGo,A20N (VT-IZV),Landed 11:53 PM
+12:15 AM,BA139,London (LHR),British Airways (GREAT Festival of Creativity),B772 (G-YMML),Landed 1:14 AM
+12:15 AM,UK202,Dubai (DXB),Vistara (Retro Livery),A20N (VT-ATV),Landed 12:20 AM
+12:15 AM,6E6152,Coimbatore (CJB),IndiGo,A320 (VT-IFQ),Landed 12:09 AM
+12:20 AM,G8526,Bengaluru (BLR),GoAir,A320 (VT-GOK),Landed 12:09 AM
+12:20 AM,SG6442,Goa (GOI),SpiceJet,B737 (VT-SLP),Landed 1:08 AM
+12:20 AM,6E387,Chennai (MAA),IndiGo,A20N (VT-IZK),Landed 12:41 AM
+12:25 AM,AI632,Bhopal (BHO),Air India,A20N (VT-CIG),Landed 12:30 AM
+12:25 AM,6E1832,Jeddah (JED),IndiGo,A20N (VT-IJK),Landed 12:19 AM
+12:30 AM,AI84,Goa (GOI),Air India,A20N (VT-EXV),Landed 12:35 AM
+12:30 AM,I5306,Bengaluru (BLR),AirAsia,A320 (VT-RED),Landed 12:21 AM
+12:30 AM,6E961,Kolkata (CCU),IndiGo,A20N (VT-ITO),Landed 12:44 AM
+12:35 AM,CX663,Hong Kong (HKG),Cathay Pacific,B77W (B-KQR),Landed 12:08 AM
+12:40 AM,KL877,Amsterdam (AMS),KLM,B789 (PH-BHC),Landed 1:02 AM
+12:45 AM,6.00E+155,Delhi (DEL),IndiGo,A20N (VT-ITG),Landed 12:36 AM
+12:55 AM,VS354,London (LHR),Virgin Atlantic,B789 (G-VNEW),Landed 12:52 AM
+12:55 AM,6E849,Bengaluru (BLR),IndiGo,A20N (VT-IZW),Landed 12:52 AM
+1:00 AM,LH756,Frankfurt (FRA),Lufthansa,B744 (D-ABVW),Landed 1:11 AM
+1:00 AM,G8544,Delhi (DEL),GoAir,A20N (VT-WGQ),Landed 12:31 AM
+1:10 AM,KU301,Kuwait City (KWI),Kuwait Airways,A332 (9K-APA),Landed 12:31 AM
+1:10 AM,AI863,Delhi (DEL),Air India,A20N (VT-EXG),Landed 2:35 AM
+1:10 AM,I5316,Kolkata (CCU),AirAsia,A320 (VT-HYD),Landed 12:48 AM
+1:15 AM,CA889,Beijing (PEK),Air China,333,Unknown
+1:20 AM,G8380,Goa (GOI),GoAir,A320 (VT-GOP),Landed 1:59 AM
+1:30 AM,G8512,Kolkata (CCU),GoAir,A20N (VT-WJP),Landed 1:04 AM
+1:30 AM,6.00E+62,Dubai (DXB),IndiGo,A20N (VT-IZF),Landed 12:59 AM
+1:35 AM,WE335,Bangkok (BKK),THAI Smile,A320 (HS-TXA),Landed 1:25 AM
+1:45 AM,SG8287,Delhi (DEL),SpiceJet,B738 (VT-SGQ),Landed 3:07 AM
+1:50 AM,SG82,Bangkok (BKK),SpiceJet,B738 (VT-SYV),Landed 1:38 AM
+1:50 AM,G8413,Ahmedabad (AMD),GoAir,A20N (VT-WGE),Landed 2:26 AM
+1:50 AM,6.00E+263,Hyderabad (HYD),IndiGo,A20N (VT-IVI),Landed 1:37 AM
+2:05 AM,IX244,Doha (DOH),Air India Express (Himalayan Peaks/Desert Livery),B738 (VT-AXZ),Landed 1:18 AM
+2:05 AM,I5472,Goa (GOI),AirAsia,A320 (VT-ATF),Landed 2:08 AM
+2:10 AM,UL141,Colombo (CMB),SriLankan Airlines,A320 (4R-MRE),Landed 2:35 AM
+2:15 AM,EK500,Dubai (DXB),Emirates,A388 (A6-EOG),Landed 2:03 AM
+2:25 AM,TK6232,Istanbul (ISL),Turkish Cargo,A332 (TC-JOY),Landed 2:30 AM
+2:25 AM,SG7046,Sharjah (SHJ),SpiceJet,-,Canceled
+2:30 AM,QR556,Doha (DOH),Qatar Airways,B77W (A7-BET),Landed 2:10 AM
+2:35 AM,ET640,Addis Ababa (ADD),Ethiopian Airlines,A359 (ET-AVD),Landed 2:30 AM
+2:40 AM,EY206,Abu Dhabi (AUH),Etihad,B77W (A6-ETR),Landed 2:37 AM
+2:45 AM,6.00E+82,Muscat (MCT),IndiGo,A320 (VT-IFZ),Landed 4:19 AM
+3:05 AM,J9401,Kuwait City (KWI),Jazeera Airways,A320 (9K-CAO),Landed 2:43 AM
+4:00 AM,AI130,London (LHR),Air India,B77W (VT-ALS),Landed 1:36 PM
+4:05 AM,SG788,Bengaluru (BLR),SpiceJet,B738 (VT-SLG),Landed 4:07 AM
+4:10 AM,FZ445,Dubai (DXB),flydubai,B738 (A6-FEU),Landed 4:11 AM
+4:10 AM,QR8604,Doha (DOH),Qatar Cargo,B77L (A7-BFU),Landed 4:24 AM
+4:10 AM,AI984,Dubai (DXB),Air India,A321 (VT-PPD),Landed 4:09 AM
+4:15 AM,AI124,Frankfurt (FRA),Air India,B788 (VT-ANL),Landed 5:33 AM
+4:15 AM,G9406,Sharjah (SHJ),Air Arabia,A320 (A6-ANP),Landed 4:14 AM
+4:15 AM,HM260,Victoria (SEZ),Air Seychelles,A20N (S7-VEV),Landed 4:24 AM
+4:15 AM,6E1718,Doha (DOH),IndiGo,A320 (VT-INU),Landed 4:35 AM
+4:20 AM,TC400,Dar-es-Salaam (DAR),Air Tanzania,B788 (5H-TCG),Landed 4:17 AM
+4:20 AM,6E1834,Abu Dhabi (AUH),IndiGo,A21N (VT-IUB),Landed 4:27 AM
+4:30 AM,AI276,Colombo (CMB),Air India,A321 (VT-PPV),Landed 5:05 AM
+4:50 AM,G8385,Kannur (CNN),GoAir,A20N (VT-WGX),Landed 4:32 AM
+4:50 AM,6.00E+184,Cochin (COK),IndiGo,A320 (VT-INZ),Landed 4:41 AM
+4:55 AM,GF56,Bahrain (BAH),Gulf Air,A20N (A9C-TA),Landed 4:46 AM
+4:55 AM,AI986,Muscat (MCT),Air India,A321 (VT-PPU),Landed 5:09 AM
+4:55 AM,G82501,Delhi (DEL),GoAir,A320 (VT-GOM),Landed 4:35 AM
+5:00 AM,MK748,Port Louis (MRU),Air Mauritius,A339 (3B-NBU),Landed 4:47 AM
+5:00 AM,AI932,Jeddah (JED),Air India,B77W (VT-ALR),Landed 4:55 AM
+5:10 AM,TK720,Istanbul (IST),Turkish Airlines,B77W (TC-LKA),Landed 4:59 AM
+5:10 AM,6E1826,Riyadh (RUH),IndiGo,A320 (VT-IAS),Landed 4:49 AM
+5:15 AM,AI30,Ahmedabad (AMD),Air India,B788 (VT-ANZ),Landed 5:50 AM
+5:25 AM,AI34,Goa (GOI),Air India,A319 (VT-SCG),Landed 5:12 AM
+5:25 AM,6E428,Hyderabad (HYD),IndiGo,A320 (VT-IAL),Landed 5:18 AM
+5:35 AM,KQ204,Nairobi (NBO),Kenya Airways,B738 (5Y-CYA),Landed 6:02 AM
+5:40 AM,SL218,Bangkok (DMK),Thai Lion Air,B738 (HS-LUI),Landed 5:52 AM
+5:45 AM,G830,Muscat (MCT),GoAir,A20N (VT-WGJ),Landed 5:06 AM
+5:50 AM,AI946,Abu Dhabi (AUH),Air India,A20N (VT-CIE),Landed 6:33 AM
+6:15 AM,KU303,Kuwait City (KWI),Kuwait Airways,A320 (9K-AKJ),Landed 5:29 AM
+6:15 AM,AI349,Delhi (DEL),Air India,B788 (VT-ANG),Landed 5:55 AM
+6:20 AM,6.00E+235,Hyderabad (HYD),IndiGo,A20N (VT-IZB),Landed 6:10 AM
+6:25 AM,SG14,Dubai (DXB),SpiceJet,B738 (VT-SLI),Landed 7:30 AM
+6:30 AM,6E6789,Ahmedabad (AMD),IndiGo,A320 (VT-IEO),Landed 6:26 AM
+6:40 AM,SG611,Goa (GOI),SpiceJet,B737 (VT-SLB),Landed 6:23 AM
+6:40 AM,SG636,Ahmedabad (AMD),SpiceJet,B738 (VT-SYZ),Landed 6:00 AM
+6:40 AM,WY201,Muscat (MCT),Oman Air,B789 (A4O-SI),Landed 6:05 AM
+6:40 AM,6E456,Bengaluru (BLR),IndiGo,A20N (VT-ITH),Landed 6:20 AM
+6:45 AM,6E5385,Nagpur (NAG),IndiGo,A320 (VT-IDZ),Landed 6:12 AM
+6:50 AM,G8302,Chennai (MAA),GoAir,A20N (VT-WJN),Landed 6:49 AM
+6:55 AM,IX252,Sharjah (SHJ),Air India Express (Hawa Mahal/Ujjayanta Palace),B738 (VT-AXN),Landed 7:00 AM
+6:55 AM,SG69,Jeddah (JED),SpiceJet,B738 (VT-SGJ),Landed 7:35 AM
+7:00 AM,SG20,Riyadh (RUH),SpiceJet,B738 (VT-SGY),Landed 7:26 AM
+7:05 AM,SG704,Hyderabad (HYD),Corendon Airlines,B738 (TC-TJU),Landed 6:34 AM
+7:05 AM,6.00E+171,Delhi (DEL),IndiGo,A20N (VT-ITG),Landed 6:45 AM
+7:05 AM,6.00E+218,Jaipur (JAI),IndiGo,A320 (VT-IGI),Landed 6:21 AM
+7:10 AM,I5303,Bengaluru (BLR),AirAsia,A320 (VT-NAG),Landed 7:06 AM
+7:10 AM,SG6351,Bengaluru (BLR),SpiceJet,B738 (VT-SYW),Landed 7:02 AM
+7:15 AM,ET610,Addis Ababa (ADD),Ethiopian Airlines,A359 (ET-ATR),Landed 6:40 AM
+7:15 AM,6E654,Chennai (MAA),IndiGo,A20N (VT-IZZ),Landed 7:07 AM
+7:20 AM,G8418,Bengaluru (BLR),GoAir,A20N (VT-WJH),Landed 7:26 AM
+7:20 AM,6E5322,Bengaluru (BLR),IndiGo,A320 (VT-IKE),Landed 7:11 AM
+7:25 AM,LY71,Tel Aviv (TLV),El Al Israel Airlines,B772 (4X-ECD),Landed 7:21 AM
+7:25 AM,EY212,Abu Dhabi (AUH),Etihad,A320 (A6-EIU),Landed 7:32 AM
+7:30 AM,AI620,Hyderabad (HYD),Air India,A319 (VT-SCN),Landed 7:17 AM
+7:30 AM,AI990,Kuwait City (KWI),Air India,A20N (VT-EXL),Landed 7:38 AM
+7:40 AM,SG678,Chennai (MAA),SpiceJet,B738 (VT-SYY),Landed 7:28 AM
+7:40 AM,SG6475,Cochin (COK),SpiceJet,B738 (VT-SXC),Landed 7:40 AM
+7:45 AM,6E5335,Delhi (DEL),IndiGo,A20N (VT-IJU),Landed 7:47 AM
+7:50 AM,AI602,Rajkot (RAJ),Air India,A319 (VT-SCR),Landed 8:05 AM
+7:50 AM,6E5324,Bengaluru (BLR),IndiGo,A20N (VT-IZP),Landed 7:49 AM
+7:55 AM,G8381,Goa (GOI),GoAir,A20N (VT-WGE),Landed 7:47 AM
+7:55 AM,I5314,Delhi (DEL),AirAsia,A320 (VT-VTZ),Landed 7:53 AM
+7:55 AM,6E5372,Vadodara (BDQ),IndiGo,A20N (VT-IZW),Landed 7:57 AM
+8:00 AM,UK975,Delhi (DEL),Vistara,A320 (VT-TTN),Landed 8:05 AM
+8:10 AM,AI341,Bangkok (BKK),Air India,A20N (VT-CIF),Landed 8:53 AM
+8:10 AM,AI569,Chennai (MAA),Air India,A20N (VT-EXQ),Landed 7:54 AM
+8:15 AM,AI684,Goa (GOI),Air India,A20N (VT-EXV),Landed 8:19 AM
+8:15 AM,UK858,Bengaluru (BLR),Vistara,B738 (VT-TGH),Landed 8:20 AM
+8:15 AM,6.00E+247,Hyderabad (HYD),IndiGo,A20N (VT-IVI),Landed 8:15 AM
+8:25 AM,EK504,Dubai (DXB),Emirates,B77L (A6-EWF),Landed 8:00 AM
+8:30 AM,AI614,Ahmedabad (AMD),Air India,A20N (VT-EXG),Landed 9:20 AM
+8:30 AM,6E318,Kolkata (CCU),IndiGo,A320 (VT-IFE),Landed 8:29 AM
+8:35 AM,AI640,Bengaluru (BLR),Air India,A20N (VT-CID),Landed 8:46 AM
+8:35 AM,SG6289,Chennai (MAA),SpiceJet,B738 (VT-SLL),Landed 8:24 AM
+8:35 AM,SG8153,Delhi (DEL),SpiceJet,B737 (VT-SYP),Landed 8:08 AM
+8:40 AM,SG6363,Hyderabad (HYD),SpiceJet,B738 (VT-SYJ),Landed 8:51 AM
+8:40 AM,6E495,Chennai (MAA),IndiGo,A20N (VT-IVP),Landed 8:58 AM
+8:40 AM,6E655,Indore (IDR),IndiGo,A21N (VT-IUJ),Landed 8:40 AM
+8:40 AM,6E993,Delhi (DEL),IndiGo,A20N (VT-IVY),Landed 8:37 AM
+8:45 AM,AI912,Dubai (DXB),Air India,B788 (VT-ANC),Landed 8:10 AM
+8:45 AM,UK923,Delhi (DEL),Vistara,A20N (VT-TNF),Landed 8:51 AM
+8:50 AM,SG2763,Surat (STV),SpiceJet,DH8D (VT-SUS),Unknown
+8:50 AM,SG6425,Kolkata (CCU),SpiceJet,B738 (VT-SYA),Landed 8:45 AM
+8:50 AM,6E424,Bengaluru (BLR),IndiGo,A20N (VT-IVD),Landed 8:40 AM
+8:50 AM,6E1769,Dubai (DXB),IndiGo,A320 (VT-IHM),Landed 8:35 AM
+8:55 AM,6E6834,Ahmedabad (AMD),IndiGo,A20N (VT-ITI),Landed 8:31 AM
+9:00 AM,UK828,Chennai (MAA),Vistara,B738 (VT-TGB),Landed 9:03 AM
+9:05 AM,AI582,Kozhikode (CCJ),Air India,A321 (VT-PPK),Landed 8:58 AM
+9:05 AM,AI887,Delhi (DEL),Air India,A321 (VT-PPJ),Landed 9:16 AM
+9:10 AM,G8530,Delhi (DEL),GoAir,A20N (VT-WGZ),Landed 9:14 AM
+9:15 AM,6E568,Aurangabad (IXU),IndiGo,A320 (VT-IFO),Landed 9:11 AM
+9:15 AM,6E5309,Chennai (MAA),IndiGo,A320 (VT-IEB),Landed 9:06 AM
+9:20 AM,AI628,Nagpur (NAG),Air India,A20N (VT-CIN),Landed 9:02 AM
+9:20 AM,SG8701,Delhi (DEL),SpiceJet,B738 (VT-SYC),Landed 9:21 AM
+9:30 AM,ET3751,Guangzhou (CAN),Ethiopian Airlines,77X,Unknown
+9:35 AM,SG438,Bengaluru (BLR),SpiceJet,B738 (VT-SZB),Landed 9:27 AM
+9:40 AM,6.00E+167,Delhi (DEL),IndiGo,A20N (VT-IJC),Landed 9:27 AM
+9:45 AM,G8348,Cochin (COK),GoAir,A20N (VT-WJP),Landed 10:53 AM
+9:45 AM,SG6279,Jaipur (JAI),SpiceJet,B738 (VT-SLJ),Landed 9:30 AM
+9:45 AM,UK943,Delhi (DEL),Vistara,A320 (VT-TTD),Landed 9:36 AM
+9:50 AM,6E453,Coimbatore (CJB),IndiGo,A320 (VT-IGU),Landed 12:05 PM
+9:50 AM,6E496,Kolkata (CCU),IndiGo,A20N (VT-ITQ),Landed 9:41 AM
+9:55 AM,G8395,Bengaluru (BLR),GoAir,A20N (VT-WGQ),Landed 10:00 AM
+9:55 AM,UK846,Bengaluru (BLR),Vistara,B738 (VT-TGE),Landed 10:19 AM
+9:55 AM,UK874,Hyderabad (HYD),Vistara,A20N (VT-TNB),Landed 9:56 AM
+10:00 AM,LH8362,Sharjah (SHJ),Lufthansa Cargo,MD11 (D-ALCD),Landed 9:13 AM
+10:05 AM,6.00E+298,Cochin (COK),IndiGo,A20N (VT-IJF),Landed 10:04 AM
+10:05 AM,6E685,Lucknow (LKO),IndiGo,A20N (VT-IZS),Landed 9:44 AM
+10:10 AM,AI634,Bhopal (BHO),Air India,A319 (VT-SCV),Landed 10:06 AM
+10:10 AM,G8334,Delhi (DEL),GoAir,A20N (VT-WJL),Landed 9:50 AM
+10:10 AM,G82609,Lucknow (LKO),GoAir,A20N (VT-WJO),Landed 9:54 AM
+10:15 AM,AI665,Delhi (DEL),Air India,A321 (VT-PPA),Landed 10:03 AM
+10:15 AM,AI682,Cochin (COK),Air India,A20N (VT-CIQ),Landed 10:23 AM
+10:15 AM,6E1708,Doha (DOH),IndiGo,A21N (VT-IUF),Landed 10:13 AM
+10:20 AM,6E5387,Indore (IDR),IndiGo,A20N (VT-IZK),Landed 9:44 AM
+10:30 AM,6.00E+214,Ahmedabad (AMD),IndiGo,A320 (VT-IEO),Landed 10:15 AM
+10:35 AM,AI604,Bengaluru (BLR),Air India,A20N (VT-CIG),Landed 10:41 AM
+10:35 AM,SG8723,Delhi (DEL),SpiceJet,B738 (VT-SGQ),Landed 10:34 AM
+10:35 AM,SQ422,Singapore (SIN),Singapore Airlines,A359 (9V-SJA),Landed 10:31 AM
+10:40 AM,G8389,Jaipur (JAI),GoAir,A20N (VT-WGX),Landed 10:37 AM
+10:40 AM,6.00E+179,Delhi (DEL),IndiGo,A20N (VT-ITJ),Landed 10:26 AM
+10:45 AM,CX8,Paris (CDG),Cathay Pacific Cargo,B748 (B-LJJ),Landed 11:34 AM
+10:45 AM,G8459,Ahmedabad (AMD),GoAir,A20N (VT-WJN),Landed 10:44 AM
+10:45 AM,SG6432,Hyderabad (HYD),SpiceJet,B737 (VT-SYO),Landed 10:23 AM
+10:50 AM,G8141,Nagpur (NAG),GoAir,A20N (VT-WGR),Landed 10:57 AM
+10:50 AM,SG488,Kolkata (CCU),SpiceJet,B738 (VT-SYG),Landed 11:02 AM
+11:00 AM,6E782,Chennai (MAA),IndiGo,A320 (VT-INU),Landed 11:14 AM
+11:00 AM,6E5302,Bhopal (BHO),IndiGo,A320 (VT-IDZ),Landed 10:48 AM
+11:05 AM,6E5316,Ranchi (IXR),IndiGo,A20N (VT-IZV),Landed 11:55 AM
+11:10 AM,AI678,Delhi (DEL),Air India,A320 (VT-EDC),Landed 11:53 AM
+11:10 AM,UK963,Delhi (DEL),Vistara,A20N (VT-TNI),Landed 11:03 AM
+11:15 AM,BA199,London (LHR),British Airways,B77W (G-STBJ),Landed 11:32 AM
+11:15 AM,6E375,Bhubaneswar (BBI),IndiGo,A320 (VT-IFF),Landed 11:20 AM
+11:15 AM,6E5379,Kolkata (CCU),IndiGo,A20N (VT-IZF),Landed 11:08 AM
+11:20 AM,UK852,Bengaluru (BLR),Vistara,B738 (VT-TGD),Landed 11:30 AM
+11:20 AM,6E734,Bengaluru (BLR),IndiGo,A320 (VT-IDY),Landed 11:26 AM
+11:25 AM,6E748,Udaipur (UDR),IndiGo,A20N (VT-IVN),Landed 11:11 AM
+11:25 AM,9I626,Bhuj (BHJ),Alliance Air,AT76 (VT-RKG),Landed 11:11 AM
+11:30 AM,6E965,Jaipur (JAI),IndiGo,A20N (VT-IVG),Landed 11:21 AM
+11:35 AM,G8465,Port Blair (IXZ),GoAir,A320 (VT-GOP),Landed 11:43 AM
+11:35 AM,6E608,Hyderabad (HYD),IndiGo,A320 (VT-IGX),Landed 11:44 AM
+11:35 AM,6E984,Ahmedabad (AMD),IndiGo,A320 (VT-IHQ),Landed 11:23 AM
+11:40 AM,G822,Phuket (HKT),GoAir,A20N (VT-WGU),Landed 12:01 PM
+11:40 AM,UK927,Delhi (DEL),Vistara,A320 (VT-TTM),Landed 11:59 AM
+11:45 AM,SG6290,Dehradun (DED),SpiceJet,B738 (VT-SXA),Landed 11:46 AM
+11:45 AM,6.00E+181,Delhi (DEL),IndiGo,A320 (VT-IKA),Landed 11:39 AM
+12:05 PM,6E5326,Nagpur (NAG),IndiGo,A20N (VT-IZP),Landed 12:27 PM
+12:05 PM,6E6219,Guwahati (GAU),IndiGo,A320 (VT-IHA),Landed 12:06 PM
+12:10 PM,SG242,Kolkata (CCU),SpiceJet,B738 (VT-SLG),Landed 12:21 PM
+12:10 PM,6E346,Bengaluru (BLR),IndiGo,A320 (VT-IDM),Landed 12:10 PM
+12:15 PM,AI865,Delhi (DEL),Air India,A321 (VT-PPU),Landed 12:37 PM
+12:20 PM,6E5339,Delhi (DEL),IndiGo,A320 (VT-INZ),Landed 12:32 PM
+12:30 PM,SG2874,Porbandar (PBD),SpiceJet,DH8D (VT-SUS),Unknown
+12:30 PM,6E711,Varanasi (VNS),IndiGo,A320 (VT-IFA),Landed 12:46 PM
+12:35 PM,I5304,Bengaluru (BLR),AirAsia,A320 (VT-NAG),Landed 12:33 PM
+12:35 PM,UK995,Delhi (DEL),Vistara,A20N (VT-TNV),Landed 12:53 PM
+12:35 PM,6.00E+223,Delhi (DEL),IndiGo,A20N (VT-IVA),Landed 12:34 PM
+12:40 PM,SG6281,Jammu (IXJ),SpiceJet,B737 (VT-SLP),Landed 1:47 PM
+12:40 PM,SG6353,Mangalore (IXE),SpiceJet,B738 (VT-SGJ),Landed 12:43 PM
+12:40 PM,2T517,Nanded (NDC),Trujet,AT75 (VT-TMU),Unknown
+12:45 PM,SG8911,Delhi (DEL),SpiceJet,B738 (VT-SYQ),Landed 1:07 PM
+12:50 PM,G8338,Delhi (DEL),GoAir,A20N (VT-WGG),Landed 12:51 PM
+1:00 PM,AI144,New York (EWR),Air India,B77W (VT-ALL),Landed 12:14 PM
+1:00 PM,AI694,Hubli (HBX),Air India,A20N (VT-CID),Landed 1:28 PM
+1:00 PM,6.00E+176,Thiruvananthapuram (TRV),IndiGo,A20N (VT-IZY),Landed 1:05 PM
+1:05 PM,UK772,Kolkata (CCU),Vistara,B738 (VT-TGI),Landed 1:04 PM
+1:10 PM,WY203,Muscat (MCT),Oman Air,B739 (A4O-BI),Landed 1:20 PM
+1:20 PM,AI922,Riyadh (RUH),Air india (Star Alliance Livery),A20N (VT-EXO),Landed 2:17 PM
+1:20 PM,SG8164,Jodhpur (JDH),SpiceJet,B738 (VT-SLL),Landed 1:13 PM
+1:20 PM,UK864,Bengaluru (BLR),Vistara,B738 (VT-TGH),Landed 1:26 PM
+1:25 PM,AI626,Lucknow (LKO),Air India,A319 (VT-SCN),Landed 1:12 PM
+1:25 PM,SG480,Jaisalmer (JSA),SpiceJet,B737 (VT-SYP),Landed 1:16 PM
+1:35 PM,AI676,Kolkata (CCU),Air India,A20N (VT-CIE),Landed 2:07 PM
+1:35 PM,SG2548,Belgaum (IXG),SpiceJet,DH8D (VT-SQJ),Landed 1:58 PM
+1:40 PM,6E933,Kozhikode (CCJ),IndiGo,A320 (VT-IFT),Landed 1:43 PM
+1:40 PM,6E957,Delhi (DEL),IndiGo,A320 (VT-IDO),Landed 1:35 PM
+1:45 PM,6.00E+295,Mangalore (IXE),IndiGo,A320 (VT-IFO),Landed 1:39 PM
+1:45 PM,6E342,Hyderabad (HYD),IndiGo,A320 (VT-IFJ),Landed 2:06 PM
+1:45 PM,6E802,Raipur (RPR),IndiGo,A21N (VT-IUJ),Landed 1:32 PM
+1:55 PM,AI648,Jamnagar (JGA),Air India,A20N (VT-CIQ),Landed 3:29 PM
+1:55 PM,G8382,Chandigarh (IXC),GoAir,A20N (VT-WGE),Landed 2:13 PM
+1:55 PM,6E429,Kolkata (CCU),IndiGo,A320 (VT-IGI),Landed 1:51 PM
+2:00 PM,EK506,Dubai (DXB),Emirates,B77W (A6-EGF),Landed 1:56 PM
+2:00 PM,SG6362,Coimbatore (CJB),SpiceJet,B738 (VT-SYJ),Landed 2:35 PM
+2:00 PM,SG6374,Siliguri (IXB),SpiceJet,B738 (VT-SYW),Landed 2:43 PM
+2:00 PM,UK945,Delhi (DEL),Vistara,A20N (VT-TNJ),Landed 2:02 PM
+2:15 PM,I5716,Delhi (DEL),AirAsia,A320 (VT-ATF),Landed 2:51 PM
+2:15 PM,SG6436,Rajkot (RAJ),SpiceJet,B737 (VT-SYO),Landed 2:54 PM
+2:15 PM,UK826,Chennai (MAA),Vistara,B738 (VT-TGB),Landed 3:13 PM
+2:20 PM,SG2872,Jabalpur (JLR),SpiceJet,DH8D (VT-SQI),Landed 3:30 PM
+2:25 PM,6.00E+29,Singapore (SIN),IndiGo,A320 (VT-IES),Landed 2:37 PM
+2:25 PM,6E6097,Goa (GOI),IndiGo,A20N (VT-ITJ),Landed 2:59 PM
+2:30 PM,6E917,Chennai (MAA),IndiGo,A20N (VT-ITI),Landed 3:08 PM
+2:30 PM,6E1767,Kuwait City (KWI),IndiGo,A320 (VT-IFZ),Landed 2:09 PM
+2:30 PM,6E5374,Patna (PAT),IndiGo,A20N (VT-IZW),Landed 2:45 PM
+2:35 PM,G8478,Goa (GOI),GoAir,A20N (VT-WGX),Landed 3:03 PM
+2:35 PM,6E414,Bengaluru (BLR),IndiGo,A20N (VT-IVT),Landed 3:38 PM
+2:35 PM,9I624,Diu (DIU),Alliance Air,AT76 (VT-RKG),Landed 3:11 PM
+2:40 PM,UK842,Goa (GOI),Vistara,B738 (VT-TGE),Landed 3:18 PM
+2:40 PM,6.00E+264,Chandigarh (IXC),IndiGo,A20N (VT-IVP),Landed 3:10 PM
+2:45 PM,AI646,Jodhpur (JDH),Air India,A20N (VT-EXG),Landed 3:22 PM
+2:55 PM,SG454,Goa (GOI),SpiceJet,B738 (VT-SYG),Unknown
+2:55 PM,SG6422,Kolkata (CCU),SpiceJet,B738 (VT-SXC),Landed 3:34 PM
+3:00 PM,UK993,Delhi (DEL),Vistara,A320 (VT-TTN),Landed 2:55 PM
+3:00 PM,6E5304,Jodhpur (JDH),IndiGo,A20N (VT-IZK),Landed 4:55 PM
+3:05 PM,EY208,Abu Dhabi (AUH),Etihad,A320 (A6-EIR),Landed 2:39 PM
+3:05 PM,6E6175,Siliguri (IXB),IndiGo,A20N (VT-IZZ),Landed 3:25 PM
+3:10 PM,G82505,Ahmedabad (AMD),GoAir,A20N (VT-WJN),Landed 3:46 PM
+3:15 PM,UK106,Singapore (SIN),Vistara,A20N (VT-TNP),Landed 3:03 PM
+3:15 PM,6E678,Lucknow (LKO),IndiGo,A320 (VT-IGZ),Landed 3:36 PM
+3:15 PM,6E5389,Nagpur (NAG),IndiGo,A320 (VT-IDZ),Landed 3:43 PM
+3:20 PM,6E486,Ahmedabad (AMD),IndiGo,A320 (VT-IKA),Landed 3:53 PM
+3:25 PM,AI317,Delhi (DEL),Air India,A321 (VT-PPB),Landed 3:56 PM
+3:30 PM,SG6481,Guwahati (GAU),SpiceJet,B738 (VT-SLF),Landed 4:02 PM
+3:35 PM,6.00E+257,Bhubaneswar (BBI),IndiGo,A20N (VT-IJC),Landed 4:11 PM
+3:40 PM,G8304,Chennai (MAA),GoAir,A320 (VT-GOK),Landed 4:39 PM
+3:45 PM,KQ210,Nairobi (NBO),Kenya Airways,B738 (5Y-KYD),Landed 4:10 PM
+3:45 PM,6E712,Goa (GOI),IndiGo,A320 (VT-IGH),Landed 4:13 PM
+3:50 PM,AI612,Jaipur (JAI),Air India,A321 (VT-PPA),Landed 4:04 PM
+3:50 PM,6E5915,Allahabad (IXD),IndiGo,A320 (VT-IEO),Landed 4:20 PM
+3:55 PM,AI679,Coimbatore (CJB),Air India,A20N (VT-CIN),Landed 3:48 PM
+3:55 PM,G8402,Lucknow (LKO),GoAir,A20N (VT-WJL),Landed 4:18 PM
+4:00 PM,UK614,Udaipur (UDR),Vistara,B738 (VT-TGD),Landed 4:02 PM
+4:00 PM,UK910,Goa (GOI),Vistara,A320 (VT-TTM),Landed 4:27 PM
+4:05 PM,AI696,Varanasi (VNS),Air India,A319 (VT-SCV),Landed 5:03 PM
+4:05 PM,SG6284,Patna (PAT),SpiceJet,B738 (VT-SLJ),Landed 4:22 PM
+4:05 PM,6.00E+64,Dubai (DXB),IndiGo,A320 (VT-IEQ),Landed 3:43 PM
+4:05 PM,6E813,Goa (GOI),IndiGo,A320 (VT-IHA),Landed 4:44 PM
+4:15 PM,SG64,Dhaka (DAC),SpiceJet,B738 (VT-SGY),Landed 4:45 PM
+4:15 PM,6E448,Amritsar (ATQ),IndiGo,A20N (VT-IJF),Landed 4:47 PM
+4:20 PM,SG6430,Kanpur (KNU),SpiceJet,B738 (VT-SYA),Landed 3:52 PM
+4:20 PM,6E598,Coimbatore (CJB),IndiGo,A320 (VT-IFF),Landed 5:27 PM
+4:20 PM,6E389,Hyderabad (HYD),IndiGo,A20N (VT-IVI),Landed 4:34 PM
+4:30 PM,AI910,Dubai (DXB),Air India,B788 (VT-ANG),Landed 5:01 PM
+4:30 PM,G82503,Ranchi (IXR),GoAir,A20N (VT-WJO),Landed 4:55 PM
+4:30 PM,6E6128,Bengaluru (BLR),IndiGo,A20N (VT-IVQ),Landed 4:51 PM
+4:40 PM,AI651,Visakhapatnam (VTZ),Air India,A321 (VT-PPK),Landed 5:26 PM
+4:40 PM,G8336,Delhi (DEL),GoAir,A20N (VT-WGD),Landed 5:06 PM
+4:40 PM,UK822,Chennai (MAA),Vistara,B738 (VT-TGA),Landed 5:13 PM
+4:40 PM,6E753,Udaipur (UDR),IndiGo,A20N (VT-ITA),Landed 4:40 PM
+5:00 PM,G8586,Patna (PAT),GoAir,A20N (VT-WGR),Landed 5:31 PM
+5:00 PM,UK132,Colombo (CMB),Vistara,A20N (VT-TNF),Landed 5:17 PM
+5:05 PM,SG6,Dubai (DXB),SpiceJet,B738 (VT-SLI),Landed 5:09 PM
+5:05 PM,6.00E+189,Delhi (DEL),IndiGo,A20N (VT-IJT),Landed 5:15 PM
+5:10 PM,6E579,Varanasi (VNS),IndiGo,A20N (VT-IVG),Landed 5:42 PM
+5:20 PM,G87033,Jaisalmer (JSA),GoAir,A20N (VT-WJP),Landed 6:20 PM
+5:20 PM,6E361,Bengaluru (BLR),IndiGo,A20N (VT-ITY),Landed 5:22 PM
+5:20 PM,6E463,Chandigarh (IXC),IndiGo,A320 (VT-IDY),Landed 5:37 PM
+5:25 PM,9I654,Shirdi (SAG),Alliance Air,ATR,Unknown
+5:30 PM,AI670,Bhubaneswar (BBI),Air India,A320 (VT-EDC),Landed 6:38 PM
+5:40 PM,SG415,Gorakhpur (GOP),SpiceJet,B738 (VT-SZB),Landed 5:40 PM
+5:40 PM,UK933,Delhi (DEL),Vistara,A20N (VT-TNQ),Landed 5:49 PM
+5:40 PM,6E5341,Chennai (MAA),IndiGo,A320 (VT-INZ),Landed 6:32 PM
+5:45 PM,EK502,Dubai (DXB),Emirates,B77L (A6-EWA),Landed 5:34 PM
+5:45 PM,SG247,Varanasi (VNS),SpiceJet,B738 (VT-SLG),Landed 7:11 PM
+5:45 PM,6E5353,Kolkata (CCU),IndiGo,A320 (VT-INU),Landed 5:57 PM
+5:50 PM,I5332,Delhi (DEL),AirAsia,A320 (VT-VTZ),Landed 5:58 PM
+5:50 PM,I5313,Chennai (MAA),AirAsia,A320 (VT-NAG),Landed 5:52 PM
+5:50 PM,6E1784,Male (MLE),IndiGo,A320 (VT-IEB),Landed 5:48 PM
+6:00 PM,G8287,Srinagar (SXR),GoAir,A20N (VT-WGQ),Unknown
+6:05 PM,AI672,Chennai (MAA),Air India,A20N (VT-EXQ),Landed 6:02 PM
+6:05 PM,SG6372,Amritsar (ATQ),SpiceJet,B738 (VT-SXA),Landed 6:19 PM
+6:05 PM,SG8161,Delhi (DEL),SpiceJet,B738 (VT-SGG),Landed 5:58 PM
+6:05 PM,6E5318,Lucknow (LKO),IndiGo,A20N (VT-IZV),Landed 6:43 PM
+6:10 PM,SG6379,Madurai (IXM),SpiceJet,B737 (VT-SLP),Landed 7:39 PM
+6:10 PM,6E981,Dehradun (DED),IndiGo,A20N (VT-IVA),Landed 6:51 PM
+6:15 PM,AI636,Indore (IDR),Air India,A319 (VT-SCS),Landed 6:43 PM
+6:15 PM,G8320,Bengaluru (BLR),GoAir,A20N (VT-WJI),Landed 6:24 PM
+6:15 PM,UK656,Jodhpur (JDH),Vistara,B738 (VT-TGH),Landed 6:16 PM
+6:15 PM,6E755,Delhi (DEL),IndiGo,A20N (VT-ITC),Landed 6:06 PM
+6:20 PM,G82606,Goa (GOI),GoAir,A20N (VT-WGG),Landed 6:38 PM
+6:25 PM,NH829,Tokyo (NRT),All Nippon Airways,B789 (JA837A),Landed 6:24 PM
+6:25 PM,6E559,Srinagar (SXR),IndiGo,A20N (VT-IZS),Unknown
+6:25 PM,6E628,Vadodara (BDQ),IndiGo,A20N (VT-ITI),Landed 6:34 PM
+6:30 PM,AI644,Udaipur (UDR),Air India,A20N (VT-CIE),Landed 7:04 PM
+6:30 PM,UK622,Varanasi (VNS),Vistara,A20N (VT-TNE),Landed 6:28 PM
+6:35 PM,6E418,Goa (GOI),IndiGo,A20N (VT-IVT),Landed 7:47 PM
+6:40 PM,AI618,Hyderabad (HYD),Air India,A20N (VT-CID),Landed 7:01 PM
+6:40 PM,G82602,Nagpur (NAG),GoAir,A320 (VT-GOM),Landed 6:33 PM
+6:45 PM,6E804,Raipur (RPR),IndiGo,A21N (VT-IUJ),Landed 6:56 PM
+6:50 PM,SG487,Goa (GOI),SpiceJet,B738 (VT-SYG),Landed 7:25 PM
+6:50 PM,6E983,Bhopal (BHO),IndiGo,A20N (VT-IVP),Landed 7:29 PM
+6:50 PM,6E1793,Bangkok (BKK),IndiGo,A320 (VT-IFV),Landed 6:54 PM
+6:55 PM,6E5331,Bengaluru (BLR),IndiGo,A20N (VT-ITF),Landed 6:47 PM
+7:05 PM,UK941,Delhi (DEL),Vistara,A320 (VT-TTB),Landed 7:17 PM
+7:10 PM,AI102,Delhi (DEL),Air India (Celebrating India Livery),B77W (VT-ALN),Landed 7:36 PM
+7:10 PM,EY204,Abu Dhabi (AUH),Etihad,A320 (A6-EIN),Landed 8:37 PM
+7:10 PM,6E757,Kolkata (CCU),IndiGo,A320 (VT-IFE),Landed 7:04 PM
+7:15 PM,SG6266,Guwahati (GAU),SpiceJet,B738 (VT-SGQ),Landed 7:47 PM
+7:15 PM,6E468,Goa (GOI),IndiGo,A320 (VT-IFO),Landed 7:36 PM
+7:20 PM,6.00E+191,Delhi (DEL),IndiGo,A20N (VT-IVY),Landed 7:15 PM
+7:20 PM,6E787,Ranchi (IXR),IndiGo,A20N (VT-IVN),Landed 8:09 PM
+7:20 PM,6E998,Chennai (MAA),IndiGo,A320 (VT-IKC),Landed 7:20 PM
+7:30 PM,SV772,Jeddah (JED),Saudia,B77W (HZ-AK17),Landed 7:32 PM
+7:30 PM,6E394,Jaipur (JAI),IndiGo,A20N (VT-IJK),Landed 7:06 PM
+7:35 PM,6E5306,Indore (IDR),IndiGo,A20N (VT-IZW),Landed 7:49 PM
+7:40 PM,G8372,Goa (GOI),GoAir,A320 (VT-GOK),Landed 8:30 PM
+7:40 PM,SG6438,Thiruvananthapuram (TRV),SpiceJet,B738 (VT-SYJ),Landed 8:32 PM
+7:40 PM,SG6446,Udaipur (UDR),SpiceJet,B737 (VT-SYO),Landed 7:24 PM
+7:40 PM,6E5376,Hyderabad (HYD),IndiGo,A20N (VT-IZK),Landed 9:46 PM
+7:45 PM,AI773,Kolkata (CCU),Air India,A319 (VT-SCC),Landed 8:20 PM
+7:45 PM,UL143,Colombo (CMB),SriLankan Airlines,A320 (4R-ABL),Landed 7:43 PM
+7:50 PM,AI608,Bengaluru (BLR),Air India,A319 (VT-SCF),Landed 7:51 PM
+7:50 PM,6.00E+129,Delhi (DEL),IndiGo,A320 (VT-IFP),Landed 7:27 PM
+8:05 PM,UK955,Delhi (DEL),Vistara,A320 (VT-TTJ),Landed 8:17 PM
+8:10 PM,AI662,Goa (GOI),Air India,A321 (VT-PPB),Landed 8:56 PM
+8:10 PM,SG8168,Jaipur (JAI),SpiceJet,B738 (VT-SYW),Landed 8:00 PM
+8:15 PM,AI24,Delhi (DEL),Air India,32B,Canceled
+8:15 PM,UK854,Bengaluru (BLR),Vistara,B738 (VT-TGE),Landed 8:27 PM
+8:15 PM,UK776,Kolkata (CCU),Vistara,B738 (VT-TGI),Landed 8:47 PM
+8:15 PM,6E313,Ahmedabad (AMD),IndiGo,A320 (VT-IEO),Landed 8:10 PM
+8:20 PM,G8640,Delhi (DEL),GoAir,A20N (VT-WGI),Landed 7:58 PM
+8:20 PM,6E6449,Bengaluru (BLR),IndiGo,A320 (VT-IEW),Landed 8:58 PM
+8:25 PM,GF64,Bahrain (BAH),Gulf Air,A321 (A9C-CF),Landed 8:07 PM
+8:25 PM,G8396,Lucknow (LKO),GoAir,A20N (VT-WGX),Landed 9:31 PM
+8:35 PM,EK508,Dubai (DXB),Emirates,B77W (A6-EPY),Landed 7:58 PM
+8:35 PM,SG6355,Andal (RDP),SpiceJet,B737 (VT-SYP),Landed 8:41 PM
+8:35 PM,6E5395,Cochin (COK),IndiGo,A320 (VT-IDQ),Landed 8:42 PM
+8:40 PM,AI985,Ahmedabad (AMD),Air India,A321 (VT-PPA),Landed 8:55 PM
+8:40 PM,SG468,Hyderabad (HYD),SpiceJet,B738 (VT-SGJ),Landed 8:43 PM
+8:45 PM,G9401,Sharjah (SHJ),Air Arabia,A320 (A6-ANX),Landed 8:30 PM
+8:45 PM,6.00E+231,Hyderabad (HYD),IndiGo,A20N (VT-IVI),Landed 9:04 PM
+8:45 PM,6E433,Guwahati (GAU),IndiGo,A20N (VT-IZT),Landed 8:19 PM
+8:50 PM,SG6366,Kolkata (CCU),SpiceJet,B738 (VT-SLL),Landed 9:03 PM
+8:50 PM,SG8709,Delhi (DEL),SpiceJet,B738 (VT-SYB),Landed 9:06 PM
+8:50 PM,6E459,Mangalore (IXE),IndiGo,A20N (VT-IZZ),Landed 8:50 PM
+8:55 PM,SG6283,Cochin (COK),SpiceJet,B738 (VT-SXC),Landed 9:46 PM
+9:05 PM,AI610,Bengaluru (BLR),Air India,A20N (VT-EXG),Landed 9:12 PM
+9:05 PM,9I652,Bhavnagar (BHU),Alliance Air,AT76 (VT-RKL),Landed 9:26 PM
+9:10 PM,6E843,Delhi (DEL),IndiGo,A20N (VT-IJB),Landed 8:52 PM
+9:15 PM,AI624,Delhi (DEL),Air India,A20N (VT-CIH),Landed 9:13 PM
+9:15 PM,UK977,Delhi (DEL),Vistara,A320 (VT-TTN),Landed 9:21 PM
+9:20 PM,6E6017,Vadodara (BDQ),IndiGo,A320 (VT-INZ),Landed 9:50 PM
+9:25 PM,G8537,Ahmedabad (AMD),GoAir,A20N (VT-WJQ),Landed 9:14 PM
+9:25 PM,6E587,Indore (IDR),IndiGo,A20N (VT-ITQ),Landed 9:16 PM
+9:30 PM,6E5348,Bengaluru (BLR),IndiGo,A20N (VT-IVQ),Landed 10:03 PM
+9:35 PM,AI441,Aurangabad (IXU),Air India,A319 (VT-SCL),Landed 9:35 PM
+9:35 PM,UK652,Chandigarh (IXC),Vistara,B738 (VT-TGB),Landed 9:43 PM
+9:40 PM,UA48,New York (EWR),United Airlines,B77W (N2140U),Landed 10:00 PM
+9:45 PM,G8484,Ranchi (IXR),GoAir,A20N (VT-WJN),Landed 10:03 PM
+9:45 PM,6.00E+197,Delhi (DEL),IndiGo,A320 (VT-IHD),Landed 9:21 PM
+9:50 PM,UK850,Bengaluru (BLR),Vistara,A20N (VT-TNP),Landed 9:55 PM
+9:55 PM,UK985,Delhi (DEL),Vistara,A320 (VT-TTD),Landed 10:16 PM
+10:00 PM,G86,Abu Dhabi (AUH),GoAir,A20N (VT-WGJ),Landed 9:35 PM
+10:00 PM,TG317,Bangkok (BKK),Thai Airways,B772 (HS-TJT),Landed 10:12 PM
+10:05 PM,G8446,Delhi (DEL),GoAir,A320 (VT-GOP),Landed 10:06 PM
+10:05 PM,SG703,Varanasi (VNS),Corendon Airlines,B738 (TC-TJU),Landed 10:20 PM
+10:05 PM,SG8169,Delhi (DEL),SpiceJet,B738 (VT-SYZ),Landed 10:20 PM
+10:10 PM,AC46,Toronto (YYZ),Air Canada,B77L (C-FIVK),Landed 12:08 AM
+10:10 PM,AI55,Cochin (COK),Air India,A20N (VT-CIN),Landed 10:41 PM
+10:10 PM,AI805,Delhi (DEL),Air India,A319 (VT-SCP),Canceled
+10:10 PM,G8345,Cochin (COK),GoAir,A20N (VT-WGD),Landed 11:07 PM
+10:10 PM,SQ424,Singapore (SIN),Singapore Airlines,A388 (9V-SKT),Landed 10:12 PM
+10:15 PM,SG6933,Dehradun (DED),SpiceJet,B738 (VT-SLJ),Landed 10:35 PM
+10:15 PM,6.00E+84,Dubai (DXB),IndiGo,A320 (VT-IHM),Landed 10:25 PM
+10:20 PM,AI343,Singapore (SIN),Air India,A20N (VT-EXJ),Landed 10:49 PM
+10:20 PM,OD215,Kuala Lumpur (KUL),Malindo Air,B739 (9M-LNG),Landed 9:56 PM
+10:20 PM,6E404,Nagpur (NAG),IndiGo,A320 (VT-IHJ),Landed 10:25 PM
+10:25 PM,G8247,Bhubaneswar (BBI),GoAir,A20N (VT-WJL),Landed 10:59 PM
+10:25 PM,G82507,Chandigarh (IXC),GoAir,A20N (VT-WJO),Landed 11:13 PM
+10:25 PM,MH194,Kuala Lumpur (KUL),Malaysia Airlines,A333 (9M-MTI),Landed 10:38 PM
+10:25 PM,6E6176,Kolkata (CCU),IndiGo,A320 (VT-IDZ),Landed 11:13 PM
+10:30 PM,I5331,Hyderabad (HYD),AirAsia,A320 (VT-VTZ),Landed 10:30 PM
+10:30 PM,LX154,Zurich (ZRH),Swiss,A343 (HB-JMH),Landed 10:57 PM
+10:35 PM,DL24,New York (JFK),Delta Air Lines,B77L (N703DN),Landed 9:37 PM
+10:35 PM,IX248,Dubai (DXB),Air India Express (India Gate / Gateway Livery),B738 (VT-AXH),Landed 10:34 PM
+10:35 PM,SG377,Patna (PAT),SpiceJet,B738 (VT-SYF),Landed 10:27 PM
+10:35 PM,UK824,Chennai (MAA),Vistara,B738 (VT-TGA),Landed 10:57 PM
+10:45 PM,SG456,Bengaluru (BLR),SpiceJet,B738 (VT-SYY),Landed 10:49 PM
+10:50 PM,UK953,Delhi (DEL),Vistara,B738 (VT-TGG),Landed 11:05 PM
+10:55 PM,AI668,Thiruvananthapuram (TRV),Air india (Star Alliance Livery),A20N (VT-EXO),Landed 11:18 PM
+10:55 PM,AI689,Dehradun (DED),Air India,A319 (VT-SCR),Landed 11:10 PM
+10:55 PM,SG8715,Delhi (DEL),SpiceJet,B738 (VT-SLF),Landed 11:21 PM
+10:55 PM,UK876,Hyderabad (HYD),Vistara,A20N (VT-TNF),Landed 11:13 PM
+11:00 PM,G826,Bangkok (BKK),GoAir,A20N (VT-WGU),Landed 11:25 PM
+11:00 PM,I5334,Bengaluru (BLR),AirAsia,A320 (VT-NAG),Landed 11:04 PM
+11:00 PM,6.00E+185,Delhi (DEL),IndiGo,A20N (VT-IVZ),Landed 10:44 PM
+11:05 PM,SG252,Chennai (MAA),SpiceJet,B738 (VT-SXA),Landed 11:35 PM
+11:10 PM,AI191,Delhi (DEL),Air India,B77W (VT-ALL),Landed 11:28 PM
+11:10 PM,I5482,Delhi (DEL),AirAsia,A320 (VT-ATQ),Landed 11:44 PM
+11:10 PM,6E5383,Hyderabad (HYD),IndiGo,A20N (VT-ITG),Landed 11:38 PM
+11:15 PM,PG733,Bangkok (BKK),Bangkok Airways (Samui Livery),A320 (HS-PGW),Landed 11:21 PM
+11:25 PM,AI632,Bhopal (BHO),Air India,A20N (VT-EXQ),Landed 11:28 PM
+11:25 PM,SG6237,Jaipur (JAI),SpiceJet,B738 (VT-SGQ),Landed 1:00 AM
+11:25 PM,UK866,Bengaluru (BLR),Vistara,B738 (VT-TGH),Landed 11:32 PM
+11:30 PM,AI51,Hyderabad (HYD),Air India,A319 (VT-SCV),Landed 11:52 PM
+11:40 PM,AI622,Chandigarh (IXC),Air India,A320 (VT-EXD),Landed 12:35 AM
+11:40 PM,SG6248,Coimbatore (CJB),SpiceJet,B737 (VT-SLP),Landed 12:39 AM
+11:45 PM,SG489,Kolkata (CCU),SpiceJet,B737 (VT-SYT),Landed 12:03 AM
+11:45 PM,SG612,Chennai (MAA),SpiceJet,B737 (VT-SLA),Landed 11:50 PM
+11:45 PM,SG6250,Mangalore (IXE),SpiceJet,B738 (VT-SLG),Landed 12:09 AM
+11:50 PM,G8429,Delhi (DEL),GoAir,A320 (VT-GOR),Landed 11:40 PM
+11:50 PM,SG8159,Delhi (DEL),SpiceJet,B738 (VT-SGG),Landed 12:04 AM
+11:50 PM,UK981,Delhi (DEL),Vistara,A20N (VT-TNB),Landed 12:02 AM
+11:55 PM,AI630,Nagpur (NAG),Air India,A319 (VT-SCS),Landed 11:46 PM
+11:55 PM,LH766,Munich (MUC),Lufthansa,359,Canceled
+11:55 PM,UK774,Kolkata (CCU),Vistara,B738 (VT-TGD),Landed 11:53 PM
+11:55 PM,UK844,Goa (GOI),Vistara,A20N (VT-TNE),Landed 11:35 PM
+11:55 PM,6E6183,Chennai (MAA),IndiGo,A320 (VT-INU),Landed 11:41 PM
+11:59 PM,SG638,Ahmedabad (AMD),SpiceJet,B737 (VT-SYU),Landed 12:14 AM
