@@ -1,4 +1,4 @@
-Time,Flight Number,Source,Flight Name,Aircraft,Status
+Time,Flight Number,Destination,Flight Name,Aircraft,Status
 2:30 AM,KL878,Amsterdam (AMS),KLM,B78X (PH-BKF),Departed 2:54 AM
 2:30 AM,6.00E+272,Hyderabad (HYD),IndiGo,A320 (VT-IGJ),Departed 2:59 AM
 2:35 AM,SG748,Hyderabad (HYD),SpiceJet,B738 (VT-SGX),Departed 2:44 AM

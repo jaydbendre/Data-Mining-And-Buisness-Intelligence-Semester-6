@@ -1,4 +1,4 @@
-Time,Flight Number,Source,Flight Name,Aircraft,Status
+Time,Flight Number,Destination,Flight Name,Aircraft,Status
 12:05 AM,G82508,Delhi (DEL),GoAir,A320 (VT-GOS),Departed 12:20 AM
 12:05 AM,I5330,Delhi (DEL),AirAsia,A320 (VT-JPR),Departed 12:32 AM
 12:05 AM,PG734,Bangkok (BKK),Bangkok Airways (Samui Livery),A320 (HS-PGW),Departed 12:16 AM

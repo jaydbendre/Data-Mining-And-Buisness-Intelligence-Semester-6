@@ -1,4 +1,4 @@
-Time,Flight Number,Source,Flight Name,Aircraft,Status
+Time,Flight Number,Destination,Flight Name,Aircraft,Status
 12:05 AM,G82508,Delhi (DEL),GoAir,A20N (VT-WGU),Departed 12:26 AM
 12:05 AM,I5330,Delhi (DEL),AirAsia,A320 (VT-SIN),Departed 12:29 AM
 12:05 AM,PG734,Bangkok (BKK),Bangkok Airways (Krabi Livery),A320 (HS-PGV),Departed 12:08 AM

@@ -1,4 +1,4 @@
-Time,Flight Number,Source,Flight Name,Aircraft,Status
+Time,Flight Number,Destination,Flight Name,Aircraft,Status
 7:50 AM,AI864,Delhi (DEL),Air India,A20N (VT-EXM),Departed 9:24 AM
 7:50 AM,SG6373,Siliguri (IXB),SpiceJet,B738 (VT-SXA),Departed 8:02 AM
 7:50 AM,9I625,Bhuj (BHJ),Alliance Air,AT76 (VT-RKL),Departed 8:13 AM
