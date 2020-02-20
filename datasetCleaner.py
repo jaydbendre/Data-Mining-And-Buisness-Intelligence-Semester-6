@@ -67,7 +67,7 @@ def add_delay(value):
     time = pd.to_datetime(value["Time"], format="%Y-%m-%d %H:%M:%S")
     actual_time = pd.to_datetime(value["Actual_Time"], format="%Y-%m-%d %H:%M:%S")
     if pd.isnull(actual_time):
-        return np.nan
+        return 0.0
     else:
         return pd.Timedelta(abs(time - actual_time)).seconds / 60
 
