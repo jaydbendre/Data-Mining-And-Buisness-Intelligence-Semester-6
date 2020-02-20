@@ -37,25 +37,29 @@ def update_timestamp_init(value):
 
 
 def update_actual_time(value):
-    status = value["Status"].split(" ")
-    if len(status) == 3 and status[1] != "to":
-        time = value["date"] + " " + status[1] + " " + status[2]
-        scheduled_time =  pd.to_datetime(
-            value["Time"], format="%Y-%m-%d %H:%M:%S")
-        actual_time = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
-        
-        if actual_time > pd.to_datetime(value["date"]+" "+"00:00:00",format="%Y-%m-%d %H:%M:%S") and (scheduled_time >= pd.to_datetime(value["date"]+" "+"23:00:00",format="%Y-%m-%d %H:%M:%S")) :
-            value["date"] = pd.to_datetime(
-                    value["date"], format="%Y-%m-%d"
-                ) + dt.timedelta(days=1)  
-            value["date"] = value["date"].date()
-            time = str(value["date"]) + " " + status[1] + " " + status[2]
+    # print(value["Status"])
+    if type(value["Status"]) == type("String"):
+        status = value["Status"].split(" ")
+        if len(status) == 3 and status[1] != "to":
+            time = value["date"] + " " + status[1] + " " + status[2]
             scheduled_time =  pd.to_datetime(
-            value["Time"], format="%Y-%m-%d %H:%M:%S")
+                value["Time"], format="%Y-%m-%d %H:%M:%S")
             actual_time = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
-        
-        timedelta = pd.Timedelta(actual_time -scheduled_time).seconds/3600
-        return actual_time
+            
+            if actual_time > pd.to_datetime(value["date"]+" "+"00:00:00",format="%Y-%m-%d %H:%M:%S") and (scheduled_time >= pd.to_datetime(value["date"]+" "+"23:00:00",format="%Y-%m-%d %H:%M:%S")) :
+                value["date"] = pd.to_datetime(
+                        value["date"], format="%Y-%m-%d"
+                    ) + dt.timedelta(days=1)  
+                value["date"] = value["date"].date()
+                time = str(value["date"]) + " " + status[1] + " " + status[2]
+                scheduled_time =  pd.to_datetime(
+                value["Time"], format="%Y-%m-%d %H:%M:%S")
+                actual_time = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
+            
+            timedelta = pd.Timedelta(actual_time -scheduled_time).seconds/3600
+            return actual_time
+        else:
+            return np.nan
     else:
         return np.nan
 
@@ -69,8 +73,11 @@ def add_delay(value):
 
 
 def update_status(value):
-    value = value.split(" ")[0]
-    return value
+    if value != np.nan and type(value) == type("String"):
+        value = value.split(" ")[0]
+        return value
+    else:
+        return -9999
 
 
 def dataCleaner():
