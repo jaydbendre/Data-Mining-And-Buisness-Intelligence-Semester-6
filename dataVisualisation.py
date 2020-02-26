@@ -7,9 +7,7 @@ from geopy.geocoders import Nominatim
 data = pd.read_csv("Datasets/FinalMergedDataset/cleaned_dataset.csv")
 
 data = pd.DataFrame(data)
-geolocator = Nominatim()
-
-geolocator = Nominatim(user_agent="localhost")
+geolocator = Nominatim(user_agent="jaydbendre")
 
 fun = lambda x : (geolocator.geocode(x).latitude,geolocator.geocode(x).longitude)
 data["source_coords"] = data["Source"].apply(fun,1)
