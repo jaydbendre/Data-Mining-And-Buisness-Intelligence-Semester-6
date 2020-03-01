@@ -13,7 +13,6 @@ location_data = file[["Source","Destination"]]
 # data = geopandas.tools.geocode(location_data.Source , provider="nominatim", user_agent="jaydbendre")
 # print(data)
 
-file = geopandas.read_file("Datasets/FinalMergedDataset/cleaned_dataset.csv")
 
 unique_location = dict()
 unique_set = set()
