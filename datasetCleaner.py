@@ -12,24 +12,32 @@ Functions to update across the dataset
 """
 Update Departure Source in the dataset
 """
+
+
 def update_source(value):
     if value["type"] == "D":
         return "Mumbai"
     else:
         return value["Source"]
 
+
 """
 Update Arrival Destination in the dataset
 """
+
+
 def update_destination(value):
     if value["type"] == "A":
         return "Mumbai"
     else:
         return value["Destination"]
 
+
 """
 Convert String of date and time to timestamp
 """
+
+
 def update_timestamp_init(value):
     timestamp = str(value["date"]) + " " + str(value["Time"])
     timestamp = pd.to_datetime(timestamp, format="%Y-%m-%d %H:%M:%S")
@@ -42,30 +50,42 @@ def update_actual_time(value):
         status = value["Status"].split(" ")
         if len(status) == 3 and status[1] != "to":
             time = value["date"] + " " + status[1] + " " + status[2]
-            scheduled_time =  pd.to_datetime(
+            scheduled_time = pd.to_datetime(
                 value["Time"], format="%Y-%m-%d %H:%M:%S")
             actual_time = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
-            
-            if actual_time > pd.to_datetime(value["date"]+" "+"00:00:00",format="%Y-%m-%d %H:%M:%S") and (scheduled_time >= pd.to_datetime(value["date"]+" "+"23:00:00",format="%Y-%m-%d %H:%M:%S")) :
-                value["date"] = pd.to_datetime(
-                        value["date"], format="%Y-%m-%d"
-                    ) + dt.timedelta(days=1)  
-                value["date"] = value["date"].date()
-                time = str(value["date"]) + " " + status[1] + " " + status[2]
-                scheduled_time =  pd.to_datetime(
-                value["Time"], format="%Y-%m-%d %H:%M:%S")
-                actual_time = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
-            
-            timedelta = pd.Timedelta(actual_time -scheduled_time).seconds/3600
+
+            threshold_date = pd.to_datetime(
+                value["date"]+" "+"00:00:00", format="%Y-%m-%d %H:%M:%S")
+
+            if actual_time >= threshold_date and scheduled_time <= threshold_date:
+                print("1")
+                actual_time = actual_time - dt.timedelta(days=1)
+            elif actual_time >= threshold_date and scheduled_time <= threshold_date:
+                print("2")
+                actual_time = actual_time + dt.timedelta(days=1)
+            # if actual_time > pd.to_datetime(value["date"]+" "+"00:00:00", format="%Y-%m-%d %H:%M:%S") and (scheduled_time <= pd.to_datetime(value["date"]+" "+"00:00:00", format="%Y-%m-%d %H:%M:%S")):
+            #     value["date"] = pd.to_datetime(
+            #         value["date"], format="%Y-%m-%d"
+            #     ) - dt.timedelta(days=1)
+            #     value["date"] = value["date"].date()
+            #     time = str(value["date"]) + " " + status[1] + " " + status[2]
+            #     scheduled_time = pd.to_datetime(
+            #         value["Time"], format="%Y-%m-%d %H:%M:%S")
+            #     actual_time = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
+
+            print(actual_time, scheduled_time)
+            timedelta = pd.Timedelta(actual_time - scheduled_time).seconds/3600
             return actual_time
         else:
             return np.nan
     else:
         return np.nan
 
+
 def add_delay(value):
     time = pd.to_datetime(value["Time"], format="%Y-%m-%d %H:%M:%S")
-    actual_time = pd.to_datetime(value["Actual_Time"], format="%Y-%m-%d %H:%M:%S")
+    actual_time = pd.to_datetime(
+        value["Actual_Time"], format="%Y-%m-%d %H:%M:%S")
     if pd.isnull(actual_time):
         return 0.0
     else:
@@ -84,15 +104,18 @@ def dataCleaner():
     dataset = pd.read_csv("Datasets/FinalMergedDataset/dataset.csv")
     df = pd.DataFrame(
         dataset[
-            ["Time", "date", "Source", "Flight Name", "Status", "type", "Destination"]
+            ["Time", "date", "Source", "Flight Name",
+                "Status", "type", "Destination"]
         ]
     )
 
     # print(df["Status"])
     df["Source"] = df[["Source", "type"]].apply(update_source, 1)
-    df["Destination"] = df[["Destination", "type"]].apply(update_destination, 1)
+    df["Destination"] = df[["Destination", "type"]].apply(
+        update_destination, 1)
     df["Time"] = df[["date", "Time"]].apply(update_timestamp_init, 1)
-    df["Actual_Time"] = df[["Time", "Status", "date"]].apply(update_actual_time, 1)
+    df["Actual_Time"] = df[["Time", "Status", "date"]].apply(
+        update_actual_time, 1)
     # df = df.dropna()
     df["Status"] = df["Status"].apply(update_status, 1)
     map_dict = {
