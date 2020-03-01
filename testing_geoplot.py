@@ -2,10 +2,10 @@ import pandas as pd
 import geopandas
 import numpy as np
 import json
-from gcmap import GCMapper,Gradient
 import matplotlib.pyplot as plt
-from matplotlib.colors import Normalize , LinearSegmentedColormap , PowerNorm
-from geopy.geocoders import Nominatim
+import plotly.graph_objects as go
+import random 
+
 # geolocator = Nominatim(user_agent="jaydbendre")
 file = pd.read_csv("Datasets/FinalMergedDataset/cleaned_dataset.csv")
 
@@ -75,17 +75,57 @@ def des_long(data):
 location_data["source_lat"] = location_data["Source"].apply(source_lat,1)
 location_data["source_long"] = location_data["Source"].apply(source_long,1)
 location_data["des_lat"] = location_data["Destination"].apply(des_lat,1)
-location_data["des_long"] = location_data["Source"].apply(des_long,1)
+location_data["des_long"] = location_data["Destination"].apply(des_long,1)
 
-print(location_data.head())
+# print(location_data.head())
 
-airport_data = location_data.groupby(["source_lat","source_long","des_lat","des_long"]).size()
+airport_data = location_data.groupby(["Source","Destination","source_lat","source_long","des_lat","des_long"]).size()
 airport_data = airport_data.reset_index()
-airport_data.columns = ("source_lat","source_long","des_lat","des_long","count")
-grad = Gradient(((0, 0, 0, 0), (0.5, 204, 0, 153), (1, 255, 204, 230)))
+airport_data.columns = ("Source","Destination","source_lat","source_long","des_lat","des_long","count")
+print(airport_data.head())
+fig=go.Figure()
+print(airport_data["source_long"])
+fig.add_trace(go.Scattergeo(
+    lon = airport_data["source_long"],
+    lat = airport_data["source_lat"],
+    hoverinfo = "text",
+    text= airport_data["Source"],
+    mode = "markers",
+    marker = dict(
+        size=10,
+        color="rgb(255,0,0)",
+        line = dict(
+            width=3,
+            color = "rgba(68,68,68,0)"
+        )
+    )
+))
+fig.add_trace(go.Scattergeo(
+    lon = airport_data["des_long"],
+    lat = airport_data["des_lat"],
+    hoverinfo = "text",
+    text= airport_data["Destination"],
+    mode = "markers",
+    marker = dict(
+        size=10,
+        color="rgb(52,55,235)",
+        line = dict(
+            width=3,
+            color = "rgba(68,68,68,0)"
+        )
+    )
+))
+# fig.show()
 
-gcm = GCMapper(cols=grad,height = 2000,width=4000)
-gcm.set_data(airport_data["source_lat"],airport_data["source_long"],airport_data["des_lat"],airport_data["des_long"],airport_data["count"])
-
-img = gcm.draw()
-img.save("output.png")
+for i in range(len(airport_data)):
+    fig.add_trace(
+        go.Scattergeo(
+            lon = [airport_data["source_long"][i],airport_data["des_long"][i]],
+            lat = [airport_data["source_lat"][i],airport_data["des_lat"][i]],
+            mode = "lines",
+            line = dict(width =1,color = "rgb({},{},{})".format(random.randint(0,255),random.randint(0,255),random.randint(0,255))),
+            # opacity = float(airport_data["count"][i])/float(airport_data["count"].max())
+        )
+    )    
+    
+fig.show()
