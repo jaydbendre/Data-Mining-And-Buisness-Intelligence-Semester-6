@@ -57,23 +57,34 @@ def update_actual_time(value):
             threshold_date = pd.to_datetime(
                 value["date"]+" "+"00:00:00", format="%Y-%m-%d %H:%M:%S")
 
-            if actual_time >= threshold_date and scheduled_time <= threshold_date:
-                print("1")
-                actual_time = actual_time - dt.timedelta(days=1)
-            elif actual_time >= threshold_date and scheduled_time <= threshold_date:
-                print("2")
-                actual_time = actual_time + dt.timedelta(days=1)
-            # if actual_time > pd.to_datetime(value["date"]+" "+"00:00:00", format="%Y-%m-%d %H:%M:%S") and (scheduled_time <= pd.to_datetime(value["date"]+" "+"00:00:00", format="%Y-%m-%d %H:%M:%S")):
-            #     value["date"] = pd.to_datetime(
-            #         value["date"], format="%Y-%m-%d"
-            #     ) - dt.timedelta(days=1)
-            #     value["date"] = value["date"].date()
-            #     time = str(value["date"]) + " " + status[1] + " " + status[2]
-            #     scheduled_time = pd.to_datetime(
-            #         value["Time"], format="%Y-%m-%d %H:%M:%S")
-            #     actual_time = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
+            lb_threshold_date = pd.to_datetime(
+                value["date"]+" "+"20:30:00", format="%Y-%m-%d %H:%M:%S")
 
-            print(actual_time, scheduled_time)
+            ub_threshold_date = pd.to_datetime(
+                value["date"]+" "+"03:00:00", format="%Y-%m-%d %H:%M:%S")
+
+            if actual_time <= ub_threshold_date and scheduled_time >= lb_threshold_date:
+                actual_time = actual_time + dt.timedelta(days=1)
+            elif scheduled_time <= ub_threshold_date and actual_time >= lb_threshold_date:
+                actual_time = actual_time - dt.timedelta(days=1)
+                # if actual_time >= threshold_date and (lb_threshold_date <= scheduled_time):
+                #     # print("1")
+                #     actual_time = actual_time + dt.timedelta(days=1)
+                #     # pass
+                # elif (lb_threshold_date <= actual_time) and scheduled_time >= threshold_date:
+                #     # print("2")
+                #     actual_time = actual_time - dt.timedelta(days=1)
+                # # if actual_time > pd.to_datetime(value["date"]+" "+"00:00:00", format="%Y-%m-%d %H:%M:%S") and (scheduled_time <= pd.to_datetime(value["date"]+" "+"00:00:00", format="%Y-%m-%d %H:%M:%S")):
+                #     value["date"] = pd.to_datetime(
+                #         value["date"], format="%Y-%m-%d"
+                #     ) - dt.timedelta(days=1)
+                #     value["date"] = value["date"].date()
+                #     time = str(value["date"]) + " " + status[1] + " " + status[2]
+                #     scheduled_time = pd.to_datetime(
+                #         value["Time"], format="%Y-%m-%d %H:%M:%S")
+                #     actual_time = pd.to_datetime(time, format="%Y-%m-%d %I:%M %p")
+
+                # print(actual_time, scheduled_time)
             timedelta = pd.Timedelta(actual_time - scheduled_time).seconds/3600
             return actual_time
         else:
