@@ -1,4 +1,5 @@
 import pandas as pd
+# import geopandas
 import numpy as np
 import json
 import matplotlib.pyplot as plt
@@ -13,6 +14,7 @@ location_data = file[["Source","Destination"]]
 # data = geopandas.tools.geocode(location_data.Source , provider="nominatim", user_agent="jaydbendre")
 # print(data)
 
+# file = geopandas.read_file("Datasets/FinalMergedDataset/cleaned_dataset.csv")
 
 unique_location = dict()
 unique_set = set()
@@ -126,4 +128,5 @@ for i in range(len(airport_data)):
         )
     )    
     
+fig.write_html("test.html",auto_open=True)
 fig.show()
