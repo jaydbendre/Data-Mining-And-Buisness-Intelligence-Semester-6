@@ -1,9 +1,7 @@
+from scipy.stats import chisquare, chi2_contingency
 import pandas as pd
 import numpy as np
-from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
 import datetime as dt
-from scipy.stats import chisquare, chi2_contingency
 
 """
 Functions to update across the dataset
