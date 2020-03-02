@@ -44,7 +44,7 @@ unique_set = set()
 #     json.dump(unique_location,json_file)
 
 
-with open("coords.json", "r") as json_file:
+with open("../Resources/coords.json", "r") as json_file:
     unique_location = json.load(json_file)
 
 
