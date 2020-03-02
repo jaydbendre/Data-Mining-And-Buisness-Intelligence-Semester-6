@@ -15,7 +15,7 @@ def update_time(value):
 
 
 def dataMerger():
-    file_path = os.path.join(os.getcwd(), "Datasets")
+    file_path = "../Datasets/"
     i = 0
 
     folder_name = ["Arrivals", "Departures"]
@@ -66,16 +66,15 @@ def dataMerger():
         # print(file)
         # file = file.append(file)
 
-    with open(
-        os.path.join(os.getcwd(), "Datasets\\FinalMergedDataset\\dataset.csv"), "w"
-    ) as csv_file:
+    with open("../Datasets/FinalMergedDataset/dataset.csv", "w") as csv_file:
         file.to_csv(path_or_buf=csv_file, index=False)
 
-    file = pd.DataFrame(
-        pd.read_csv(
-            os.path.join(os.getcwd(), "Datasets\\FinalMergedDataset\\dataset.csv")
-        )
-    )
+    # file = pd.DataFrame(
+    #     pd.read_csv(
+    #         os.path.join(
+    #             os.getcwd(), "Datasets\\FinalMergedDataset\\dataset.csv")
+    #     )
+    # )
 
 
 dataMerger()

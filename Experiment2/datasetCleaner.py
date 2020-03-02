@@ -112,7 +112,7 @@ def update_status(value):
 
 
 def dataCleaner():
-    dataset = pd.read_csv("Datasets/FinalMergedDataset/dataset.csv")
+    dataset = pd.read_csv("../Datasets/FinalMergedDataset/dataset.csv")
     df = pd.DataFrame(
         dataset[
             ["Time", "date", "Source", "Flight Name",
@@ -156,7 +156,7 @@ def dataCleaner():
         ]
     )
 
-    with open("Datasets/FinalMergedDataset/cleaned_dataset.csv", "w") as f:
+    with open("../Datasets/FinalMergedDataset/cleaned_dataset.csv", "w") as f:
         cleaned_df.to_csv(path_or_buf=f, index=False)
 
 
