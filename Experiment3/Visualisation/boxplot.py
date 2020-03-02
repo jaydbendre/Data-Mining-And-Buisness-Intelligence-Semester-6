@@ -2,7 +2,7 @@ import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv("Datasets/FinalMergedDataset/cleaned_dataset.csv")
+df = pd.read_csv("../../Datasets/FinalMergedDataset/cleaned_dataset.csv")
 
 data = pd.DataFrame(df[
     [
@@ -21,6 +21,6 @@ fig = go.Figure()
 fig.add_trace(go.Box(y=y0["Delay"]))
 fig.add_trace(go.Box(y=y1["Delay"]))
 
-fig.write_html("box.html", auto_open=True)
+fig.write_html("Output/box.html", auto_open=True)
 
 fig.show()

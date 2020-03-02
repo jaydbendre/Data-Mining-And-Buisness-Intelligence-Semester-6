@@ -10,7 +10,7 @@ def get_day(value):
     return calendar.day_name[value.date().weekday()]
 
 
-data = pd.read_csv("Datasets/FinalMergedDataset/cleaned_dataset.csv")
+data = pd.read_csv("../../Datasets/FinalMergedDataset/cleaned_dataset.csv")
 
 data = pd.DataFrame(
     data[
