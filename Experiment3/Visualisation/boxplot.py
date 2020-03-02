@@ -11,16 +11,16 @@ data = pd.DataFrame(df[
     ]
 ])
 
-y0 = data[data["type"]=="A"]
-y1 = data[data["type"]=="D"]
+y0 = data[data["type"] == "A"]
+y1 = data[data["type"] == "D"]
 
-y0=y0[y0["Delay"]<=400]
-y1=y1[y1["Delay"]<=400]
+y0 = y0[y0["Delay"] <= 400]
+y1 = y1[y1["Delay"] <= 400]
 
 fig = go.Figure()
 fig.add_trace(go.Box(y=y0["Delay"]))
 fig.add_trace(go.Box(y=y1["Delay"]))
 
-fig.write_html("box.html",auto_open=True)
+fig.write_html("box.html", auto_open=True)
 
 fig.show()

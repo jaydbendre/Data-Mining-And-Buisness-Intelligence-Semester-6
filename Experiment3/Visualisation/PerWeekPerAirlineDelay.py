@@ -21,6 +21,7 @@ data["Day"] = data["Time"].apply(get_day, 1)
 data = data.groupby(["Flight Name","Day"])["Delay"].mean().reset_index()
 data = data.sort_values(by=["Day"])
 print(data)
+# fig = go.Figure()
 
 fig = px.line(data,x="Day",y="Delay",color="Flight Name")
 fig.write_html("per_week_delay.html",auto_open=True)
