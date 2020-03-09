@@ -1,480 +1,489 @@
 Source,Destination,Flight Name,type,Status,Time,Actual_Time,Delay,Delay_Status
-Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-02 06:05:00,2020-02-02 06:22:00,17.0,Delayed
-Ahmedabad (AMD),Mumbai,IndiGo,A,0,2020-02-02 06:30:00,2020-02-02 06:39:00,9.0,On time
-Mumbai,Dehradun (DED),SpiceJet,D,1,2020-02-02 06:35:00,2020-02-02 06:53:00,18.0,Delayed
-Bengaluru (BLR),Mumbai,SpiceJet,A,0,2020-02-02 09:35:00,2020-02-02 09:36:00,1.0,On time
-Goa (GOI),Mumbai,Air India,A,0,2020-02-02 10:35:00,2020-02-02 10:58:00,23.0,Delayed
-Mumbai,Jodhpur (JDH),Air India,D,1,2020-02-02 11:00:00,2020-02-02 11:41:00,41.0,Delayed
-Mumbai,Nanded (NDC),Trujet,D,1,2020-02-02 13:20:00,2020-02-02 16:36:00,196.0,Delayed
-Mumbai,Chennai (MAA),IndiGo,D,1,2020-02-02 20:10:00,2020-02-02 20:33:00,23.0,Delayed
-Chennai (MAA),Mumbai,SpiceJet,A,0,2020-02-02 23:05:00,2020-02-02 23:28:00,23.0,Delayed
-Kolkata (CCU),Mumbai,Vistara,A,0,2020-02-02 23:55:00,2020-02-02 23:44:00,11.0,On time
-Mumbai,Dubai (DXB),IndiGo,D,1,2020-02-03 08:30:00,2020-02-03 08:36:00,6.0,On time
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-03 09:35:00,2020-02-03 09:47:00,12.0,On time
-Ranchi (IXR),Mumbai,IndiGo,A,0,2020-02-03 11:05:00,2020-02-03 10:41:00,24.0,Delayed
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-03 11:20:00,2020-02-03 11:14:00,6.0,On time
-Mumbai,Jeddah (JED),IndiGo,D,1,2020-02-03 12:45:00,2020-02-03 13:19:00,34.0,Delayed
-Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-03 13:40:00,2020-02-03 13:23:00,17.0,Delayed
+Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-02 00:45:00,2020-02-02 00:44:00,1.0,On time
+Delhi (DEL),Mumbai,Air India,A,0,2020-02-02 01:10:00,2020-02-02 01:39:00,29.0,Delayed
+Mumbai,Chennai (MAA),Vistara,D,1,2020-02-02 06:05:00,2020-02-02 06:18:00,13.0,On time
+Mumbai,Hyderabad (HYD),IndiGo,D,1,2020-02-02 06:15:00,2020-02-02 06:40:00,25.0,Delayed
+Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-02 06:40:00,2020-02-02 06:25:00,15.0,On time
+Addis Ababa (ADD),Mumbai,Ethiopian Airlines,A,0,2020-02-02 07:15:00,2020-02-02 06:27:00,48.0,Delayed
+Goa (GOI),Mumbai,GoAir,A,0,2020-02-02 07:55:00,2020-02-02 07:32:00,23.0,Delayed
+Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-02 08:25:00,2020-02-02 09:15:00,50.0,Delayed
+Mumbai,Patna (PAT),Air India,D,1,2020-02-02 09:50:00,2020-02-02 11:02:00,72.0,Delayed
+Jaipur (JAI),Mumbai,GoAir,A,0,2020-02-02 10:40:00,2020-02-02 10:09:00,31.0,Delayed
+Mumbai,Vadodara (BDQ),IndiGo,D,1,2020-02-02 12:20:00,2020-02-02 14:03:00,103.0,Delayed
+Mumbai,Goa (GOI),Vistara,D,1,2020-02-02 12:45:00,2020-02-02 13:13:00,28.0,Delayed
+Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-02 13:40:00,2020-02-02 13:51:00,11.0,On time
+Goa (GOI),Mumbai,IndiGo,A,0,2020-02-02 14:25:00,2020-02-02 14:27:00,2.0,On time
+Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-02 15:35:00,2020-02-02 15:48:00,13.0,On time
+Chennai (MAA),Mumbai,IndiGo,A,0,2020-02-02 17:40:00,2020-02-02 18:03:00,23.0,Delayed
+Mumbai,Delhi (DEL),Vistara,D,1,2020-02-02 18:30:00,2020-02-02 18:44:00,14.0,On time
+Delhi (DEL),Mumbai,GoAir,A,0,2020-02-02 20:20:00,2020-02-02 19:58:00,22.0,Delayed
+Coimbatore (CJB),Mumbai,SpiceJet,A,0,2020-02-02 23:40:00,2020-02-03 02:27:00,167.0,Delayed
+Hyderabad (HYD),Mumbai,IndiGo,A,0,2020-02-03 05:25:00,2020-02-03 05:11:00,14.0,On time
+Mumbai,Abu Dhabi (AUH),IndiGo,D,1,2020-02-03 06:20:00,2020-02-03 06:25:00,5.0,On time
+Chennai (MAA),Mumbai,IndiGo,A,0,2020-02-03 07:15:00,2020-02-03 07:02:00,13.0,On time
+Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-03 07:45:00,2020-02-03 08:00:00,15.0,On time
+Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-03 08:25:00,2020-02-03 08:56:00,31.0,Delayed
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-03 08:30:00,2020-02-03 08:04:00,26.0,Delayed
+Vadodara (BDQ),Mumbai,IndiGo,A,0,2020-02-03 09:15:00,2020-02-03 09:02:00,13.0,On time
+Cochin (COK),Mumbai,GoAir,A,0,2020-02-03 09:45:00,2020-02-03 09:26:00,19.0,Delayed
+Mumbai,Kanpur (KNU),SpiceJet,D,1,2020-02-03 10:30:00,2020-02-03 11:27:00,57.0,Delayed
+Mumbai,Chennai (MAA),IndiGo,D,1,2020-02-03 13:10:00,2020-02-03 14:11:00,61.0,Delayed
+Dubai (DXB),Mumbai,Emirates (Expo 2020 - Opportunity Livery),A,0,2020-02-03 14:00:00,2020-02-03 14:33:00,33.0,Delayed
 Singapore (SIN),Mumbai,IndiGo,A,0,2020-02-03 14:25:00,2020-02-03 13:32:00,53.0,Delayed
-Udaipur (UDR),Mumbai,Vistara,A,0,2020-02-03 16:00:00,2020-02-03 16:06:00,6.0,On time
-Amritsar (ATQ),Mumbai,IndiGo,A,0,2020-02-03 16:15:00,2020-02-03 16:27:00,12.0,On time
-Cochin (COK),Mumbai,Air India,A,0,2020-02-03 22:10:00,2020-02-03 23:29:00,79.0,Delayed
-Hyderabad (HYD),Mumbai,AirAsia,A,0,2020-02-03 22:30:00,2020-02-03 22:16:00,14.0,On time
-Mangalore (IXE),Mumbai,SpiceJet,A,0,2020-02-03 23:45:00,2020-02-03 23:46:00,1.0,On time
-Mumbai,Colombo (CMB),Air India,D,1,2020-02-03 23:45:00,2020-02-04 00:54:00,69.0,Delayed
-Mumbai,Hyderabad (HYD),SpiceJet,D,1,2020-02-04 06:25:00,2020-02-04 06:27:00,2.0,On time
-Mumbai,Guwahati (GAU),IndiGo,D,1,2020-02-04 07:10:00,2020-02-04 07:10:00,0.0,On time
-Goa (GOI),Mumbai,GoAir,A,0,2020-02-04 07:55:00,2020-02-04 07:36:00,19.0,Delayed
-Mumbai,Kolkata (CCU),SpiceJet,D,1,2020-02-04 08:25:00,2020-02-04 09:07:00,42.0,Delayed
-Mumbai,Jodhpur (JDH),SpiceJet,D,1,2020-02-04 09:15:00,2020-02-04 09:32:00,17.0,Delayed
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-04 19:55:00,2020-02-04 20:15:00,20.0,Delayed
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-04 20:20:00,2020-02-04 20:21:00,1.0,On time
-Bahrain (BAH),Mumbai,Gulf Air,A,0,2020-02-04 20:25:00,2020-02-04 20:23:00,2.0,On time
-Chandigarh (IXC),Mumbai,GoAir,A,0,2020-02-04 22:25:00,2020-02-04 22:41:00,16.0,Delayed
-Ahmedabad (AMD),Mumbai,Air India,A,0,2020-02-05 05:15:00,2020-02-05 05:59:00,44.0,Delayed
+Chennai (MAA),Mumbai,GoAir,A,0,2020-02-03 15:40:00,2020-02-03 15:48:00,8.0,On time
+Mumbai,Delhi (DEL),Vistara,D,1,2020-02-03 15:45:00,2020-02-03 16:27:00,42.0,Delayed
+Mumbai,Mangalore (IXE),IndiGo,D,1,2020-02-03 15:45:00,2020-02-03 16:20:00,35.0,Delayed
+Coimbatore (CJB),Mumbai,IndiGo,A,0,2020-02-03 16:20:00,2020-02-03 17:11:00,51.0,Delayed
+Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-03 16:30:00,2020-02-03 17:19:00,49.0,Delayed
+Mumbai,Nagpur (NAG),GoAir,D,1,2020-02-03 18:40:00,2020-02-03 19:45:00,65.0,Delayed
+Mumbai,Jaipur (JAI),SpiceJet,D,1,2020-02-03 18:45:00,2020-02-03 19:16:00,31.0,Delayed
+Mumbai,Bengaluru (BLR),Vistara,D,1,2020-02-03 19:05:00,2020-02-03 19:38:00,33.0,Delayed
+Ranchi (IXR),Mumbai,IndiGo,A,0,2020-02-03 19:20:00,2020-02-03 19:29:00,9.0,On time
+Bengaluru (BLR),Mumbai,Vistara,A,0,2020-02-03 21:50:00,2020-02-03 21:45:00,5.0,On time
+Abu Dhabi (AUH),Mumbai,GoAir,A,0,2020-02-03 22:00:00,2020-02-03 22:06:00,6.0,On time
+Delhi (DEL),Mumbai,Vistara,A,0,2020-02-03 23:50:00,2020-02-04 00:10:00,20.0,Delayed
+Mumbai,Chennai (MAA),Air India,D,1,2020-02-04 05:40:00,2020-02-04 10:52:00,312.0,Delayed
+Jaipur (JAI),Mumbai,IndiGo,A,0,2020-02-04 07:05:00,2020-02-04 06:32:00,33.0,Delayed
+Mumbai,Chennai (MAA),SpiceJet,D,1,2020-02-04 07:25:00,2020-02-04 07:43:00,18.0,Delayed
+Mumbai,Delhi (DEL),GoAir,D,1,2020-02-04 08:00:00,2020-02-04 08:56:00,56.0,Delayed
+Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-04 09:30:00,2020-02-04 09:34:00,4.0,On time
+Mumbai,Jaipur (JAI),Air India,D,1,2020-02-04 11:10:00,2020-02-04 11:47:00,37.0,Delayed
+Delhi (DEL),Mumbai,Vistara,A,0,2020-02-04 12:35:00,2020-02-04 12:44:00,9.0,On time
+Mumbai,Kolkata (CCU),Vistara,D,1,2020-02-04 14:05:00,2020-02-04 14:21:00,16.0,Delayed
+Ahmedabad (AMD),Mumbai,GoAir,A,0,2020-02-04 15:10:00,2020-02-04 15:39:00,29.0,Delayed
+Mumbai,Surat (STV),SpiceJet,D,1,2020-02-04 17:35:00,2020-02-04 17:35:00,0.0,On time
+Mumbai,Chennai (MAA),SpiceJet,D,1,2020-02-04 18:25:00,2020-02-04 19:30:00,65.0,Delayed
+Jaipur (JAI),Mumbai,SpiceJet,A,0,2020-02-04 20:10:00,2020-02-04 19:51:00,19.0,Delayed
+Dubai (DXB),Mumbai,Air India Express (Hawa Mahal/Ujjayanta Palace),A,0,2020-02-04 22:35:00,2020-02-04 22:14:00,21.0,Delayed
 Goa (GOI),Mumbai,Air india (Star Alliance Livery),A,0,2020-02-05 05:55:00,2020-02-05 05:59:00,4.0,On time
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-05 07:35:00,2020-02-05 07:34:00,1.0,On time
-Mumbai,Delhi (DEL),GoAir,D,1,2020-02-05 08:00:00,2020-02-05 08:48:00,48.0,Delayed
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-05 09:35:00,2020-02-05 09:50:00,15.0,On time
-Mumbai,Delhi (DEL),Vistara,D,1,2020-02-05 10:25:00,2020-02-05 11:12:00,47.0,Delayed
-Jaipur (JAI),Mumbai,IndiGo,A,0,2020-02-05 11:30:00,2020-02-05 11:29:00,1.0,On time
-Diu (DIU),Mumbai,Alliance Air,A,0,2020-02-05 14:30:00,2020-02-05 15:17:00,47.0,Delayed
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-05 14:35:00,2020-02-05 14:43:00,8.0,On time
-Mumbai,Vadodara (BDQ),IndiGo,D,1,2020-02-05 15:30:00,2020-02-05 15:47:00,17.0,Delayed
-Chandigarh (IXC),Mumbai,IndiGo,A,0,2020-02-05 17:20:00,2020-02-05 18:08:00,48.0,Delayed
-Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-05 19:10:00,2020-02-05 19:16:00,6.0,On time
-Mumbai,Delhi (DEL),Vistara,D,1,2020-02-05 19:45:00,2020-02-05 21:24:00,99.0,Delayed
-Ahmedabad (AMD),Mumbai,IndiGo,A,0,2020-02-05 20:15:00,2020-02-05 20:34:00,19.0,Delayed
-Zurich (ZRH),Mumbai,Swiss,A,0,2020-02-05 22:30:00,2020-02-05 23:16:00,46.0,Delayed
-Mumbai,Goa (GOI),AirAsia,D,1,2020-02-05 23:05:00,2020-02-05 23:43:00,38.0,Delayed
-Hyderabad (HYD),Mumbai,Air India,A,0,2020-02-05 23:30:00,2020-02-05 23:50:00,20.0,Delayed
-Jaipur (JAI),Mumbai,GoAir,A,0,2020-02-06 00:10:00,2020-02-05 23:46:00,24.0,Delayed
-Doha (DOH),Mumbai,IndiGo,A,0,2020-02-06 04:15:00,2020-02-06 04:33:00,18.0,Delayed
-Dar-es-Salaam (DAR),Mumbai,Air Tanzania,A,0,2020-02-06 04:20:00,2020-02-06 04:17:00,3.0,On time
-Mumbai,Chandigarh (IXC),IndiGo,D,1,2020-02-06 09:20:00,2020-02-06 10:19:00,59.0,Delayed
-Mumbai,Jammu (IXJ),IndiGo,D,1,2020-02-06 10:45:00,2020-02-06 10:52:00,7.0,On time
-Mumbai,Jodhpur (JDH),Vistara,D,1,2020-02-06 14:30:00,2020-02-06 14:48:00,18.0,Delayed
-Delhi (DEL),Mumbai,Air India,A,0,2020-02-06 15:20:00,2020-02-06 16:42:00,82.0,Delayed
-Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-06 17:45:00,2020-02-06 17:57:00,12.0,On time
-Mumbai,Delhi (DEL),SpiceJet,D,1,2020-02-06 18:45:00,2020-02-06 19:20:00,35.0,Delayed
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-06 18:55:00,2020-02-06 18:58:00,3.0,On time
-Chennai (MAA),Mumbai,IndiGo,A,0,2020-02-06 19:20:00,2020-02-06 19:18:00,2.0,On time
-Guwahati (GAU),Mumbai,IndiGo,A,0,2020-02-06 20:45:00,2020-02-06 20:40:00,5.0,On time
-Mumbai,Cochin (COK),SpiceJet,D,1,2020-02-06 20:50:00,2020-02-06 21:38:00,48.0,Delayed
-Ranchi (IXR),Mumbai,GoAir,A,0,2020-02-06 21:45:00,2020-02-06 22:03:00,18.0,Delayed
-Varanasi (VNS),Mumbai,Corendon Airlines,A,0,2020-02-06 22:05:00,2020-02-06 22:08:00,3.0,On time
-Mumbai,Sharjah (SHJ),Air India Express (Kathakali/Bharatanatyam Livery),D,1,2020-02-06 23:40:00,2020-02-07 00:04:00,24.0,Delayed
-Munich (MUC),Mumbai,Lufthansa,A,0,2020-02-06 23:55:00,2020-02-07 00:02:00,7.0,On time
-Mumbai,Hong Kong (HKG),Cathay Pacific,D,1,2020-02-07 01:40:00,2020-02-07 02:09:00,29.0,Delayed
-Mumbai,Kuwait City (KWI),Kuwait Airways,D,1,2020-02-07 02:25:00,2020-02-07 02:13:00,12.0,On time
-Mumbai,Bengaluru (BLR),SpiceXpress,D,1,2020-02-07 04:50:00,2020-02-07 06:20:00,90.0,Delayed
-Mumbai,Delhi (DEL),SpiceJet,D,1,2020-02-07 06:00:00,2020-02-07 06:34:00,34.0,Delayed
-Goa (GOI),Mumbai,SpiceJet,A,0,2020-02-07 06:40:00,2020-02-07 06:12:00,28.0,Delayed
-Mumbai,Bengaluru (BLR),Vistara,D,1,2020-02-07 07:00:00,2020-02-07 07:15:00,15.0,On time
-Dubai (DXB),Mumbai,Emirates,A,0,2020-02-07 08:25:00,2020-02-07 08:03:00,22.0,Delayed
-Mumbai,Nagpur (NAG),IndiGo,D,1,2020-02-07 08:30:00,2020-02-07 09:14:00,44.0,Delayed
-Surat (STV),Mumbai,SpiceJet,A,0,2020-02-07 08:50:00,2020-02-07 08:54:00,4.0,On time
-Mumbai,Dhaka (DAC),SpiceJet,D,1,2020-02-07 08:55:00,2020-02-07 10:05:00,70.0,Delayed
-Cochin (COK),Mumbai,GoAir,A,0,2020-02-07 09:45:00,2020-02-07 09:34:00,11.0,On time
-Lucknow (LKO),Mumbai,IndiGo,A,0,2020-02-07 10:05:00,2020-02-07 10:11:00,6.0,On time
-Bhuj (BHJ),Mumbai,Alliance Air,A,0,2020-02-07 10:55:00,2020-02-07 10:58:00,3.0,On time
-Mumbai,Udaipur (UDR),IndiGo,D,1,2020-02-07 12:15:00,2020-02-07 12:28:00,13.0,On time
-Coimbatore (CJB),Mumbai,SpiceJet,A,0,2020-02-07 14:00:00,2020-02-07 14:15:00,15.0,On time
-Lucknow (LKO),Mumbai,IndiGo,A,0,2020-02-07 15:15:00,2020-02-07 15:57:00,42.0,Delayed
-Mumbai,Lucknow (LKO),GoAir,D,1,2020-02-07 15:15:00,2020-02-07 15:46:00,31.0,Delayed
-Mumbai,Delhi (DEL),Vistara,D,1,2020-02-07 15:45:00,2020-02-07 16:39:00,54.0,Delayed
-Mumbai,Bengaluru (BLR),Vistara,D,1,2020-02-07 17:30:00,2020-02-07 18:25:00,55.0,Delayed
-Chennai (MAA),Mumbai,IndiGo,A,0,2020-02-07 17:40:00,2020-02-07 18:19:00,39.0,Delayed
-Mumbai,Dubai (DXB),IndiGo,D,1,2020-02-07 18:20:00,2020-02-07 18:49:00,29.0,Delayed
-Mumbai,Delhi (DEL),GoAir,D,1,2020-02-07 18:30:00,2020-02-07 19:41:00,71.0,Delayed
-Mumbai,Delhi (DEL),Air India,D,1,2020-02-07 21:00:00,2020-02-07 22:11:00,71.0,Delayed
-Mumbai,Singapore (SIN),Singapore Airlines,D,1,2020-02-07 23:35:00,2020-02-08 00:27:00,52.0,Delayed
-Mumbai,Cochin (COK),GoAir,D,1,2020-02-08 05:10:00,2020-02-08 05:15:00,5.0,On time
-Mumbai,Istanbul (IST),Turkish Airlines,D,1,2020-02-08 06:50:00,2020-02-08 07:43:00,53.0,Delayed
-Mumbai,Varanasi (VNS),Air India,D,1,2020-02-08 10:25:00,2020-02-08 11:20:00,55.0,Delayed
+Chennai (MAA),Mumbai,IndiGo,A,0,2020-02-05 09:15:00,2020-02-05 08:53:00,22.0,Delayed
+Mumbai,Jodhpur (JDH),Air India,D,1,2020-02-05 09:35:00,2020-02-05 10:29:00,54.0,Delayed
+Lucknow (LKO),Mumbai,IndiGo,A,0,2020-02-05 10:05:00,2020-02-05 09:48:00,17.0,Delayed
+Mumbai,Abu Dhabi (AUH),GoAir,D,1,2020-02-05 14:40:00,2020-02-05 14:46:00,6.0,On time
+Mumbai,Bhopal (BHO),IndiGo,D,1,2020-02-05 15:25:00,2020-02-05 16:23:00,58.0,Delayed
+Mumbai,Hyderabad (HYD),IndiGo,D,1,2020-02-05 15:55:00,2020-02-05 16:20:00,25.0,Delayed
+Mumbai,Ahmedabad (AMD),IndiGo,D,1,2020-02-05 18:00:00,2020-02-05 18:25:00,25.0,Delayed
+Goa (GOI),Mumbai,IndiGo,A,0,2020-02-05 19:15:00,2020-02-05 19:24:00,9.0,On time
+Varanasi (VNS),Mumbai,Corendon Airlines,A,0,2020-02-05 22:05:00,2020-02-05 22:07:00,2.0,On time
+Mumbai,Delhi (DEL),AirAsia,D,1,2020-02-06 00:05:00,2020-02-06 00:41:00,36.0,Delayed
+Bengaluru (BLR),Mumbai,GoAir,A,0,2020-02-06 00:20:00,2020-02-06 00:16:00,4.0,On time
+Mumbai,Bengaluru (BLR),SpiceXpress,D,1,2020-02-06 05:20:00,2020-02-06 05:30:00,10.0,On time
+Mumbai,Rajkot (RAJ),Air India,D,1,2020-02-06 06:00:00,2020-02-06 06:38:00,38.0,Delayed
+Mumbai,Abu Dhabi (AUH),IndiGo,D,1,2020-02-06 06:20:00,2020-02-06 07:28:00,68.0,Delayed
+Mumbai,Chennai (MAA),SpiceJet,D,1,2020-02-06 07:25:00,2020-02-06 09:17:00,112.0,Delayed
+Mumbai,Kozhikode (CCJ),Air India,D,1,2020-02-06 08:00:00,2020-02-06 08:21:00,21.0,Delayed
+Hyderabad (HYD),Mumbai,IndiGo,A,0,2020-02-06 08:15:00,2020-02-06 08:07:00,8.0,On time
+Dubai (DXB),Mumbai,IndiGo,A,0,2020-02-06 08:50:00,2020-02-06 08:54:00,4.0,On time
+Mumbai,Delhi (DEL),Air India,D,1,2020-02-06 09:00:00,2020-02-06 11:41:00,161.0,Delayed
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-06 09:50:00,2020-02-06 09:53:00,3.0,On time
+Mumbai,Amritsar (ATQ),IndiGo,D,1,2020-02-06 10:30:00,2020-02-06 10:50:00,20.0,Delayed
+Mumbai,Diu (DIU),Alliance Air,D,1,2020-02-06 12:45:00,2020-02-06 13:01:00,16.0,Delayed
+Mumbai,Varanasi (VNS),SpiceJet,D,1,2020-02-06 12:50:00,2020-02-06 13:23:00,33.0,Delayed
+Jaisalmer (JSA),Mumbai,SpiceJet,A,0,2020-02-06 13:25:00,2020-02-06 13:34:00,9.0,On time
+Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-06 13:40:00,2020-02-06 14:12:00,32.0,Delayed
+Bhubaneswar (BBI),Mumbai,IndiGo,A,0,2020-02-06 15:35:00,2020-02-06 15:24:00,11.0,On time
+Ranchi (IXR),Mumbai,IndiGo,A,0,2020-02-06 19:20:00,2020-02-06 19:33:00,13.0,On time
+Colombo (CMB),Mumbai,SriLankan Airlines,A,0,2020-02-06 19:45:00,2020-02-06 19:44:00,1.0,On time
+Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-06 20:20:00,2020-02-06 20:52:00,32.0,Delayed
+Chandigarh (IXC),Mumbai,GoAir,A,0,2020-02-06 22:25:00,2020-02-06 22:45:00,20.0,Delayed
+Mumbai,Bengaluru (BLR),AirAsia,D,1,2020-02-06 23:35:00,2020-02-06 23:59:00,24.0,Delayed
+Colombo (CMB),Mumbai,Air India,A,0,2020-02-07 04:30:00,2020-02-07 04:38:00,8.0,On time
+Mumbai,Delhi (DEL),GoAir,D,1,2020-02-07 06:00:00,2020-02-07 06:02:00,2.0,On time
+Mumbai,Kolkata (CCU),IndiGo,D,1,2020-02-07 07:45:00,2020-02-07 07:52:00,7.0,On time
+Mumbai,Jammu (IXJ),GoAir,D,1,2020-02-07 10:30:00,2020-02-07 10:49:00,19.0,Delayed
+Kolkata (CCU),Mumbai,SpiceJet,A,0,2020-02-07 10:50:00,2020-02-07 10:58:00,8.0,On time
+Delhi (DEL),Mumbai,Air India,A,0,2020-02-07 11:10:00,2020-02-07 11:25:00,15.0,On time
+Mumbai,Nanded (NDC),Trujet,D,1,2020-02-07 13:20:00,2020-02-07 13:39:00,19.0,Delayed
+Mumbai,Ranchi (IXR),GoAir,D,1,2020-02-07 16:10:00,2020-02-07 16:45:00,35.0,Delayed
+Bhubaneswar (BBI),Mumbai,Air India,A,0,2020-02-07 18:05:00,2020-02-07 18:43:00,38.0,Delayed
+Chandigarh (IXC),Mumbai,Air India,A,0,2020-02-07 18:10:00,2020-02-07 19:09:00,59.0,Delayed
+Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-07 19:55:00,2020-02-07 21:10:00,75.0,Delayed
+Guwahati (GAU),Mumbai,IndiGo,A,0,2020-02-07 20:45:00,2020-02-07 21:06:00,21.0,Delayed
+Vadodara (BDQ),Mumbai,IndiGo,A,0,2020-02-07 21:20:00,2020-02-07 22:07:00,47.0,Delayed
+Chandigarh (IXC),Mumbai,Vistara,A,0,2020-02-07 21:35:00,2020-02-07 21:18:00,17.0,Delayed
+Mumbai,Jaipur (JAI),IndiGo,D,1,2020-02-08 05:20:00,2020-02-08 05:24:00,4.0,On time
+Jeddah (JED),Mumbai,SpiceJet,A,0,2020-02-08 06:55:00,2020-02-08 07:44:00,49.0,Delayed
+Mumbai,Thiruvananthapuram (TRV),SpiceJet,D,1,2020-02-08 08:10:00,2020-02-08 08:57:00,47.0,Delayed
+Jaipur (JAI),Mumbai,GoAir,A,0,2020-02-08 10:40:00,2020-02-08 10:22:00,18.0,Delayed
 Hyderabad (HYD),Mumbai,SpiceJet,A,0,2020-02-08 10:45:00,2020-02-08 10:16:00,29.0,Delayed
-Hyderabad (HYD),Mumbai,IndiGo,A,0,2020-02-08 11:35:00,2020-02-08 12:13:00,38.0,Delayed
-Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-08 11:45:00,2020-02-08 11:31:00,14.0,On time
-Muscat (MCT),Mumbai,Oman Air,A,0,2020-02-08 13:10:00,2020-02-08 12:52:00,18.0,Delayed
-Goa (GOI),Mumbai,Vistara (Retro Livery),A,0,2020-02-08 16:00:00,2020-02-08 16:00:00,0.0,On time
-Mumbai,Delhi (DEL),Air India,D,1,2020-02-08 16:00:00,2020-02-08 17:10:00,70.0,Delayed
-Mumbai,Chandigarh (IXC),Vistara,D,1,2020-02-08 16:05:00,2020-02-08 16:43:00,38.0,Delayed
+Guwahati (GAU),Mumbai,IndiGo,A,0,2020-02-08 12:05:00,2020-02-08 12:11:00,6.0,On time
+Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-08 12:10:00,2020-02-08 12:31:00,21.0,Delayed
+Mumbai,Udaipur (UDR),Vistara,D,1,2020-02-08 12:15:00,2020-02-08 12:57:00,42.0,Delayed
+Delhi (DEL),Mumbai,Air India,A,0,2020-02-08 12:40:00,2020-02-08 12:55:00,15.0,On time
+Belgaum (IXG),Mumbai,Star Air,A,0,2020-02-08 13:05:00,2020-02-08 13:04:00,1.0,On time
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-08 13:55:00,2020-02-08 14:15:00,20.0,Delayed
 Mumbai,Cochin (COK),SpiceJet,D,1,2020-02-08 16:10:00,2020-02-08 16:31:00,21.0,Delayed
-Gorakhpur (GOP),Mumbai,SpiceJet,A,0,2020-02-08 17:40:00,2020-02-08 17:37:00,3.0,On time
-Udaipur (UDR),Mumbai,SpiceJet,A,0,2020-02-08 19:40:00,2020-02-08 19:22:00,18.0,Delayed
-Mumbai,Chennai (MAA),IndiGo,D,1,2020-02-08 20:10:00,2020-02-08 21:02:00,52.0,Delayed
-Chandigarh (IXC),Mumbai,Vistara,A,0,2020-02-08 21:35:00,2020-02-08 21:29:00,6.0,On time
-Mumbai,Bengaluru (BLR),SpiceJet,D,1,2020-02-08 21:40:00,2020-02-08 22:25:00,45.0,Delayed
-Thiruvananthapuram (TRV),Mumbai,Air India,A,0,2020-02-08 23:59:00,2020-02-09 00:08:00,9.0,On time
-Mumbai,Phuket (HKT),GoAir,D,1,2020-02-09 01:25:00,2020-02-09 01:24:00,1.0,On time
-Muscat (MCT),Mumbai,Air India,A,0,2020-02-09 04:25:00,2020-02-09 04:35:00,10.0,On time
-Nairobi (NBO),Mumbai,Kenya Airways,A,0,2020-02-09 05:35:00,2020-02-09 05:46:00,11.0,On time
-Mumbai,Jaipur (JAI),GoAir,D,1,2020-02-09 05:45:00,2020-02-09 05:52:00,7.0,On time
-Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-09 06:45:00,2020-02-09 07:11:00,26.0,Delayed
-Mumbai,Bengaluru (BLR),SpiceJet,D,1,2020-02-09 08:20:00,2020-02-09 09:01:00,41.0,Delayed
-Chennai (MAA),Mumbai,Vistara,A,0,2020-02-09 09:00:00,2020-02-09 09:05:00,5.0,On time
-Mumbai,Porbandar (PBD),SpiceJet,D,1,2020-02-09 09:25:00,2020-02-09 09:37:00,12.0,On time
-Mumbai,Raipur (RPR),IndiGo,D,1,2020-02-09 09:25:00,2020-02-09 09:51:00,26.0,Delayed
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-09 09:35:00,2020-02-09 10:02:00,27.0,Delayed
-Mumbai,Doha (DOH),IndiGo,D,1,2020-02-09 11:15:00,2020-02-09 11:59:00,44.0,Delayed
-Mumbai,Bengaluru (BLR),GoAir,D,1,2020-02-09 14:35:00,2020-02-09 14:40:00,5.0,On time
-Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-09 15:35:00,2020-02-09 16:12:00,37.0,Delayed
-Allahabad (IXD),Mumbai,IndiGo,A,0,2020-02-09 15:50:00,2020-02-09 15:57:00,7.0,On time
-Jaipur (JAI),Mumbai,Air India,A,0,2020-02-09 16:05:00,2020-02-09 16:31:00,26.0,Delayed
-Patna (PAT),Mumbai,GoAir,A,0,2020-02-09 17:00:00,2020-02-09 17:02:00,2.0,On time
-Gorakhpur (GOP),Mumbai,SpiceJet,A,0,2020-02-09 17:40:00,2020-02-09 17:36:00,4.0,On time
-Lucknow (LKO),Mumbai,IndiGo,A,0,2020-02-09 18:05:00,2020-02-09 18:14:00,9.0,On time
-Jodhpur (JDH),Mumbai,Vistara,A,0,2020-02-09 18:15:00,2020-02-09 18:39:00,24.0,Delayed
-Mumbai,Nagpur (NAG),GoAir,D,1,2020-02-09 18:40:00,2020-02-09 19:18:00,38.0,Delayed
-Mangalore (IXE),Mumbai,IndiGo,A,0,2020-02-09 20:50:00,2020-02-09 20:49:00,1.0,On time
-Mumbai,Hyderabad (HYD),Air India,D,1,2020-02-09 21:05:00,2020-02-09 21:25:00,20.0,Delayed
-Goa (GOI),Mumbai,Air India,A,0,2020-02-09 21:35:00,2020-02-09 22:21:00,46.0,Delayed
-Dubai (DXB),Mumbai,IndiGo,A,0,2020-02-09 22:15:00,2020-02-09 22:37:00,22.0,Delayed
-Coimbatore (CJB),Mumbai,SpiceJet,A,0,2020-02-09 23:40:00,2020-02-10 01:03:00,83.0,Delayed
+Mumbai,Delhi (DEL),SpiceJet,D,1,2020-02-08 17:15:00,2020-02-08 17:39:00,24.0,Delayed
+Bangkok (BKK),Mumbai,IndiGo,A,0,2020-02-08 18:50:00,2020-02-08 18:56:00,6.0,On time
+Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-08 19:20:00,2020-02-08 19:13:00,7.0,On time
+Mumbai,Kolkata (CCU),SpiceJet,D,1,2020-02-08 19:40:00,2020-02-08 20:40:00,60.0,Delayed
+Hyderabad (HYD),Mumbai,IndiGo,A,0,2020-02-08 20:45:00,2020-02-08 21:01:00,16.0,Delayed
+Mumbai,Bengaluru (BLR),GoAir,D,1,2020-02-08 21:00:00,2020-02-08 21:14:00,14.0,On time
+Bengaluru (BLR),Mumbai,Air India,A,0,2020-02-08 21:30:00,2020-02-08 21:29:00,1.0,On time
+Mumbai,Chennai (MAA),SpiceJet,D,1,2020-02-08 22:55:00,2020-02-08 23:05:00,10.0,On time
+Singapore (SIN),Mumbai,Singapore Airlines,A,0,2020-02-08 23:40:00,2020-02-08 23:06:00,34.0,Delayed
+Goa (GOI),Mumbai,SpiceJet,A,0,2020-02-09 00:20:00,2020-02-09 00:59:00,39.0,Delayed
+Riyadh (RUH),Mumbai,IndiGo,A,0,2020-02-09 05:10:00,2020-02-09 05:01:00,9.0,On time
+Mumbai,Hyderabad (HYD),SpiceJet,D,1,2020-02-09 05:45:00,2020-02-09 05:55:00,10.0,On time
+Mumbai,Muscat (MCT),Oman Air,D,1,2020-02-09 10:30:00,2020-02-09 10:53:00,23.0,Delayed
+Mumbai,Vadodara (BDQ),IndiGo,D,1,2020-02-09 12:20:00,2020-02-09 13:00:00,40.0,Delayed
+Thiruvananthapuram (TRV),Mumbai,IndiGo,A,0,2020-02-09 13:00:00,2020-02-09 12:55:00,5.0,On time
+Belgaum (IXG),Mumbai,SpiceJet,A,0,2020-02-09 13:35:00,2020-02-09 13:50:00,15.0,On time
+Mumbai,Jabalpur (JLR),SpiceJet,D,1,2020-02-09 14:10:00,2020-02-09 14:57:00,47.0,Delayed
+Goa (GOI),Mumbai,SpiceJet,A,0,2020-02-09 14:55:00,2020-02-09 20:47:00,352.0,Delayed
+Delhi (DEL),Mumbai,Air India,A,0,2020-02-09 15:10:00,2020-02-09 15:30:00,20.0,Delayed
+Mumbai,Thiruvananthapuram (TRV),SpiceJet,D,1,2020-02-09 15:10:00,2020-02-09 16:10:00,60.0,Delayed
+Mumbai,Udaipur (UDR),SpiceJet,D,1,2020-02-09 15:50:00,2020-02-09 16:27:00,37.0,Delayed
+Mumbai,Hyderabad (HYD),IndiGo,D,1,2020-02-09 15:55:00,2020-02-09 17:05:00,70.0,Delayed
+Hyderabad (HYD),Mumbai,IndiGo,A,0,2020-02-09 16:20:00,2020-02-09 16:26:00,6.0,On time
+Visakhapatnam (VTZ),Mumbai,Air India,A,0,2020-02-09 16:25:00,2020-02-09 16:33:00,8.0,On time
+Varanasi (VNS),Mumbai,Air India,A,0,2020-02-09 17:15:00,2020-02-09 17:44:00,29.0,Delayed
+Mumbai,Abu Dhabi (AUH),Etihad,D,1,2020-02-09 17:15:00,2020-02-09 17:58:00,43.0,Delayed
+Kolkata (CCU),Mumbai,Air India,A,0,2020-02-09 19:45:00,2020-02-09 19:41:00,4.0,On time
+Mumbai,Dubai (DXB),Air India,D,1,2020-02-09 19:50:00,2020-02-09 20:53:00,63.0,Delayed
+Mumbai,Muscat (MCT),IndiGo,D,1,2020-02-09 20:40:00,2020-02-09 21:56:00,76.0,Delayed
+Mumbai,Delhi (DEL),Air India,D,1,2020-02-09 21:00:00,2020-02-09 21:58:00,58.0,Delayed
+Bhavnagar (BHU),Mumbai,Alliance Air,A,0,2020-02-09 21:40:00,2020-02-09 21:44:00,4.0,On time
 Mumbai,Singapore (SIN),Air India,D,1,2020-02-09 23:50:00,2020-02-10 00:23:00,33.0,Delayed
-Paris (CDG),Mumbai,Air France,A,0,2020-02-10 00:05:00,2020-02-10 00:04:00,1.0,On time
-Hyderabad (HYD),Mumbai,IndiGo,A,0,2020-02-10 00:05:00,2020-02-09 23:55:00,10.0,On time
-Mumbai,Hyderabad (HYD),IndiGo,D,1,2020-02-10 00:50:00,2020-02-10 01:10:00,20.0,Delayed
-Mumbai,Victoria (SEZ),Air Seychelles,D,1,2020-02-10 05:31:00,2020-02-10 05:56:00,25.0,Delayed
-Mumbai,Dar-es-Salaam (DAR),Air Tanzania,D,1,2020-02-10 05:50:00,2020-02-10 06:20:00,30.0,Delayed
-Mumbai,Dubai (DXB),SpiceJet,D,1,2020-02-10 09:30:00,2020-02-10 09:48:00,18.0,Delayed
-Delhi (DEL),Mumbai,Vistara,A,0,2020-02-10 09:45:00,2020-02-10 09:36:00,9.0,On time
-Delhi (DEL),Mumbai,Vistara,A,0,2020-02-10 11:40:00,2020-02-10 11:59:00,19.0,Delayed
-Mumbai,Diu (DIU),Alliance Air,D,1,2020-02-10 12:00:00,2020-02-10 12:50:00,50.0,Delayed
-Mumbai,Chennai (MAA),IndiGo,D,1,2020-02-10 13:10:00,2020-02-10 14:13:00,63.0,Delayed
-Mumbai,Hyderabad (HYD),Vistara,D,1,2020-02-10 19:20:00,2020-02-10 19:37:00,17.0,Delayed
-Mumbai,Dubai (DXB),Emirates,D,1,2020-02-10 22:00:00,2020-02-10 22:45:00,45.0,Delayed
-Ahmedabad (AMD),Mumbai,SpiceJet,A,0,2020-02-11 06:40:00,2020-02-11 06:03:00,37.0,Delayed
-Mumbai,Delhi (DEL),Vistara,D,1,2020-02-11 07:30:00,2020-02-11 08:08:00,38.0,Delayed
-Mumbai,Frankfurt (FRA),Air India,D,1,2020-02-11 10:00:00,2020-02-11 11:11:00,71.0,Delayed
-Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-11 11:05:00,2020-02-11 11:34:00,29.0,Delayed
-Mumbai,Ahmedabad (AMD),IndiGo,D,1,2020-02-11 12:25:00,2020-02-11 13:08:00,43.0,Delayed
-Mumbai,Lucknow (LKO),GoAir,D,1,2020-02-11 15:15:00,2020-02-11 15:46:00,31.0,Delayed
-Mumbai,Guwahati (GAU),IndiGo,D,1,2020-02-11 16:50:00,2020-02-11 18:14:00,84.0,Delayed
-Goa (GOI),Mumbai,SpiceJet,A,0,2020-02-11 18:50:00,2020-02-11 19:10:00,20.0,Delayed
-Mumbai,Visakhapatnam (VTZ),Air India,D,1,2020-02-11 19:00:00,2020-02-11 20:06:00,66.0,Delayed
-Jeddah (JED),Mumbai,Saudia,A,0,2020-02-11 19:30:00,2020-02-11 19:38:00,8.0,On time
+Mumbai,Bangkok (BKK),Bangkok Airways (Samui Livery),D,1,2020-02-10 00:05:00,2020-02-10 00:35:00,30.0,Delayed
+London (LHR),Mumbai,Virgin Atlantic,A,0,2020-02-10 00:55:00,2020-02-10 00:52:00,3.0,On time
+Doha (DOH),Mumbai,Air India Express (Himalayan Peaks/Desert Livery),A,0,2020-02-10 02:05:00,2020-02-10 01:18:00,47.0,Delayed
+Mumbai,Hyderabad (HYD),IndiGo,D,1,2020-02-10 08:55:00,2020-02-10 09:12:00,17.0,Delayed
+Chennai (MAA),Mumbai,Vistara,A,0,2020-02-10 09:00:00,2020-02-10 09:03:00,3.0,On time
+Hubli (HBX),Mumbai,Air India,A,0,2020-02-10 13:00:00,2020-02-10 13:28:00,28.0,Delayed
+Male (MLE),Mumbai,IndiGo,A,0,2020-02-10 17:50:00,2020-02-10 17:48:00,2.0,On time
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-10 19:10:00,2020-02-10 19:04:00,6.0,On time
+Mumbai,Ahmedabad (AMD),GoAir,D,1,2020-02-10 19:25:00,2020-02-10 19:47:00,22.0,Delayed
+Delhi (DEL),Mumbai,Vistara,A,0,2020-02-10 20:05:00,2020-02-10 20:17:00,12.0,On time
+Ahmedabad (AMD),Mumbai,IndiGo,A,0,2020-02-10 20:15:00,2020-02-10 20:10:00,5.0,On time
+Chandigarh (IXC),Mumbai,GoAir,A,0,2020-02-10 22:25:00,2020-02-10 23:13:00,48.0,Delayed
+Indore (IDR),Mumbai,IndiGo,A,0,2020-02-11 10:20:00,2020-02-11 09:58:00,22.0,Delayed
+Mumbai,Delhi (DEL),Vistara,D,1,2020-02-11 10:25:00,2020-02-11 11:02:00,37.0,Delayed
+Mumbai,Lucknow (LKO),IndiGo,D,1,2020-02-11 13:15:00,2020-02-11 13:36:00,21.0,Delayed
+Ahmedabad (AMD),Mumbai,IndiGo,A,0,2020-02-11 15:20:00,2020-02-11 16:07:00,47.0,Delayed
+Visakhapatnam (VTZ),Mumbai,Air India,A,0,2020-02-11 16:25:00,2020-02-11 16:26:00,1.0,On time
+Mumbai,Chennai (MAA),IndiGo,D,1,2020-02-11 19:30:00,2020-02-11 20:46:00,76.0,Delayed
 Mumbai,Kozhikode (CCJ),IndiGo,D,1,2020-02-11 20:25:00,2020-02-11 21:11:00,46.0,Delayed
-Chennai (MAA),Mumbai,SpiceJet,A,0,2020-02-11 23:45:00,2020-02-11 23:43:00,2.0,On time
-Mumbai,Singapore (SIN),Vistara,D,1,2020-02-11 23:55:00,2020-02-12 00:01:00,6.0,On time
-Mumbai,Hyderabad (HYD),IndiGo,D,1,2020-02-12 00:50:00,2020-02-12 01:10:00,20.0,Delayed
-Mumbai,New York (JFK),Delta Air Lines,D,1,2020-02-12 00:55:00,2020-02-12 01:14:00,19.0,Delayed
-Mumbai,Delhi (DEL),Vistara,D,1,2020-02-12 05:31:00,2020-02-12 05:42:00,11.0,On time
-Mumbai,Delhi (DEL),GoAir,D,1,2020-02-12 06:00:00,2020-02-12 06:10:00,10.0,On time
-Mumbai,Delhi (DEL),SpiceJet,D,1,2020-02-12 07:20:00,2020-02-12 07:53:00,33.0,Delayed
-Abu Dhabi (AUH),Mumbai,Etihad,A,0,2020-02-12 07:25:00,2020-02-12 07:39:00,14.0,On time
-Bengaluru (BLR),Mumbai,SpiceJet,A,0,2020-02-12 09:35:00,2020-02-12 09:25:00,10.0,On time
-Bengaluru (BLR),Mumbai,Vistara,A,0,2020-02-12 09:55:00,2020-02-12 10:03:00,8.0,On time
-Mumbai,Ahmedabad (AMD),GoAir,D,1,2020-02-12 12:00:00,2020-02-12 12:13:00,13.0,On time
-Mumbai,Hubli (HBX),Air India,D,1,2020-02-12 15:05:00,2020-02-12 16:13:00,68.0,Delayed
-Chennai (MAA),Mumbai,GoAir,A,0,2020-02-12 15:40:00,2020-02-12 15:17:00,23.0,Delayed
-Delhi (DEL),Mumbai,GoAir,A,0,2020-02-12 16:40:00,2020-02-12 16:41:00,1.0,On time
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-12 17:20:00,2020-02-12 17:15:00,5.0,On time
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-12 19:15:00,2020-02-12 20:21:00,66.0,Delayed
-Bengaluru (BLR),Mumbai,Vistara,A,0,2020-02-12 21:50:00,2020-02-12 21:43:00,7.0,On time
-Bengaluru (BLR),Mumbai,SpiceJet,A,0,2020-02-12 22:45:00,2020-02-12 22:26:00,19.0,Delayed
-Mumbai,Muscat (MCT),GoAir,D,1,2020-02-12 23:10:00,2020-02-12 23:45:00,35.0,Delayed
-Delhi (DEL),Mumbai,SpiceJet,A,0,2020-02-12 23:50:00,2020-02-13 00:53:00,63.0,Delayed
-Mumbai,Kolkata (CCU),IndiGo,D,1,2020-02-13 05:00:00,2020-02-13 05:00:00,0.0,On time
-Mumbai,Ahmedabad (AMD),GoAir,D,1,2020-02-13 12:00:00,2020-02-13 12:25:00,25.0,Delayed
-Hubli (HBX),Mumbai,Air India,A,0,2020-02-13 14:30:00,2020-02-13 14:44:00,14.0,On time
-Goa (GOI),Mumbai,Vistara,A,0,2020-02-13 14:40:00,2020-02-13 14:28:00,12.0,On time
-Delhi (DEL),Mumbai,GoAir,A,0,2020-02-13 16:40:00,2020-02-13 16:26:00,14.0,On time
-Bhopal (BHO),Mumbai,IndiGo,A,0,2020-02-13 18:50:00,2020-02-13 19:23:00,33.0,Delayed
-Delhi (DEL),Mumbai,Air India,A,0,2020-02-13 19:10:00,2020-02-13 19:24:00,14.0,On time
-Guwahati (GAU),Mumbai,SpiceJet,A,0,2020-02-13 19:15:00,2020-02-13 19:52:00,37.0,Delayed
-Mumbai,Ahmedabad (AMD),GoAir,D,1,2020-02-13 19:25:00,2020-02-13 19:43:00,18.0,Delayed
-Mumbai,Bengaluru (BLR),AirAsia,D,1,2020-02-13 23:35:00,2020-02-14 00:13:00,38.0,Delayed
-Mumbai,Belgaum (IXG),SpiceJet,D,1,2020-02-14 14:50:00,2020-02-14 15:52:00,62.0,Delayed
-Siliguri (IXB),Mumbai,IndiGo,A,0,2020-02-14 15:05:00,2020-02-14 14:51:00,14.0,On time
-Mumbai,Jeddah (JED),Air India,D,1,2020-02-14 16:50:00,2020-02-14 17:30:00,40.0,Delayed
-Mumbai,Delhi (DEL),Air India,D,1,2020-02-14 17:00:00,2020-02-14 17:37:00,37.0,Delayed
-Bengaluru (BLR),Mumbai,GoAir,A,0,2020-02-14 18:15:00,2020-02-14 18:00:00,15.0,On time
-Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-14 18:45:00,2020-02-14 19:42:00,57.0,Delayed
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-14 18:55:00,2020-02-14 18:43:00,12.0,On time
-Sharjah (SHJ),Mumbai,Air Arabia,A,0,2020-02-14 20:45:00,2020-02-14 20:29:00,16.0,Delayed
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-14 21:30:00,2020-02-14 22:15:00,45.0,Delayed
-Zurich (ZRH),Mumbai,Swiss,A,0,2020-02-14 22:30:00,2020-02-14 23:01:00,31.0,Delayed
-Hyderabad (HYD),Mumbai,AirAsia,A,0,2020-02-14 22:30:00,2020-02-14 22:06:00,24.0,Delayed
-Visakhapatnam (VTZ),Mumbai,Air India,A,0,2020-02-14 23:40:00,2020-02-15 00:13:00,33.0,Delayed
-Mumbai,Colombo (CMB),Air India,D,1,2020-02-14 23:55:00,2020-02-15 01:41:00,106.0,Delayed
-Vadodara (BDQ),Mumbai,IndiGo,A,0,2020-02-15 07:55:00,2020-02-15 07:53:00,2.0,On time
-Mumbai,Lucknow (LKO),Air India,D,1,2020-02-15 07:55:00,2020-02-15 08:24:00,29.0,Delayed
-Bhuj (BHJ),Mumbai,Alliance Air,A,0,2020-02-15 11:35:00,2020-02-15 11:49:00,14.0,On time
-Mumbai,Nagpur (NAG),IndiGo,D,1,2020-02-15 11:35:00,2020-02-15 12:19:00,44.0,Delayed
-Mumbai,Chandigarh (IXC),IndiGo,D,1,2020-02-15 11:55:00,2020-02-15 13:13:00,78.0,Delayed
-Mumbai,Lucknow (LKO),GoAir,D,1,2020-02-15 15:15:00,2020-02-15 15:45:00,30.0,Delayed
-Chandigarh (IXC),Mumbai,IndiGo,A,0,2020-02-15 17:20:00,2020-02-15 18:38:00,78.0,Delayed
-Mumbai,Chennai (MAA),Vistara,D,1,2020-02-15 17:55:00,2020-02-15 18:35:00,40.0,Delayed
-Mumbai,Chennai (MAA),Air India,D,1,2020-02-15 19:10:00,2020-02-15 19:47:00,37.0,Delayed
-Mumbai,Chennai (MAA),IndiGo,D,1,2020-02-15 19:30:00,2020-02-15 21:02:00,92.0,Delayed
-Mumbai,Tokyo (NRT),All Nippon Airways (Star Wars R2-D2 Livery),D,1,2020-02-15 20:00:00,2020-02-15 20:52:00,52.0,Delayed
-Ahmedabad (AMD),Mumbai,IndiGo,A,0,2020-02-15 20:15:00,2020-02-15 20:42:00,27.0,Delayed
-Mumbai,Kozhikode (CCJ),IndiGo,D,1,2020-02-15 20:25:00,2020-02-15 21:26:00,61.0,Delayed
-Indore (IDR),Mumbai,IndiGo,A,0,2020-02-15 21:25:00,2020-02-15 21:06:00,19.0,Delayed
-Mumbai,Kolkata (CCU),IndiGo,D,1,2020-02-15 22:10:00,2020-02-15 22:37:00,27.0,Delayed
-Bengaluru (BLR),Mumbai,Air India,A,0,2020-02-15 23:15:00,2020-02-15 23:22:00,7.0,On time
-Hyderabad (HYD),Mumbai,SpiceJet,A,0,2020-02-16 08:40:00,2020-02-16 08:27:00,13.0,On time
-Delhi (DEL),Mumbai,Vistara,A,0,2020-02-16 08:45:00,2020-02-16 08:33:00,12.0,On time
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-16 08:50:00,2020-02-16 08:31:00,19.0,Delayed
+Mangalore (IXE),Mumbai,IndiGo,A,0,2020-02-11 20:50:00,2020-02-11 20:48:00,2.0,On time
+Mumbai,Delhi (DEL),Vistara,D,1,2020-02-11 20:55:00,2020-02-11 22:06:00,71.0,Delayed
+Bengaluru (BLR),Mumbai,SpiceJet,A,0,2020-02-11 22:45:00,2020-02-11 23:02:00,17.0,Delayed
+Mumbai,London (LHR),British Airways,D,1,2020-02-12 02:15:00,2020-02-12 02:31:00,16.0,Delayed
+Doha (DOH),Mumbai,Qatar Airways,A,0,2020-02-12 02:30:00,2020-02-12 02:09:00,21.0,Delayed
+Mumbai,Delhi (DEL),Blue Dart Aviation,D,1,2020-02-12 03:05:00,2020-02-12 03:00:00,5.0,On time
+Delhi (DEL),Mumbai,Blue Dart Aviation,A,0,2020-02-12 04:10:00,2020-02-12 04:18:00,8.0,On time
+Colombo (CMB),Mumbai,Air India,A,0,2020-02-12 05:31:00,2020-02-12 05:41:00,10.0,On time
+Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-12 08:40:00,2020-02-12 09:10:00,30.0,Delayed
+Mumbai,Chennai (MAA),Air India,D,1,2020-02-12 09:00:00,2020-02-12 09:40:00,40.0,Delayed
+Kolkata (CCU),Mumbai,Vistara,A,0,2020-02-12 13:05:00,2020-02-12 13:01:00,4.0,On time
+Mumbai,Chennai (MAA),AirAsia,D,1,2020-02-12 13:15:00,2020-02-12 13:40:00,25.0,Delayed
+Mumbai,Nanded (NDC),Trujet,D,1,2020-02-12 13:20:00,2020-02-12 16:47:00,207.0,Delayed
+Mumbai,Jodhpur (JDH),Vistara,D,1,2020-02-12 14:30:00,2020-02-12 14:56:00,26.0,Delayed
+Udaipur (UDR),Mumbai,Vistara,A,0,2020-02-12 14:45:00,2020-02-12 14:47:00,2.0,On time
+Lucknow (LKO),Mumbai,IndiGo,A,0,2020-02-12 18:05:00,2020-02-12 17:57:00,8.0,On time
+Bengaluru (BLR),Mumbai,GoAir,A,0,2020-02-12 18:15:00,2020-02-12 18:08:00,7.0,On time
+Goa (GOI),Mumbai,GoAir,A,0,2020-02-12 18:20:00,2020-02-12 18:13:00,7.0,On time
+Tokyo (NRT),Mumbai,All Nippon Airways,A,0,2020-02-12 18:25:00,2020-02-12 17:56:00,29.0,Delayed
+Mumbai,Coimbatore (CJB),IndiGo,D,1,2020-02-12 19:15:00,2020-02-12 19:33:00,18.0,Delayed
+Mumbai,Tokyo (NRT),All Nippon Airways,D,1,2020-02-12 20:00:00,2020-02-12 20:48:00,48.0,Delayed
+Bengaluru (BLR),Mumbai,Vistara,A,0,2020-02-12 20:15:00,2020-02-12 20:06:00,9.0,On time
+Bangkok (BKK),Mumbai,Thai Airways,A,0,2020-02-12 22:00:00,2020-02-12 21:36:00,24.0,Delayed
+Dubai (DXB),Mumbai,IndiGo,A,0,2020-02-12 22:15:00,2020-02-12 22:25:00,10.0,On time
+Kolkata (CCU),Mumbai,AirAsia (Kabali Livery),A,0,2020-02-13 01:10:00,2020-02-13 01:02:00,8.0,On time
+Mumbai,Goa (GOI),GoAir,D,1,2020-02-13 04:55:00,2020-02-13 04:52:00,3.0,On time
+Mumbai,Bhopal (BHO),Air India,D,1,2020-02-13 06:05:00,2020-02-13 07:06:00,61.0,Delayed
+Nagpur (NAG),Mumbai,IndiGo,A,0,2020-02-13 06:45:00,2020-02-13 06:13:00,32.0,Delayed
+Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-13 07:35:00,2020-02-13 08:03:00,28.0,Delayed
+Bengaluru (BLR),Mumbai,Vistara,A,0,2020-02-13 08:15:00,2020-02-13 08:44:00,29.0,Delayed
+Indore (IDR),Mumbai,IndiGo,A,0,2020-02-13 08:40:00,2020-02-13 08:40:00,0.0,On time
+Delhi (DEL),Mumbai,SpiceJet,A,0,2020-02-13 10:35:00,2020-02-13 11:00:00,25.0,Delayed
+Cochin (COK),Mumbai,GoAir,A,0,2020-02-13 10:55:00,2020-02-13 11:19:00,24.0,Delayed
+Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-13 11:45:00,2020-02-13 11:42:00,3.0,On time
+Mumbai,Chandigarh (IXC),IndiGo,D,1,2020-02-13 11:55:00,2020-02-13 12:41:00,46.0,Delayed
+Varanasi (VNS),Mumbai,IndiGo,A,0,2020-02-13 12:30:00,2020-02-13 12:30:00,0.0,On time
+Dubai (DXB),Mumbai,Emirates,A,0,2020-02-13 14:00:00,2020-02-13 13:38:00,22.0,Delayed
+Coimbatore (CJB),Mumbai,SpiceJet,A,0,2020-02-13 14:00:00,2020-02-13 13:56:00,4.0,On time
+Mumbai,Delhi (DEL),AirAsia,D,1,2020-02-13 15:00:00,2020-02-13 15:36:00,36.0,Delayed
+Jodhpur (JDH),Mumbai,Air India,A,0,2020-02-13 15:10:00,2020-02-13 14:48:00,22.0,Delayed
+Nairobi (NBO),Mumbai,Kenya Airways (SkyTeam Livery),A,0,2020-02-13 15:45:00,2020-02-13 15:42:00,3.0,On time
+Mumbai,Ranchi (IXR),GoAir,D,1,2020-02-13 16:10:00,2020-02-13 16:34:00,24.0,Delayed
+Chandigarh (IXC),Mumbai,Air India,A,0,2020-02-13 18:10:00,2020-02-13 18:33:00,23.0,Delayed
+Mumbai,Cochin (COK),IndiGo,D,1,2020-02-13 18:55:00,2020-02-13 19:49:00,54.0,Delayed
+Mumbai,Kolkata (CCU),IndiGo,D,1,2020-02-13 20:30:00,2020-02-13 21:39:00,69.0,Delayed
+Coimbatore (CJB),Mumbai,SpiceJet,A,0,2020-02-13 23:40:00,2020-02-14 00:49:00,69.0,Delayed
+Kuala Lumpur (KUL),Mumbai,Malaysia Airlines,A,0,2020-02-14 11:55:00,2020-02-14 12:01:00,6.0,On time
+Mumbai,Kolkata (CCU),SpiceJet,D,1,2020-02-14 14:45:00,2020-02-14 15:07:00,22.0,Delayed
+Mumbai,Bengaluru (BLR),Air India,D,1,2020-02-14 17:15:00,2020-02-14 17:56:00,41.0,Delayed
+Mumbai,Cochin (COK),GoAir,D,1,2020-02-14 17:25:00,2020-02-14 18:12:00,47.0,Delayed
+Jaipur (JAI),Mumbai,IndiGo,A,0,2020-02-14 19:30:00,2020-02-14 19:09:00,21.0,Delayed
+Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-14 20:20:00,2020-02-14 20:38:00,18.0,Delayed
+Mumbai,Delhi (DEL),Air India (Celebrating India Livery),D,1,2020-02-14 21:00:00,2020-02-14 21:46:00,46.0,Delayed
+Ahmedabad (AMD),Mumbai,GoAir,A,0,2020-02-14 21:25:00,2020-02-14 21:30:00,5.0,On time
+Bengaluru (BLR),Mumbai,Vistara,A,0,2020-02-14 21:50:00,2020-02-14 21:55:00,5.0,On time
+Mumbai,Hyderabad (HYD),Corendon Airlines,D,1,2020-02-14 22:45:00,2020-02-14 23:17:00,32.0,Delayed
+Coimbatore (CJB),Mumbai,IndiGo,A,0,2020-02-15 00:15:00,2020-02-15 00:17:00,2.0,On time
+Mumbai,Bengaluru (BLR),AirAsia,D,1,2020-02-15 01:10:00,2020-02-15 01:32:00,22.0,Delayed
+Mumbai,Hyderabad (HYD),SpiceJet,D,1,2020-02-15 06:25:00,2020-02-15 06:41:00,16.0,Delayed
+Mumbai,Bhopal (BHO),IndiGo,D,1,2020-02-15 07:25:00,2020-02-15 07:38:00,13.0,On time
+Mumbai,Varanasi (VNS),Air India,D,1,2020-02-15 10:25:00,2020-02-15 11:49:00,84.0,Delayed
+Mumbai,Kandla (IXY),SpiceJet,D,1,2020-02-15 13:05:00,2020-02-15 13:05:00,0.0,On time
+Jodhpur (JDH),Mumbai,Air India,A,0,2020-02-15 13:45:00,2020-02-15 14:16:00,31.0,Delayed
+Mumbai,Lucknow (LKO),IndiGo,D,1,2020-02-15 14:25:00,2020-02-15 14:55:00,30.0,Delayed
+Mumbai,Varanasi (VNS),IndiGo,D,1,2020-02-15 16:50:00,2020-02-15 17:25:00,35.0,Delayed
+Jaipur (JAI),Mumbai,IndiGo,A,0,2020-02-15 19:30:00,2020-02-15 19:41:00,11.0,On time
+Kolkata (CCU),Mumbai,SpiceJet,A,0,2020-02-15 20:50:00,2020-02-15 21:02:00,12.0,On time
+Hong Kong (HKG),Mumbai,Cathay Pacific,A,0,2020-02-15 21:50:00,2020-02-15 21:09:00,41.0,Delayed
+Hyderabad (HYD),Mumbai,AirAsia,A,0,2020-02-15 22:30:00,2020-02-16 00:22:00,112.0,Delayed
+Mumbai,Delhi (DEL),GoAir,D,1,2020-02-15 23:05:00,2020-02-16 00:20:00,75.0,Delayed
+Mumbai,Goa (GOI),GoAir,D,1,2020-02-16 09:45:00,2020-02-16 10:12:00,27.0,Delayed
 Doha (DOH),Mumbai,IndiGo,A,0,2020-02-16 10:15:00,2020-02-16 09:54:00,21.0,Delayed
-Mumbai,Bhubaneswar (BBI),IndiGo,D,1,2020-02-16 10:20:00,2020-02-16 10:40:00,20.0,Delayed
-Delhi (DEL),Mumbai,SpiceJet,A,0,2020-02-16 10:35:00,2020-02-16 10:25:00,10.0,On time
-Mumbai,Dubai (DXB),Emirates,D,1,2020-02-16 15:30:00,2020-02-16 16:09:00,39.0,Delayed
-Mumbai,Delhi (DEL),SpiceJet,D,1,2020-02-16 20:25:00,2020-02-16 21:14:00,49.0,Delayed
+Udaipur (UDR),Mumbai,IndiGo,A,0,2020-02-16 11:25:00,2020-02-16 10:46:00,39.0,Delayed
+Mangalore (IXE),Mumbai,IndiGo,A,0,2020-02-16 13:45:00,2020-02-16 13:47:00,2.0,On time
+Mumbai,Thiruvananthapuram (TRV),IndiGo,D,1,2020-02-16 14:20:00,2020-02-16 14:32:00,12.0,On time
+Mumbai,Doha (DOH),Qatar Cargo,D,1,2020-02-16 15:55:00,2020-02-16 19:28:00,213.0,Delayed
+Ranchi (IXR),Mumbai,GoAir,A,0,2020-02-16 16:30:00,2020-02-16 16:43:00,13.0,On time
+Udaipur (UDR),Mumbai,IndiGo,A,0,2020-02-16 16:40:00,2020-02-16 16:28:00,12.0,On time
+Mumbai,Delhi (DEL),SpiceJet,D,1,2020-02-16 17:15:00,2020-02-16 17:59:00,44.0,Delayed
+Chandigarh (IXC),Mumbai,IndiGo,A,0,2020-02-16 17:20:00,2020-02-16 17:17:00,3.0,On time
+Shirdi (SAG),Mumbai,Alliance Air,A,0,2020-02-16 17:25:00,2020-02-16 18:24:00,59.0,Delayed
+Mumbai,Cochin (COK),IndiGo,D,1,2020-02-16 18:55:00,2020-02-16 19:16:00,21.0,Delayed
+Mumbai,Delhi (DEL),SpiceJet,D,1,2020-02-16 21:10:00,2020-02-16 22:07:00,57.0,Delayed
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-16 22:25:00,2020-02-16 22:31:00,6.0,On time
 Mumbai,Colombo (CMB),Air India,D,1,2020-02-16 23:00:00,2020-02-16 23:20:00,20.0,Delayed
-Bahrain (BAH),Mumbai,Gulf Air,A,0,2020-02-17 04:55:00,2020-02-17 04:45:00,10.0,On time
-Abu Dhabi (AUH),Mumbai,Etihad,A,0,2020-02-17 07:25:00,2020-02-17 07:34:00,9.0,On time
-Bengaluru (BLR),Mumbai,Vistara,A,0,2020-02-17 08:15:00,2020-02-17 08:05:00,10.0,On time
-Ahmedabad (AMD),Mumbai,IndiGo,A,0,2020-02-17 08:55:00,2020-02-17 08:50:00,5.0,On time
-Mumbai,Jaisalmer (JSA),SpiceJet,D,1,2020-02-17 09:15:00,2020-02-17 09:45:00,30.0,Delayed
-Delhi (DEL),Mumbai,SpiceJet,A,0,2020-02-17 09:20:00,2020-02-17 09:23:00,3.0,On time
-Mumbai,Goa (GOI),Vistara,D,1,2020-02-17 11:25:00,2020-02-17 11:46:00,21.0,Delayed
-Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-17 11:45:00,2020-02-17 11:20:00,25.0,Delayed
-Mumbai,Udaipur (UDR),Vistara,D,1,2020-02-17 12:15:00,2020-02-17 12:41:00,26.0,Delayed
-Mumbai,London (LHR),British Airways,D,1,2020-02-17 13:15:00,2020-02-17 14:14:00,59.0,Delayed
-Mumbai,Dehradun (DED),IndiGo,D,1,2020-02-17 13:20:00,2020-02-17 13:43:00,23.0,Delayed
-Mumbai,Bhavnagar (BHU),Alliance Air,D,1,2020-02-17 18:35:00,2020-02-17 18:43:00,8.0,On time
-Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-17 19:20:00,2020-02-17 19:31:00,11.0,On time
-Mumbai,Hyderabad (HYD),IndiGo,D,1,2020-02-17 20:05:00,2020-02-17 20:53:00,48.0,Delayed
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-17 21:50:00,2020-02-17 22:41:00,51.0,Delayed
-Mumbai,Muscat (MCT),Air India,D,1,2020-02-17 22:00:00,2020-02-18 01:03:00,183.0,Delayed
-Cochin (COK),Mumbai,IndiGo,A,0,2020-02-18 04:50:00,2020-02-18 04:46:00,4.0,On time
-Mumbai,Kuwait City (KWI),IndiGo,D,1,2020-02-18 05:05:00,2020-02-18 05:23:00,18.0,Delayed
-Mumbai,Chennai (MAA),SpiceJet,D,1,2020-02-18 07:25:00,2020-02-18 07:45:00,20.0,Delayed
-Chennai (MAA),Mumbai,SpiceJet,A,0,2020-02-18 07:40:00,2020-02-18 07:27:00,13.0,On time
-Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-18 07:45:00,2020-02-18 07:17:00,28.0,Delayed
-Bengaluru (BLR),Mumbai,SpiceJet,A,0,2020-02-18 09:35:00,2020-02-18 09:32:00,3.0,On time
-Jaipur (JAI),Mumbai,SpiceJet,A,0,2020-02-18 09:45:00,2020-02-18 09:14:00,31.0,Delayed
-Mumbai,Allahabad (IXD),IndiGo,D,1,2020-02-18 11:10:00,2020-02-18 11:50:00,40.0,Delayed
-Jaisalmer (JSA),Mumbai,SpiceJet,A,0,2020-02-18 13:25:00,2020-02-18 13:22:00,3.0,On time
-Mumbai,Bengaluru (BLR),Vistara,D,1,2020-02-18 16:00:00,2020-02-18 16:37:00,37.0,Delayed
-Delhi (DEL),Mumbai,Vistara,A,0,2020-02-18 17:40:00,2020-02-18 17:26:00,14.0,On time
-Raipur (RPR),Mumbai,IndiGo,A,0,2020-02-18 18:45:00,2020-02-18 18:36:00,9.0,On time
-Kolkata (CCU),Mumbai,Air India,A,0,2020-02-18 19:45:00,2020-02-18 20:04:00,19.0,Delayed
-Goa (GOI),Mumbai,Air India,A,0,2020-02-18 21:00:00,2020-02-18 20:50:00,10.0,On time
-Mumbai,Goa (GOI),GoAir,D,1,2020-02-18 22:10:00,2020-02-18 22:38:00,28.0,Delayed
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-18 23:10:00,2020-02-18 23:18:00,8.0,On time
-Hyderabad (HYD),Mumbai,Air India,A,0,2020-02-18 23:30:00,2020-02-18 23:30:00,0.0,On time
-Mumbai,Phuket (HKT),GoAir,D,1,2020-02-19 01:25:00,2020-02-19 01:23:00,2.0,On time
-Sharjah (SHJ),Mumbai,Air Arabia,A,0,2020-02-19 04:15:00,2020-02-19 04:08:00,7.0,On time
-Mumbai,Port Louis (MRU),Air Mauritius,D,1,2020-02-19 06:45:00,2020-02-19 07:12:00,27.0,Delayed
-Chennai (MAA),Mumbai,SpiceJet,A,0,2020-02-19 08:35:00,2020-02-19 08:12:00,23.0,Delayed
-Mumbai,Delhi (DEL),Vistara,D,1,2020-02-19 08:45:00,2020-02-19 09:10:00,25.0,Delayed
-Mumbai,Dhaka (DAC),SpiceJet,D,1,2020-02-19 08:55:00,2020-02-19 09:34:00,39.0,Delayed
-Delhi (DEL),Mumbai,Air India,A,0,2020-02-19 11:40:00,2020-02-19 11:35:00,5.0,On time
-Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-19 11:45:00,2020-02-19 11:13:00,32.0,Delayed
-Kuala Lumpur (KUL),Mumbai,Malaysia Airlines,A,0,2020-02-19 11:55:00,2020-02-19 11:49:00,6.0,On time
-Thiruvananthapuram (TRV),Mumbai,IndiGo,A,0,2020-02-19 13:00:00,2020-02-19 12:53:00,7.0,On time
-Mumbai,Hyderabad (HYD),Air India,D,1,2020-02-19 14:10:00,2020-02-19 15:03:00,53.0,Delayed
-Mumbai,Kolkata (CCU),SpiceJet,D,1,2020-02-19 14:45:00,2020-02-19 15:19:00,34.0,Delayed
-Delhi (DEL),Mumbai,GoAir,A,0,2020-02-19 16:40:00,2020-02-19 16:27:00,13.0,On time
-Chandigarh (IXC),Mumbai,Air India,A,0,2020-02-19 18:10:00,2020-02-19 17:58:00,12.0,On time
-Delhi (DEL),Mumbai,Air India,A,0,2020-02-19 19:10:00,2020-02-19 18:56:00,14.0,On time
-Udaipur (UDR),Mumbai,SpiceJet,A,0,2020-02-19 19:40:00,2020-02-19 19:07:00,33.0,Delayed
-Mumbai,Goa (GOI),SpiceJet,D,1,2020-02-19 21:20:00,2020-02-19 21:51:00,31.0,Delayed
-Ahmedabad (AMD),Mumbai,GoAir,A,0,2020-02-19 21:25:00,2020-02-19 21:01:00,24.0,Delayed
-Mumbai,Singapore (SIN),Singapore Airlines,D,1,2020-02-19 23:35:00,2020-02-20 00:01:00,26.0,Delayed
-Coimbatore (CJB),Mumbai,SpiceJet,A,0,2020-02-19 23:40:00,2020-02-19 23:09:00,31.0,Delayed
-Mumbai,Kannur (CNN),GoAir,D,1,2020-02-20 00:35:00,2020-02-20 00:45:00,10.0,On time
-Mumbai,Srinagar (SXR),SpiceJet,D,1,2020-02-20 05:15:00,2020-02-20 05:38:00,23.0,Delayed
-Mumbai,Nagpur (NAG),Air India,D,1,2020-02-20 05:35:00,2020-02-20 06:02:00,27.0,Delayed
-Mumbai,Chennai (MAA),IndiGo,D,1,2020-02-20 06:10:00,2020-02-20 06:17:00,7.0,On time
-Mumbai,Hyderabad (HYD),Lufthansa Cargo,D,1,2020-02-20 06:20:00,2020-02-20 07:24:00,64.0,Delayed
-London (LHR),Mumbai,Air India,A,0,2020-02-20 06:50:00,2020-02-20 07:15:00,25.0,Delayed
-Chennai (MAA),Mumbai,Air India,A,0,2020-02-20 08:10:00,2020-02-20 08:08:00,2.0,On time
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-20 08:15:00,2020-02-20 08:26:00,11.0,On time
-Mumbai,Chandigarh (IXC),GoAir,D,1,2020-02-20 08:35:00,2020-02-20 08:51:00,16.0,Delayed
-Mumbai,London (LHR),British Airways,D,1,2020-02-20 13:15:00,2020-02-20 15:19:00,124.0,Delayed
-Mumbai,Bhopal (BHO),IndiGo,D,1,2020-02-20 15:25:00,2020-02-20 16:22:00,57.0,Delayed
-Kanpur (KNU),Mumbai,SpiceJet,A,0,2020-02-20 16:20:00,2020-02-20 15:33:00,47.0,Delayed
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-20 18:55:00,2020-02-20 19:01:00,6.0,On time
-Mumbai,Hyderabad (HYD),IndiGo,D,1,2020-02-20 20:05:00,2020-02-20 20:50:00,45.0,Delayed
-Delhi (DEL),Mumbai,GoAir,A,0,2020-02-20 20:20:00,2020-02-20 20:17:00,3.0,On time
-Mumbai,Kolkata (CCU),IndiGo,D,1,2020-02-20 20:30:00,2020-02-20 21:29:00,59.0,Delayed
-Mangalore (IXE),Mumbai,IndiGo,A,0,2020-02-20 20:50:00,2020-02-20 20:56:00,6.0,On time
-Jeddah (JED),Mumbai,Saudia,A,0,2020-02-20 21:00:00,2020-02-20 21:11:00,11.0,On time
-Mumbai,Dubai (DXB),Emirates,D,1,2020-02-20 22:00:00,2020-02-20 22:47:00,47.0,Delayed
-Toronto (YYZ),Mumbai,Air Canada,A,0,2020-02-20 22:10:00,2020-02-20 22:01:00,9.0,On time
-Mumbai,Delhi (DEL),GoAir,D,1,2020-02-20 23:05:00,2020-02-20 23:25:00,20.0,Delayed
-Mumbai,Goa (GOI),AirAsia,D,1,2020-02-20 23:05:00,2020-02-20 23:23:00,18.0,Delayed
-Delhi (DEL),Mumbai,SpiceJet,A,0,2020-02-20 23:50:00,2020-02-21 01:16:00,86.0,Delayed
-Mumbai,Delhi (DEL),Air India,D,1,2020-02-21 10:00:00,2020-02-21 10:33:00,33.0,Delayed
-Mumbai,Goa (GOI),SpiceJet,D,1,2020-02-21 11:30:00,2020-02-21 12:00:00,30.0,Delayed
-Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-21 12:20:00,2020-02-21 11:53:00,27.0,Delayed
-Riyadh (RUH),Mumbai,Air India,A,0,2020-02-21 13:20:00,2020-02-21 13:53:00,33.0,Delayed
-Mumbai,Delhi (DEL),Corendon Airlines,D,1,2020-02-21 13:30:00,2020-02-21 14:22:00,52.0,Delayed
-Coimbatore (CJB),Mumbai,SpiceJet,A,0,2020-02-21 14:00:00,2020-02-21 13:33:00,27.0,Delayed
-Amritsar (ATQ),Mumbai,IndiGo,A,0,2020-02-21 16:15:00,2020-02-21 15:48:00,27.0,Delayed
-Kanpur (KNU),Mumbai,SpiceJet,A,0,2020-02-21 16:20:00,2020-02-21 15:40:00,40.0,Delayed
+Mumbai,Dubai (DXB),Emirates (Rugby World Cup Japan 2019 Livery),D,1,2020-02-17 04:15:00,2020-02-17 04:33:00,18.0,Delayed
+Ahmedabad (AMD),Mumbai,SpiceJet,A,0,2020-02-17 06:40:00,2020-02-17 06:00:00,40.0,Delayed
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-17 08:30:00,2020-02-17 08:11:00,19.0,Delayed
+Mumbai,Lucknow (LKO),Air India,D,1,2020-02-17 08:30:00,2020-02-17 09:01:00,31.0,Delayed
+Mumbai,Nagpur (NAG),IndiGo,D,1,2020-02-17 08:30:00,2020-02-17 09:03:00,33.0,Delayed
+Delhi (DEL),Mumbai,Vistara,A,0,2020-02-17 08:45:00,2020-02-17 08:49:00,4.0,On time
+Kolkata (CCU),Mumbai,SpiceJet,A,0,2020-02-17 08:50:00,2020-02-17 08:41:00,9.0,On time
+Mumbai,Mangalore (IXE),Air India,D,1,2020-02-17 10:40:00,2020-02-17 11:24:00,44.0,Delayed
+Chennai (MAA),Mumbai,IndiGo,A,0,2020-02-17 11:00:00,2020-02-17 10:46:00,14.0,On time
+Mumbai,Jodhpur (JDH),IndiGo,D,1,2020-02-17 11:00:00,2020-02-17 11:37:00,37.0,Delayed
+Chandigarh (IXC),Mumbai,GoAir,A,0,2020-02-17 13:55:00,2020-02-17 14:11:00,16.0,Delayed
+Dubai (DXB),Mumbai,Emirates,A,0,2020-02-17 14:00:00,2020-02-17 13:49:00,11.0,On time
+Mumbai,Delhi (DEL),Vistara,D,1,2020-02-17 15:45:00,2020-02-17 16:13:00,28.0,Delayed
+Mumbai,Delhi (DEL),Air India,D,1,2020-02-17 18:45:00,2020-02-17 19:09:00,24.0,Delayed
+Cochin (COK),Mumbai,SpiceJet,A,0,2020-02-17 20:55:00,2020-02-17 21:22:00,27.0,Delayed
+Mumbai,Abu Dhabi (AUH),Etihad,D,1,2020-02-17 21:10:00,2020-02-17 22:06:00,56.0,Delayed
+Delhi (DEL),Mumbai,GoAir,A,0,2020-02-17 22:05:00,2020-02-17 21:54:00,11.0,On time
+Mumbai,Chennai (MAA),SpiceJet,D,1,2020-02-17 22:55:00,2020-02-17 23:34:00,39.0,Delayed
+Mumbai,Delhi (DEL),AirAsia,D,1,2020-02-18 05:20:00,2020-02-18 05:25:00,5.0,On time
+Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-18 06:05:00,2020-02-18 06:18:00,13.0,On time
+Mumbai,Hyderabad (HYD),Air India,D,1,2020-02-18 06:10:00,2020-02-18 06:17:00,7.0,On time
+Mumbai,Delhi (DEL),AirAsia,D,1,2020-02-18 08:40:00,2020-02-18 08:52:00,12.0,On time
+Mumbai,Dhaka (DAC),SpiceJet,D,1,2020-02-18 08:55:00,2020-02-18 09:47:00,52.0,Delayed
+Hyderabad (HYD),Mumbai,Vistara,A,0,2020-02-18 09:55:00,2020-02-18 09:50:00,5.0,On time
+Mumbai,Chennai (MAA),IndiGo,D,1,2020-02-18 13:10:00,2020-02-18 14:06:00,56.0,Delayed
+Goa (GOI),Mumbai,IndiGo,A,0,2020-02-18 14:25:00,2020-02-18 15:12:00,47.0,Delayed
+Kolkata (CCU),Mumbai,SpiceJet,A,0,2020-02-18 14:55:00,2020-02-18 14:48:00,7.0,On time
+Ranchi (IXR),Mumbai,GoAir,A,0,2020-02-18 16:30:00,2020-02-18 16:07:00,23.0,Delayed
+Mumbai,Chennai (MAA),GoAir,D,1,2020-02-18 18:10:00,2020-02-18 18:22:00,12.0,On time
+Mumbai,Chennai (MAA),SpiceJet,D,1,2020-02-18 18:25:00,2020-02-18 18:28:00,3.0,On time
+Bengaluru (BLR),Mumbai,Vistara,A,0,2020-02-18 20:15:00,2020-02-18 20:29:00,14.0,On time
+Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-18 21:10:00,2020-02-18 20:41:00,29.0,Delayed
+Mumbai,Delhi (DEL),GoAir,D,1,2020-02-18 21:15:00,2020-02-18 21:46:00,31.0,Delayed
+Mumbai,Coimbatore (CJB),IndiGo,D,1,2020-02-18 21:25:00,2020-02-18 21:37:00,12.0,On time
+Varanasi (VNS),Mumbai,Corendon Airlines,A,0,2020-02-18 22:05:00,2020-02-18 22:02:00,3.0,On time
+Bangkok (BKK),Mumbai,SpiceJet,A,0,2020-02-19 01:50:00,2020-02-19 01:32:00,18.0,Delayed
+Colombo (CMB),Mumbai,Air India,A,0,2020-02-19 04:30:00,2020-02-19 05:16:00,46.0,Delayed
+Mumbai,Delhi (DEL),Vistara,D,1,2020-02-19 06:30:00,2020-02-19 06:56:00,26.0,Delayed
+Delhi (DEL),Mumbai,GoAir,A,0,2020-02-19 10:10:00,2020-02-19 09:58:00,12.0,On time
+Mumbai,Nanded (NDC),Trujet,D,1,2020-02-19 13:20:00,2020-02-19 18:00:00,280.0,Delayed
+Delhi (DEL),Mumbai,AirAsia,A,0,2020-02-19 14:15:00,2020-02-19 14:24:00,9.0,On time
+Hubli (HBX),Mumbai,Air India,A,0,2020-02-19 14:30:00,2020-02-19 14:45:00,15.0,On time
+Jodhpur (JDH),Mumbai,IndiGo,A,0,2020-02-19 15:00:00,2020-02-19 14:59:00,1.0,On time
+Mumbai,Thiruvananthapuram (TRV),SpiceJet,D,1,2020-02-19 15:10:00,2020-02-19 15:18:00,8.0,On time
+Mumbai,Chennai (MAA),Air India,D,1,2020-02-19 19:00:00,2020-02-19 19:52:00,52.0,Delayed
+Mumbai,Nagpur (NAG),IndiGo,D,1,2020-02-19 20:30:00,2020-02-19 20:37:00,7.0,On time
+Vadodara (BDQ),Mumbai,IndiGo,A,0,2020-02-19 21:20:00,2020-02-19 20:49:00,31.0,Delayed
+Dubai (DXB),Mumbai,Air India Express (Elephant/Camel Livery),A,0,2020-02-19 22:35:00,2020-02-19 22:02:00,33.0,Delayed
+Dehradun (DED),Mumbai,Air India,A,0,2020-02-19 23:20:00,2020-02-19 23:48:00,28.0,Delayed
+Paris (CDG),Mumbai,Air France,A,0,2020-02-20 00:05:00,2020-02-19 23:39:00,26.0,Delayed
+Mumbai,Bengaluru (BLR),SpiceJet,D,1,2020-02-20 00:50:00,2020-02-20 00:56:00,6.0,On time
+Abu Dhabi (AUH),Mumbai,Etihad,A,0,2020-02-20 02:40:00,2020-02-20 01:54:00,46.0,Delayed
+Kannur (CNN),Mumbai,GoAir,A,0,2020-02-20 04:50:00,2020-02-20 04:30:00,20.0,Delayed
+Mumbai,Bengaluru (BLR),GoAir,D,1,2020-02-20 06:00:00,2020-02-20 06:08:00,8.0,On time
+Kuwait City (KWI),Mumbai,Air India,A,0,2020-02-20 07:30:00,2020-02-20 08:21:00,51.0,Delayed
+Mumbai,London (STN),Air India,D,1,2020-02-20 10:20:00,2020-02-20 12:20:00,120.0,Delayed
+Bhuj (BHJ),Mumbai,Alliance Air,A,0,2020-02-20 10:55:00,2020-02-20 10:58:00,3.0,On time
+Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-20 11:20:00,2020-02-20 11:21:00,1.0,On time
+Mumbai,Dubai (DXB),Air India Express (Elephant/Camel Livery),D,1,2020-02-20 13:10:00,2020-02-20 13:55:00,45.0,Delayed
+Mumbai,Madurai (IXM),SpiceJet,D,1,2020-02-20 13:25:00,2020-02-20 14:08:00,43.0,Delayed
+Mumbai,Muscat (MCT),Oman Air,D,1,2020-02-20 16:15:00,2020-02-20 16:42:00,27.0,Delayed
+Coimbatore (CJB),Mumbai,Air India,A,0,2020-02-20 17:00:00,2020-02-20 17:13:00,13.0,On time
+Mumbai,Delhi (DEL),SpiceJet,D,1,2020-02-20 17:15:00,2020-02-20 17:45:00,30.0,Delayed
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-20 17:45:00,2020-02-20 18:40:00,55.0,Delayed
+Jodhpur (JDH),Mumbai,Vistara,A,0,2020-02-20 18:15:00,2020-02-20 18:21:00,6.0,On time
+Mumbai,Ahmedabad (AMD),GoAir,D,1,2020-02-20 19:25:00,2020-02-20 20:11:00,46.0,Delayed
+Mumbai,Goa (GOI),SpiceJet,D,1,2020-02-20 22:30:00,2020-02-20 22:41:00,11.0,On time
+Mumbai,Dubai (DXB),SpiceJet,D,1,2020-02-21 09:30:00,2020-02-21 10:52:00,82.0,Delayed
+Mumbai,Delhi (DEL),SpiceJet,D,1,2020-02-21 10:10:00,2020-02-21 10:35:00,25.0,Delayed
+Mumbai,Goa (GOI),GoAir,D,1,2020-02-21 11:30:00,2020-02-21 11:55:00,25.0,Delayed
+Phuket (HKT),Mumbai,GoAir,A,0,2020-02-21 11:40:00,2020-02-21 11:10:00,30.0,Delayed
+Mumbai,Diu (DIU),Alliance Air,D,1,2020-02-21 12:05:00,2020-02-21 12:11:00,6.0,On time
+Mumbai,Guwahati (GAU),SpiceJet,D,1,2020-02-21 12:25:00,2020-02-21 12:39:00,14.0,On time
+Aurangabad (IXU),Mumbai,Air India,A,0,2020-02-21 13:35:00,2020-02-21 12:29:00,66.0,Delayed
+Mumbai,Jabalpur (JLR),SpiceJet,D,1,2020-02-21 14:10:00,2020-02-21 15:44:00,94.0,Delayed
 Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-21 16:30:00,2020-02-21 16:40:00,10.0,On time
-Mumbai,Nairobi (NBO),Kenya Airways (SkyTeam Livery),D,1,2020-02-21 16:45:00,2020-02-21 17:30:00,45.0,Delayed
-Delhi (DEL),Mumbai,Air India,A,0,2020-02-21 19:10:00,2020-02-21 19:31:00,21.0,Delayed
-Goa (GOI),Mumbai,IndiGo,A,0,2020-02-21 19:15:00,2020-02-21 19:10:00,5.0,On time
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-21 19:15:00,2020-02-21 19:30:00,15.0,On time
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-21 20:20:00,2020-02-21 19:48:00,32.0,Delayed
-Kolkata (CCU),Mumbai,SpiceJet,A,0,2020-02-21 20:50:00,2020-02-21 20:57:00,7.0,On time
-Mumbai,Goa (GOI),SpiceJet,D,1,2020-02-21 21:20:00,2020-02-21 22:20:00,60.0,Delayed
-Jaipur (JAI),Mumbai,SpiceJet,A,0,2020-02-21 23:25:00,2020-02-21 23:00:00,25.0,Delayed
-Mumbai,Singapore (SIN),Singapore Airlines,D,1,2020-02-22 00:55:00,2020-02-22 01:10:00,15.0,On time
-Mumbai,Phuket (HKT),GoAir,D,1,2020-02-22 01:25:00,2020-02-22 01:43:00,18.0,Delayed
-Goa (GOI),Mumbai,AirAsia,A,0,2020-02-22 02:05:00,2020-02-22 01:58:00,7.0,On time
-Mumbai,Bangkok (BKK),THAI Smile,D,1,2020-02-22 02:40:00,2020-02-22 02:43:00,3.0,On time
-Mumbai,Kolkata (CCU),SpiceJet,D,1,2020-02-22 05:31:00,2020-02-22 05:31:00,0.0,On time
-Hyderabad (HYD),Mumbai,SpiceJet,A,0,2020-02-22 08:40:00,2020-02-22 08:26:00,14.0,On time
-Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-22 08:40:00,2020-02-22 08:13:00,27.0,Delayed
-Mumbai,Dubai (DXB),Emirates,D,1,2020-02-22 10:25:00,2020-02-22 11:07:00,42.0,Delayed
-Delhi (DEL),Mumbai,Vistara,A,0,2020-02-22 11:40:00,2020-02-22 11:38:00,2.0,On time
+Delhi (DEL),Mumbai,Vistara,A,0,2020-02-21 20:05:00,2020-02-21 20:58:00,53.0,Delayed
+Mumbai,Delhi (DEL),Air India,D,1,2020-02-21 21:00:00,2020-02-21 22:08:00,68.0,Delayed
+Mumbai,Bengaluru (BLR),SpiceJet,D,1,2020-02-21 21:40:00,2020-02-21 22:49:00,69.0,Delayed
+Mumbai,Istanbul (ISL),AirACT,D,1,2020-02-21 21:55:00,2020-02-22 01:29:00,214.0,Delayed
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-21 22:25:00,2020-02-21 22:23:00,2.0,On time
+Mumbai,Kuwait City (KWI),Air India,D,1,2020-02-21 23:00:00,2020-02-21 23:20:00,20.0,Delayed
+Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-22 01:50:00,2020-02-22 01:52:00,2.0,On time
+Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-22 07:20:00,2020-02-22 06:53:00,27.0,Delayed
+Goa (GOI),Mumbai,GoAir,A,0,2020-02-22 07:55:00,2020-02-22 07:26:00,29.0,Delayed
+Goa (GOI),Mumbai,Air India,A,0,2020-02-22 08:15:00,2020-02-22 08:45:00,30.0,Delayed
+Mumbai,Raipur (RPR),IndiGo,D,1,2020-02-22 09:25:00,2020-02-22 09:48:00,23.0,Delayed
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-22 09:50:00,2020-02-22 09:26:00,24.0,Delayed
+Mumbai,Jodhpur (JDH),Air India,D,1,2020-02-22 10:30:00,2020-02-22 11:45:00,75.0,Delayed
+Mumbai,Singapore (SIN),Singapore Airlines Cargo,D,1,2020-02-22 10:45:00,2020-02-22 11:28:00,43.0,Delayed
+Ranchi (IXR),Mumbai,IndiGo,A,0,2020-02-22 11:05:00,2020-02-22 10:47:00,18.0,Delayed
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-22 11:15:00,2020-02-22 11:19:00,4.0,On time
+Kuala Lumpur (KUL),Mumbai,Malaysia Airlines,A,0,2020-02-22 11:55:00,2020-02-22 12:08:00,13.0,On time
 Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-22 12:40:00,2020-02-22 13:26:00,46.0,Delayed
-Thiruvananthapuram (TRV),Mumbai,IndiGo,A,0,2020-02-22 13:00:00,2020-02-22 12:57:00,3.0,On time
-Mumbai,Dubai (DXB),Air India Express (Red Fort/Gwalior Fort Livery),D,1,2020-02-22 13:10:00,2020-02-22 13:52:00,42.0,Delayed
-Mumbai,Delhi (DEL),Corendon Airlines,D,1,2020-02-22 13:30:00,2020-02-22 14:18:00,48.0,Delayed
-Patna (PAT),Mumbai,IndiGo,A,0,2020-02-22 14:30:00,2020-02-22 14:34:00,4.0,On time
-Goa (GOI),Mumbai,SpiceJet,A,0,2020-02-22 14:55:00,2020-02-22 15:27:00,32.0,Delayed
-Mumbai,Nairobi (NBO),Kenya Airways,D,1,2020-02-22 16:45:00,2020-02-22 17:44:00,59.0,Delayed
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-22 17:20:00,2020-02-22 17:41:00,21.0,Delayed
-Goa (GOI),Mumbai,Air India,A,0,2020-02-22 20:50:00,2020-02-22 20:51:00,1.0,On time
-Mumbai,Bengaluru (BLR),Vistara,D,1,2020-02-22 21:05:00,2020-02-22 22:16:00,71.0,Delayed
-Delhi (DEL),Mumbai,Vistara,A,0,2020-02-22 21:55:00,2020-02-22 22:06:00,11.0,On time
-Mumbai,Abu Dhabi (AUH),Air india (Star Alliance Livery),D,1,2020-02-22 23:25:00,2020-02-23 00:41:00,76.0,Delayed
-Colombo (CMB),Mumbai,SriLankan Airlines,A,0,2020-02-23 02:10:00,2020-02-23 01:52:00,18.0,Delayed
-Ahmedabad (AMD),Mumbai,Corendon Airlines,A,0,2020-02-23 06:40:00,2020-02-23 06:11:00,29.0,Delayed
-Mumbai,Nagpur (NAG),IndiGo,D,1,2020-02-23 10:00:00,2020-02-23 10:18:00,18.0,Delayed
-Mumbai,Goa (GOI),Vistara,D,1,2020-02-23 12:45:00,2020-02-23 12:55:00,10.0,On time
-Mumbai,Muscat (MCT),Oman Air,D,1,2020-02-23 16:15:00,2020-02-23 16:47:00,32.0,Delayed
-Mumbai,Bengaluru (BLR),Vistara,D,1,2020-02-23 17:30:00,2020-02-23 18:03:00,33.0,Delayed
-Delhi (DEL),Mumbai,SpiceJet,A,0,2020-02-23 18:05:00,2020-02-23 17:53:00,12.0,On time
-Mumbai,Hyderabad (HYD),Vistara,D,1,2020-02-23 19:20:00,2020-02-23 19:42:00,22.0,Delayed
-Mumbai,Kolkata (CCU),SpiceJet,D,1,2020-02-23 19:40:00,2020-02-23 19:52:00,12.0,On time
-Mumbai,Riyadh (RUH),SpiceJet,D,1,2020-02-23 21:10:00,2020-02-23 21:31:00,21.0,Delayed
-Aurangabad (IXU),Mumbai,Air India,A,0,2020-02-23 21:35:00,2020-02-23 20:57:00,38.0,Delayed
-Mumbai,Bahrain (BAH),Gulf Air,D,1,2020-02-23 21:35:00,2020-02-23 21:52:00,17.0,Delayed
-Nagpur (NAG),Mumbai,IndiGo,A,0,2020-02-23 22:20:00,2020-02-23 22:06:00,14.0,On time
-Chennai (MAA),Mumbai,SpiceJet,A,0,2020-02-23 23:05:00,2020-02-23 23:09:00,4.0,On time
-Paris (CDG),Mumbai,Air France,A,0,2020-02-24 00:05:00,2020-02-23 23:47:00,18.0,Delayed
-Dubai (DXB),Mumbai,IndiGo,A,0,2020-02-24 01:30:00,2020-02-24 01:06:00,24.0,Delayed
-Abu Dhabi (AUH),Mumbai,Etihad,A,0,2020-02-24 02:40:00,2020-02-24 02:10:00,30.0,Delayed
-Mumbai,Kuwait City (KWI),Kuwait Airways,D,1,2020-02-24 07:15:00,2020-02-24 07:43:00,28.0,Delayed
-Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-24 08:50:00,2020-02-24 08:42:00,8.0,On time
-Mumbai,Jaisalmer (JSA),SpiceJet,D,1,2020-02-24 09:15:00,2020-02-24 09:37:00,22.0,Delayed
-Delhi (DEL),Mumbai,SpiceJet,A,0,2020-02-24 09:20:00,2020-02-24 09:23:00,3.0,On time
-Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-24 09:40:00,2020-02-24 09:11:00,29.0,Delayed
-Delhi (DEL),Mumbai,Vistara,A,0,2020-02-24 11:10:00,2020-02-24 11:06:00,4.0,On time
-Mumbai,Delhi (DEL),GoAir,D,1,2020-02-24 12:15:00,2020-02-24 13:22:00,67.0,Delayed
-Patna (PAT),Mumbai,SpiceJet,A,0,2020-02-24 16:05:00,2020-02-24 15:54:00,11.0,On time
-Mumbai,Delhi (DEL),Air India,D,1,2020-02-24 17:00:00,2020-02-24 18:29:00,89.0,Delayed
-Delhi (DEL),Mumbai,Vistara,A,0,2020-02-24 17:40:00,2020-02-24 17:49:00,9.0,On time
-Delhi (DEL),Mumbai,AirAsia,A,0,2020-02-24 17:50:00,2020-02-24 17:45:00,5.0,On time
-Goa (GOI),Mumbai,SpiceJet,A,0,2020-02-24 18:50:00,2020-02-24 19:02:00,12.0,On time
-Goa (GOI),Mumbai,IndiGo,A,0,2020-02-24 19:15:00,2020-02-24 19:15:00,0.0,On time
-Jaipur (JAI),Mumbai,IndiGo,A,0,2020-02-24 19:30:00,2020-02-24 19:07:00,23.0,Delayed
-Delhi (DEL),Mumbai,Corendon Airlines,A,0,2020-02-24 22:05:00,2020-02-24 21:56:00,9.0,On time
-Mumbai,Delhi (DEL),Vistara,D,1,2020-02-24 22:40:00,2020-02-24 23:37:00,57.0,Delayed
-Kolkata (CCU),Mumbai,GoAir,A,0,2020-02-25 01:30:00,2020-02-25 01:25:00,5.0,On time
-Bahrain (BAH),Mumbai,Gulf Air,A,0,2020-02-25 04:55:00,2020-02-25 04:43:00,12.0,On time
-Riyadh (RUH),Mumbai,IndiGo,A,0,2020-02-25 05:10:00,2020-02-25 04:50:00,20.0,Delayed
-Mumbai,Chennai (MAA),Air India,D,1,2020-02-25 05:40:00,2020-02-25 06:00:00,20.0,Delayed
-Bangkok (BKK),Mumbai,Air India,A,0,2020-02-25 08:25:00,2020-02-25 08:34:00,9.0,On time
-Bengaluru (BLR),Mumbai,Air India,A,0,2020-02-25 08:35:00,2020-02-25 08:29:00,6.0,On time
-Ahmedabad (AMD),Mumbai,IndiGo,A,0,2020-02-25 08:55:00,2020-02-25 08:38:00,17.0,Delayed
-Mumbai,Hyderabad (HYD),IndiGo,D,1,2020-02-25 12:15:00,2020-02-25 13:15:00,60.0,Delayed
-Mumbai,Goa (GOI),IndiGo,D,1,2020-02-25 15:15:00,2020-02-25 15:26:00,11.0,On time
-Mumbai,Delhi (DEL),Air India,D,1,2020-02-25 16:00:00,2020-02-25 16:24:00,24.0,Delayed
-Mumbai,Indore (IDR),IndiGo,D,1,2020-02-25 16:20:00,2020-02-25 16:47:00,27.0,Delayed
-Mumbai,Goa (GOI),GoAir,D,1,2020-02-25 16:25:00,2020-02-25 17:01:00,36.0,Delayed
-Mumbai,Goa (GOI),Air India,D,1,2020-02-25 16:45:00,2020-02-25 18:11:00,86.0,Delayed
-Mumbai,Chennai (MAA),Air India,D,1,2020-02-25 19:00:00,2020-02-25 20:27:00,87.0,Delayed
-Mumbai,Chennai (MAA),IndiGo,D,1,2020-02-25 20:10:00,2020-02-25 20:55:00,45.0,Delayed
-Mumbai,Delhi (DEL),GoAir,D,1,2020-02-25 20:25:00,2020-02-25 20:58:00,33.0,Delayed
-Mumbai,Coimbatore (CJB),IndiGo,D,1,2020-02-25 21:25:00,2020-02-25 21:48:00,23.0,Delayed
-Mumbai,Delhi (DEL),Vistara,D,1,2020-02-25 22:40:00,2020-02-25 22:58:00,18.0,Delayed
-Mumbai,Ahmedabad (AMD),Corendon Airlines,D,1,2020-02-25 22:45:00,2020-02-25 22:54:00,9.0,On time
-Chennai (MAA),Mumbai,IndiGo,A,0,2020-02-25 23:55:00,2020-02-25 23:51:00,4.0,On time
-Mumbai,London (LHR),British Airways,D,1,2020-02-26 02:15:00,2020-02-26 02:22:00,7.0,On time
-Mumbai,Hyderabad (HYD),Vistara,D,1,2020-02-26 06:10:00,2020-02-26 06:41:00,31.0,Delayed
-Mumbai,Bengaluru (BLR),Air India,D,1,2020-02-26 06:15:00,2020-02-26 07:14:00,59.0,Delayed
-Chennai (MAA),Mumbai,SpiceJet,A,0,2020-02-26 07:40:00,2020-02-26 07:32:00,8.0,On time
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-26 09:35:00,2020-02-26 10:01:00,26.0,Delayed
-Mumbai,Bhubaneswar (BBI),IndiGo,D,1,2020-02-26 10:20:00,2020-02-26 10:48:00,28.0,Delayed
-Port Blair (IXZ),Mumbai,GoAir,A,0,2020-02-26 11:35:00,2020-02-26 11:38:00,3.0,On time
-Mumbai,Chandigarh (IXC),IndiGo,D,1,2020-02-26 11:55:00,2020-02-26 13:06:00,71.0,Delayed
-Chandigarh (IXC),Mumbai,GoAir,A,0,2020-02-26 13:55:00,2020-02-26 14:45:00,50.0,Delayed
-Mumbai,Thiruvananthapuram (TRV),IndiGo,D,1,2020-02-26 14:20:00,2020-02-26 15:00:00,40.0,Delayed
-Mumbai,Nagpur (NAG),Air India,D,1,2020-02-26 20:30:00,2020-02-26 21:41:00,71.0,Delayed
-Mumbai,Delhi (DEL),Air India (Star Alliance Livery),D,1,2020-02-26 21:00:00,2020-02-26 21:49:00,49.0,Delayed
-Jaipur (JAI),Mumbai,GoAir,A,0,2020-02-27 00:10:00,2020-02-26 23:55:00,15.0,On time
-Mumbai,Frankfurt (FRA),Lufthansa,D,1,2020-02-27 02:55:00,2020-02-27 03:20:00,25.0,Delayed
-Mumbai,Delhi (DEL),SpiceJet,D,1,2020-02-27 06:00:00,2020-02-27 06:13:00,13.0,On time
-Goa (GOI),Mumbai,SpiceJet,A,0,2020-02-27 06:40:00,2020-02-27 06:09:00,31.0,Delayed
-Lucknow (LKO),Mumbai,IndiGo,A,0,2020-02-27 10:05:00,2020-02-27 10:27:00,22.0,Delayed
-Mumbai,Mangalore (IXE),IndiGo,D,1,2020-02-27 15:45:00,2020-02-27 16:03:00,18.0,Delayed
-Mumbai,Udaipur (UDR),SpiceJet,D,1,2020-02-27 15:50:00,2020-02-27 16:20:00,30.0,Delayed
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-27 18:00:00,2020-02-27 18:39:00,39.0,Delayed
-Cochin (COK),Mumbai,SpiceJet,A,0,2020-02-27 20:55:00,2020-02-27 21:16:00,21.0,Delayed
-Chandigarh (IXC),Mumbai,Vistara,A,0,2020-02-27 21:35:00,2020-02-27 21:30:00,5.0,On time
-Mumbai,Bengaluru (BLR),AirAsia,D,1,2020-02-27 23:35:00,2020-02-28 00:01:00,26.0,Delayed
-London (LHR),Mumbai,British Airways,A,0,2020-02-28 00:15:00,2020-02-28 00:36:00,21.0,Delayed
-Mumbai,Bengaluru (BLR),GoAir,D,0,2020-02-28 00:20:00,2020-02-28 00:41:00,21.0,Delayed
-Mumbai,Goa (GOI),GoAir,D,0,2020-02-28 01:20:00,2020-02-28 01:19:00,1.0,On time
-Mumbai,Port Louis (MRU),Air Mauritius,D,0,2020-02-28 05:00:00,2020-02-28 05:13:00,13.0,On time
-Mumbai,Goa (GOI),Air India,D,0,2020-02-28 05:25:00,2020-02-28 04:43:00,42.0,Delayed
-Cochin (COK),Mumbai,SpiceJet,A,0,2020-02-28 08:00:00,2020-02-28 07:54:00,6.0,On time
-London (LHR),Mumbai,British Airways,A,0,2020-02-28 11:15:00,2020-02-28 11:32:00,17.0,Delayed
-Mumbai,London (LHR),British Airways,D,0,2020-02-28 11:15:00,2020-02-28 11:32:00,17.0,Delayed
-Mumbai,Bhubaneswar (BBI),IndiGo,D,0,2020-02-28 11:15:00,2020-02-28 14:07:00,172.0,Delayed
-Mumbai,Nagpur (NAG),IndiGo,D,0,2020-02-28 12:05:00,2020-02-28 11:43:00,22.0,Delayed
-Mumbai,Dubai (DXB),Emirates,D,0,2020-02-28 14:00:00,2020-02-28 13:58:00,2.0,On time
-Mumbai,Goa (GOI),SpiceJet,D,0,2020-02-28 14:55:00,2020-02-28 14:41:00,14.0,On time
-Chennai (MAA),Mumbai,GoAir,A,0,2020-02-28 15:40:00,2020-02-28 15:44:00,4.0,On time
-Mumbai,Lucknow (LKO),IndiGo,D,0,2020-02-28 18:05:00,2020-02-28 18:12:00,7.0,On time
-Mumbai,Chandigarh (IXC),Air India,D,0,2020-02-28 18:10:00,2020-02-28 18:20:00,10.0,On time
-Mumbai,Guwahati (GAU),SpiceJet,D,0,2020-02-28 19:15:00,2020-02-28 19:40:00,25.0,Delayed
-Andal (RDP),Mumbai,SpiceJet,A,0,2020-02-28 20:35:00,2020-02-28 20:39:00,4.0,On time
-Kuala Lumpur (KUL),Mumbai,Malindo Air,A,0,2020-02-28 22:20:00,2020-02-28 22:34:00,14.0,On time
-Kolkata (CCU),Mumbai,SpiceJet,A,0,2020-02-28 23:45:00,2020-02-29 01:04:00,79.0,Delayed
-Mumbai,Chennai (MAA),SpiceJet,D,0,2020-02-28 23:45:00,2020-02-29 00:20:00,35.0,Delayed
-Mumbai,Delhi (DEL),GoAir,D,1,2020-02-29 00:05:00,2020-02-29 00:22:00,17.0,Delayed
+Varanasi (VNS),Mumbai,SpiceJet,A,0,2020-02-22 17:45:00,2020-02-22 18:27:00,42.0,Delayed
+Goa (GOI),Mumbai,IndiGo,A,0,2020-02-22 18:35:00,2020-02-22 19:00:00,25.0,Delayed
+Nagpur (NAG),Mumbai,GoAir,A,0,2020-02-22 18:40:00,2020-02-22 18:17:00,23.0,Delayed
+Indore (IDR),Mumbai,IndiGo,A,0,2020-02-22 19:35:00,2020-02-22 19:39:00,4.0,On time
+Mumbai,Hyderabad (HYD),IndiGo,D,1,2020-02-22 20:05:00,2020-02-22 20:37:00,32.0,Delayed
+Amritsar (ATQ),Mumbai,Air India,A,0,2020-02-22 20:10:00,2020-02-22 20:11:00,1.0,On time
+Mumbai,Doha (DOH),Qatar Cargo,D,1,2020-02-22 20:30:00,2020-02-22 21:34:00,64.0,Delayed
+Chennai (MAA),Mumbai,Air India,A,0,2020-02-22 23:20:00,2020-02-23 01:16:00,116.0,Delayed
+Chennai (MAA),Mumbai,SpiceJet,A,0,2020-02-22 23:45:00,2020-02-22 23:41:00,4.0,On time
+Ahmedabad (AMD),Mumbai,SpiceJet,A,0,2020-02-22 23:59:00,2020-02-22 23:47:00,12.0,On time
+Mumbai,Dubai (DXB),IndiGo,D,1,2020-02-23 01:25:00,2020-02-23 02:10:00,45.0,Delayed
+Mumbai,Addis Ababa (ADD),Ethiopian Airlines,D,1,2020-02-23 04:05:00,2020-02-23 04:21:00,16.0,Delayed
+Mumbai,Goa (GOI),GoAir,D,1,2020-02-23 04:55:00,2020-02-23 04:56:00,1.0,On time
+Bengaluru (BLR),Mumbai,Vistara,A,0,2020-02-23 08:15:00,2020-02-23 08:21:00,6.0,On time
+Mumbai,Delhi (DEL),Air India,D,1,2020-02-23 08:15:00,2020-02-23 08:57:00,42.0,Delayed
+Hyderabad (HYD),Mumbai,Vistara,A,0,2020-02-23 09:55:00,2020-02-23 09:35:00,20.0,Delayed
+Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-23 11:05:00,2020-02-23 11:33:00,28.0,Delayed
+Hyderabad (HYD),Mumbai,Air India,A,0,2020-02-23 11:20:00,2020-02-23 10:29:00,51.0,Delayed
+Mumbai,Chandigarh (IXC),IndiGo,D,1,2020-02-23 11:55:00,2020-02-23 12:25:00,30.0,Delayed
+Jaisalmer (JSA),Mumbai,SpiceJet,A,0,2020-02-23 13:25:00,2020-02-23 13:07:00,18.0,Delayed
+Chennai (MAA),Mumbai,Vistara,A,0,2020-02-23 14:15:00,2020-02-23 14:08:00,7.0,On time
+Chennai (MAA),Mumbai,GoAir,A,0,2020-02-23 15:40:00,2020-02-23 16:06:00,26.0,Delayed
+Mumbai,Shirdi (SAG),Alliance Air,D,1,2020-02-23 15:55:00,2020-02-23 15:56:00,1.0,On time
+Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-23 17:45:00,2020-02-23 18:14:00,29.0,Delayed
+Mumbai,Delhi (DEL),Vistara,D,1,2020-02-23 18:30:00,2020-02-23 18:47:00,17.0,Delayed
+Jaipur (JAI),Mumbai,IndiGo,A,0,2020-02-23 19:30:00,2020-02-23 19:20:00,10.0,On time
+Mumbai,Goa (GOI),Air India,D,1,2020-02-23 21:45:00,2020-02-23 22:00:00,15.0,On time
+Mumbai,Vadodara (BDQ),IndiGo,D,1,2020-02-24 05:15:00,2020-02-24 05:22:00,7.0,On time
+Mumbai,Kolkata (CCU),IndiGo,D,1,2020-02-24 07:45:00,2020-02-24 07:57:00,12.0,On time
+Chennai (MAA),Mumbai,IndiGo,A,0,2020-02-24 09:15:00,2020-02-24 08:56:00,19.0,Delayed
+Bhopal (BHO),Mumbai,Air India,A,0,2020-02-24 09:35:00,2020-02-24 09:25:00,10.0,On time
+Nagpur (NAG),Mumbai,IndiGo,A,0,2020-02-24 12:05:00,2020-02-24 11:51:00,14.0,On time
+Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-24 12:20:00,2020-02-24 12:09:00,11.0,On time
+Mumbai,Abu Dhabi (AUH),GoAir,D,1,2020-02-24 14:40:00,2020-02-24 14:51:00,11.0,On time
+Mumbai,Chennai (MAA),IndiGo,D,1,2020-02-24 14:45:00,2020-02-24 15:28:00,43.0,Delayed
+Lucknow (LKO),Mumbai,IndiGo,A,0,2020-02-24 15:15:00,2020-02-24 15:33:00,18.0,Delayed
+Coimbatore (CJB),Mumbai,Air India,A,0,2020-02-24 15:55:00,2020-02-24 16:53:00,58.0,Delayed
+Mumbai,Muscat (MCT),Oman Air,D,1,2020-02-24 16:15:00,2020-02-24 17:05:00,50.0,Delayed
+Varanasi (VNS),Mumbai,IndiGo,A,0,2020-02-24 17:10:00,2020-02-24 17:54:00,44.0,Delayed
+Amsterdam (AMS),Mumbai,KLM,A,0,2020-02-25 00:40:00,2020-02-25 00:15:00,25.0,Delayed
+Mumbai,Delhi (DEL),SpiceXpress,D,1,2020-02-25 03:00:00,2020-02-25 03:14:00,14.0,On time
+Mumbai,Port Blair (IXZ),GoAir,D,1,2020-02-25 04:00:00,2020-02-25 04:08:00,8.0,On time
+Mumbai,Chandigarh (IXC),Air India,D,1,2020-02-25 05:55:00,2020-02-25 06:06:00,11.0,On time
+Mumbai,Bahrain (BAH),Gulf Air,D,1,2020-02-25 06:30:00,2020-02-25 06:34:00,4.0,On time
+Mumbai,Coimbatore (CJB),SpiceJet,D,1,2020-02-25 09:20:00,2020-02-25 10:03:00,43.0,Delayed
+Hyderabad (HYD),Mumbai,Air India,A,0,2020-02-25 09:40:00,2020-02-25 10:29:00,49.0,Delayed
+Mumbai,Goa (GOI),SpiceJet,D,1,2020-02-25 11:30:00,2020-02-25 12:18:00,48.0,Delayed
+Mumbai,Diu (DIU),Alliance Air,D,1,2020-02-25 12:25:00,2020-02-25 13:39:00,74.0,Delayed
+Mumbai,Varanasi (VNS),SpiceJet,D,1,2020-02-25 12:50:00,2020-02-25 13:21:00,31.0,Delayed
+Kolkata (CCU),Mumbai,Vistara,A,0,2020-02-25 13:05:00,2020-02-25 13:07:00,2.0,On time
+Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-25 13:40:00,2020-02-25 13:09:00,31.0,Delayed
+Dubai (DXB),Mumbai,IndiGo,A,0,2020-02-25 16:05:00,2020-02-25 15:54:00,11.0,On time
+Hyderabad (HYD),Mumbai,Air India,A,0,2020-02-25 18:40:00,2020-02-25 18:45:00,5.0,On time
+Raipur (RPR),Mumbai,IndiGo,A,0,2020-02-25 18:45:00,2020-02-25 18:32:00,13.0,On time
+Mumbai,Coimbatore (CJB),SpiceJet,D,1,2020-02-25 19:00:00,2020-02-25 19:19:00,19.0,Delayed
+Goa (GOI),Mumbai,GoAir,A,0,2020-02-25 19:40:00,2020-02-25 19:43:00,3.0,On time
+Ahmedabad (AMD),Mumbai,GoAir,A,0,2020-02-25 21:25:00,2020-02-25 21:51:00,26.0,Delayed
+Bengaluru (BLR),Mumbai,Air india (Star Alliance Livery),A,0,2020-02-25 22:10:00,2020-02-25 22:26:00,16.0,Delayed
+Mumbai,Hyderabad (HYD),Corendon Airlines,D,1,2020-02-25 22:45:00,2020-02-25 23:03:00,18.0,Delayed
+Mumbai,Bengaluru (BLR),GoAir,D,1,2020-02-25 22:50:00,2020-02-26 00:30:00,100.0,Delayed
+Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-25 23:00:00,2020-02-25 22:39:00,21.0,Delayed
+Bengaluru (BLR),Mumbai,AirAsia,A,0,2020-02-26 00:30:00,2020-02-26 00:16:00,14.0,On time
+Mumbai,Chennai (MAA),SpiceJet,D,1,2020-02-26 00:50:00,2020-02-26 01:04:00,14.0,On time
+Mumbai,Bengaluru (BLR),AirAsia,D,1,2020-02-26 01:10:00,2020-02-26 01:13:00,3.0,On time
+Mumbai,Nagpur (NAG),GoAir,D,1,2020-02-26 06:05:00,2020-02-26 06:12:00,7.0,On time
+Mumbai,Delhi (DEL),IndiGo,D,1,2020-02-26 06:45:00,2020-02-26 07:10:00,25.0,Delayed
+Delhi (DEL),Mumbai,SpiceJet,A,0,2020-02-26 10:35:00,2020-02-26 10:49:00,14.0,On time
+Mumbai,Hyderabad (HYD),Air India,D,1,2020-02-26 14:10:00,2020-02-26 15:10:00,60.0,Delayed
+Mumbai,Jaipur (JAI),IndiGo,D,1,2020-02-26 16:55:00,2020-02-26 17:46:00,51.0,Delayed
+Mumbai,Abu Dhabi (AUH),Etihad,D,1,2020-02-26 21:10:00,2020-02-26 21:58:00,48.0,Delayed
+Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-26 23:10:00,2020-02-26 23:42:00,32.0,Delayed
+Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-27 00:15:00,2020-02-27 01:05:00,50.0,Delayed
+Mumbai,Kannur (CNN),GoAir,D,1,2020-02-27 00:35:00,2020-02-27 00:56:00,21.0,Delayed
+Bangkok (BKK),Mumbai,THAI Smile,A,0,2020-02-27 01:35:00,2020-02-27 01:40:00,5.0,On time
+Frankfurt (FRA),Mumbai,Lufthansa Cargo,A,0,2020-02-27 04:20:00,2020-02-27 04:30:00,10.0,On time
+Mumbai,Istanbul (IST),Turkish Airlines,D,1,2020-02-27 06:50:00,2020-02-27 07:11:00,21.0,Delayed
+Mumbai,Jodhpur (JDH),IndiGo,D,1,2020-02-27 11:00:00,2020-02-27 11:51:00,51.0,Delayed
+Bengaluru (BLR),Mumbai,AirAsia,A,0,2020-02-27 12:45:00,2020-02-27 13:11:00,26.0,Delayed
+Kanpur (KNU),Mumbai,SpiceJet,A,0,2020-02-27 16:20:00,2020-02-27 16:34:00,14.0,On time
+Mumbai,Indore (IDR),IndiGo,D,1,2020-02-27 16:20:00,2020-02-27 16:45:00,25.0,Delayed
+Mumbai,Bhubaneswar (BBI),IndiGo,D,1,2020-02-27 17:10:00,2020-02-27 18:17:00,67.0,Delayed
+Chennai (MAA),Mumbai,Air India,A,0,2020-02-27 17:25:00,2020-02-27 17:23:00,2.0,On time
+Chennai (MAA),Mumbai,AirAsia,A,0,2020-02-27 17:50:00,2020-02-27 18:03:00,13.0,On time
+Mumbai,Bengaluru (BLR),Vistara,D,1,2020-02-27 19:05:00,2020-02-27 19:23:00,18.0,Delayed
+Mumbai,Lucknow (LKO),GoAir,D,1,2020-02-27 19:35:00,2020-02-27 20:14:00,39.0,Delayed
+Kuala Lumpur (KUL),Mumbai,Malindo Air,A,0,2020-02-27 22:20:00,2020-02-27 22:03:00,17.0,Delayed
+Nagpur (NAG),Mumbai,IndiGo,A,0,2020-02-27 22:20:00,2020-02-27 23:17:00,57.0,Delayed
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-27 22:25:00,2020-02-27 22:30:00,5.0,On time
+Mumbai,Dubai (DXB),Vistara,D,0,2020-02-28 00:15:00,2020-02-28 00:22:00,7.0,On time
+Hong Kong (HKG),Mumbai,Cathay Pacific,A,0,2020-02-28 00:35:00,2020-02-28 00:05:00,30.0,Delayed
+Mumbai,Kolkata (CCU),AirAsia (Kabali Livery),D,0,2020-02-28 01:10:00,2020-02-28 00:52:00,18.0,Delayed
+Mumbai,Sharjah (SHJ),Air Arabia,D,0,2020-02-28 04:15:00,2020-02-28 04:11:00,4.0,On time
+Mumbai,Ahmedabad (AMD),IndiGo,D,0,2020-02-28 06:30:00,2020-02-28 06:32:00,2.0,On time
+Chennai (MAA),Mumbai,GoAir,A,0,2020-02-28 06:50:00,2020-02-28 06:50:00,0.0,On time
+Kolkata (CCU),Mumbai,IndiGo,A,0,2020-02-28 09:50:00,2020-02-28 09:26:00,24.0,Delayed
+Jaipur (JAI),Mumbai,GoAir,A,0,2020-02-28 10:40:00,2020-02-28 10:23:00,17.0,Delayed
+Mumbai,Kolkata (CCU),IndiGo,D,0,2020-02-28 11:15:00,2020-02-28 11:20:00,5.0,On time
+Mumbai,Ahmedabad (AMD),IndiGo,D,0,2020-02-28 11:35:00,2020-02-28 11:18:00,17.0,Delayed
+Mumbai,Kanpur (KNU),SpiceJet,D,0,2020-02-28 16:20:00,2020-02-28 15:31:00,49.0,Delayed
+Mumbai,Dubai (DXB),SpiceJet,D,0,2020-02-28 17:05:00,2020-02-28 17:11:00,6.0,On time
+Mumbai,Delhi (DEL),IndiGo,D,0,2020-02-28 17:05:00,2020-02-28 16:55:00,10.0,On time
+Mumbai,Delhi (DEL),Vistara,D,0,2020-02-28 17:40:00,2020-02-28 17:27:00,13.0,On time
+Chennai (MAA),Mumbai,AirAsia,A,0,2020-02-28 17:50:00,2020-02-28 17:59:00,9.0,On time
+Mumbai,Udaipur (UDR),Air India,D,0,2020-02-28 17:50:00,2020-02-28 17:46:00,4.0,On time
+Raipur (RPR),Mumbai,IndiGo,A,0,2020-02-28 18:45:00,2020-02-28 18:49:00,4.0,On time
+Delhi (DEL),Mumbai,Air India (Star Alliance Livery),A,0,2020-02-28 19:10:00,2020-02-28 19:21:00,11.0,On time
+Rajkot (RAJ),Mumbai,Air India,A,0,2020-02-28 19:20:00,2020-02-28 20:28:00,68.0,Delayed
+Mumbai,Cochin (COK),IndiGo,D,0,2020-02-28 20:35:00,2020-02-28 20:45:00,10.0,On time
+Mumbai,Varanasi (VNS),Corendon Airlines,D,0,2020-02-28 22:05:00,2020-02-28 22:42:00,37.0,Delayed
+Mumbai,Nagpur (NAG),IndiGo,D,0,2020-02-28 22:20:00,2020-02-28 22:16:00,4.0,On time
 Dubai (DXB),Mumbai,Vistara,A,0,2020-02-29 00:15:00,2020-02-29 00:32:00,17.0,Delayed
-Mumbai,Dubai (DXB),Air India,D,1,2020-02-29 00:45:00,2020-02-29 01:11:00,26.0,Delayed
-Ahmedabad (AMD),Mumbai,GoAir,A,0,2020-02-29 01:50:00,2020-02-29 02:13:00,23.0,Delayed
-Doha (DOH),Mumbai,IndiGo,A,0,2020-02-29 04:15:00,2020-02-29 04:43:00,28.0,Delayed
-Mumbai,Kuwait City (KWI),IndiGo,D,1,2020-02-29 05:05:00,2020-02-29 06:06:00,61.0,Delayed
-Mumbai,Bengaluru (BLR),Air India,D,1,2020-02-29 06:15:00,2020-02-29 07:59:00,104.0,Delayed
-Ahmedabad (AMD),Mumbai,IndiGo,A,0,2020-02-29 06:30:00,2020-02-29 06:24:00,6.0,On time
-Sharjah (SHJ),Mumbai,Air India Express (White Tiger/Spotted Deer),A,0,2020-02-29 06:55:00,2020-02-29 06:33:00,22.0,Delayed
-Mumbai,Bengaluru (BLR),Vistara,D,1,2020-02-29 07:00:00,2020-02-29 07:08:00,8.0,On time
-Hyderabad (HYD),Mumbai,SpiceJet,A,0,2020-02-29 08:40:00,2020-02-29 08:22:00,18.0,Delayed
-Mumbai,Jodhpur (JDH),Air India,D,1,2020-02-29 09:35:00,2020-02-29 10:03:00,28.0,Delayed
-Mumbai,Jodhpur (JDH),IndiGo,D,1,2020-02-29 11:00:00,2020-02-29 11:33:00,33.0,Delayed
-Mumbai,Rajkot (RAJ),SpiceJet,D,1,2020-02-29 11:25:00,2020-02-29 11:56:00,31.0,Delayed
-Kozhikode (CCJ),Mumbai,Air India,A,0,2020-02-29 12:40:00,2020-02-29 12:52:00,12.0,On time
-Mumbai,Bengaluru (BLR),IndiGo,D,1,2020-02-29 12:40:00,2020-02-29 13:30:00,50.0,Delayed
-Hyderabad (HYD),Mumbai,IndiGo,A,0,2020-02-29 13:45:00,2020-02-29 13:49:00,4.0,On time
-Mumbai,Vadodara (BDQ),IndiGo,D,1,2020-02-29 15:30:00,2020-02-29 15:54:00,24.0,Delayed
-Delhi (DEL),Mumbai,GoAir,A,0,2020-02-29 16:40:00,2020-02-29 16:37:00,3.0,On time
-Dubai (DXB),Mumbai,Air India,A,0,2020-02-29 16:45:00,2020-02-29 16:09:00,36.0,Delayed
-Patna (PAT),Mumbai,GoAir,A,0,2020-02-29 17:00:00,2020-02-29 17:23:00,23.0,Delayed
-Mumbai,Delhi (DEL),Air India,D,1,2020-02-29 17:00:00,2020-02-29 18:10:00,70.0,Delayed
-Hyderabad (HYD),Mumbai,Air India,A,0,2020-02-29 18:40:00,2020-02-29 18:41:00,1.0,On time
-Mumbai,Jaipur (JAI),IndiGo,D,1,2020-02-29 19:55:00,2020-02-29 20:27:00,32.0,Delayed
-Delhi (DEL),Mumbai,GoAir,A,0,2020-02-29 20:20:00,2020-02-29 20:58:00,38.0,Delayed
-Aurangabad (IXU),Mumbai,Air India,A,0,2020-02-29 21:35:00,2020-02-29 21:14:00,21.0,Delayed
-Mumbai,Ahmedabad (AMD),GoAir,D,1,2020-02-29 22:50:00,2020-02-29 23:58:00,68.0,Delayed
-Bangkok (BKK),Mumbai,GoAir,A,0,2020-02-29 23:00:00,2020-02-29 23:00:00,0.0,On time
-Mumbai,Toronto (YYZ),Air Canada,D,1,2020-02-29 23:55:00,2020-03-01 01:59:00,124.0,Delayed
-London (LHR),Mumbai,British Airways,A,0,2020-03-01 00:15:00,2020-03-01 00:08:00,7.0,On time
-Mumbai,New York (JFK),Delta Air Lines,D,1,2020-03-01 00:55:00,2020-03-01 01:25:00,30.0,Delayed
-Mumbai,Abu Dhabi (AUH),Etihad,D,1,2020-03-01 04:40:00,2020-03-01 05:02:00,22.0,Delayed
-Bahrain (BAH),Mumbai,Gulf Air,A,0,2020-03-01 04:55:00,2020-03-01 04:37:00,18.0,Delayed
-Mumbai,Goa (GOI),Air India,D,1,2020-03-01 05:05:00,2020-03-01 05:07:00,2.0,On time
-Delhi (DEL),Mumbai,SpiceJet,A,0,2020-03-01 10:35:00,2020-03-01 10:04:00,31.0,Delayed
-Mumbai,Udaipur (UDR),Vistara,D,1,2020-03-01 12:15:00,2020-03-01 12:30:00,15.0,On time
-Thiruvananthapuram (TRV),Mumbai,IndiGo,A,0,2020-03-01 13:00:00,2020-03-01 12:50:00,10.0,On time
-Aurangabad (IXU),Mumbai,Air India,A,0,2020-03-01 13:35:00,2020-03-01 12:40:00,55.0,Delayed
-Delhi (DEL),Mumbai,AirAsia,A,0,2020-03-01 17:50:00,2020-03-01 17:34:00,16.0,Delayed
-Doha (DOH),Mumbai,Qatar Cargo,A,0,2020-03-01 18:45:00,2020-03-01 05:17:00,808.0,Delayed
-Raipur (RPR),Mumbai,IndiGo,A,0,2020-03-01 18:45:00,2020-03-01 20:32:00,107.0,Delayed
-Delhi (DEL),Mumbai,Vistara,A,0,2020-03-01 19:05:00,2020-03-01 18:56:00,9.0,On time
-Mumbai,Lucknow (LKO),IndiGo,D,1,2020-03-01 19:25:00,2020-03-01 19:46:00,21.0,Delayed
-Delhi (DEL),Mumbai,SpiceJet,A,0,2020-03-01 20:50:00,2020-03-01 20:56:00,6.0,On time
-Mumbai,Bengaluru (BLR),AirAsia,D,1,2020-03-01 23:35:00,2020-03-01 23:50:00,15.0,On time
+Delhi (DEL),Mumbai,IndiGo,A,0,2020-02-29 00:45:00,2020-02-29 00:49:00,4.0,On time
+Bengaluru (BLR),Mumbai,IndiGo,A,0,2020-02-29 00:55:00,2020-02-29 01:21:00,26.0,Delayed
+Colombo (CMB),Mumbai,SriLankan Airlines,A,0,2020-02-29 02:10:00,2020-02-29 02:15:00,5.0,On time
+Port Louis (MRU),Mumbai,Air Mauritius,A,0,2020-02-29 05:00:00,2020-02-29 04:40:00,20.0,Delayed
+Mumbai,Siliguri (IXB),IndiGo,D,1,2020-02-29 08:35:00,2020-02-29 08:49:00,14.0,On time
+Mumbai,Jodhpur (JDH),SpiceJet,D,1,2020-02-29 09:15:00,2020-02-29 09:31:00,16.0,Delayed
+Jaipur (JAI),Mumbai,SpiceJet,A,0,2020-02-29 09:45:00,2020-02-29 09:06:00,39.0,Delayed
+Mumbai,Jammu (IXJ),GoAir,D,1,2020-02-29 10:30:00,2020-02-29 11:00:00,30.0,Delayed
+Mumbai,Amritsar (ATQ),IndiGo,D,1,2020-02-29 10:30:00,2020-02-29 10:37:00,7.0,On time
+Mumbai,Ranchi (IXR),GoAir,D,1,2020-02-29 10:50:00,2020-02-29 12:06:00,76.0,Delayed
+Mumbai,Patna (PAT),IndiGo,D,1,2020-02-29 12:25:00,2020-02-29 13:09:00,44.0,Delayed
+Delhi (DEL),Mumbai,Vistara,A,0,2020-02-29 12:35:00,2020-02-29 12:24:00,11.0,On time
+Mumbai,Delhi (DEL),Corendon Airlines,D,1,2020-02-29 13:30:00,2020-02-29 14:02:00,32.0,Delayed
+Mumbai,Bangkok (BKK),Air India,D,1,2020-02-29 14:40:00,2020-02-29 15:22:00,42.0,Delayed
+Srinagar (SXR),Mumbai,GoAir,A,0,2020-02-29 18:00:00,2020-02-29 18:01:00,1.0,On time
+Mumbai,Ahmedabad (AMD),GoAir,D,1,2020-02-29 19:25:00,2020-02-29 19:40:00,15.0,On time
+Visakhapatnam (VTZ),Mumbai,Air India,A,0,2020-02-29 19:55:00,2020-02-29 20:26:00,31.0,Delayed
+Cochin (COK),Mumbai,IndiGo,A,0,2020-02-29 20:35:00,2020-02-29 20:31:00,4.0,On time
+Mumbai,Sharjah (SHJ),Air Arabia,D,1,2020-02-29 21:25:00,2020-02-29 21:52:00,27.0,Delayed
+Hyderabad (HYD),Mumbai,Air India,A,0,2020-02-29 23:30:00,2020-02-29 23:24:00,6.0,On time
+Delhi (DEL),Mumbai,Vistara,A,0,2020-02-29 23:50:00,2020-03-01 00:32:00,42.0,Delayed
+Hong Kong (HKG),Mumbai,Cathay Pacific,A,0,2020-03-01 00:35:00,2020-03-01 00:29:00,6.0,On time
+Mumbai,Ahmedabad (AMD),Blue Dart Aviation,D,1,2020-03-01 02:25:00,2020-03-01 03:17:00,52.0,Delayed
+Abu Dhabi (AUH),Mumbai,Etihad,A,0,2020-03-01 07:25:00,2020-03-01 07:13:00,12.0,On time
+Coimbatore (CJB),Mumbai,IndiGo,A,0,2020-03-01 09:50:00,2020-03-01 09:32:00,18.0,Delayed
+Goa (GOI),Mumbai,Vistara,A,0,2020-03-01 09:55:00,2020-03-01 09:38:00,17.0,Delayed
+Delhi (DEL),Mumbai,Air India,A,0,2020-03-01 12:45:00,2020-03-01 12:25:00,20.0,Delayed
+Mumbai,Vadodara (BDQ),IndiGo,D,1,2020-03-01 15:30:00,2020-03-01 15:46:00,16.0,Delayed
+Kathmandu (KTM),Mumbai,Nepal Airlines,A,0,2020-03-01 15:55:00,2020-03-01 16:23:00,28.0,Delayed
+Chandigarh (IXC),Mumbai,IndiGo,A,0,2020-03-01 17:20:00,2020-03-01 17:02:00,18.0,Delayed
+Mumbai,Udaipur (UDR),IndiGo,D,1,2020-03-01 17:25:00,2020-03-01 17:57:00,32.0,Delayed
+Bengaluru (BLR),Mumbai,GoAir,A,0,2020-03-01 18:15:00,2020-03-01 17:56:00,19.0,Delayed
+Mumbai,Delhi (DEL),Vistara,D,1,2020-03-01 20:55:00,2020-03-01 21:32:00,37.0,Delayed
