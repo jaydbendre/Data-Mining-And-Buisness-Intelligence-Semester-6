@@ -11,7 +11,7 @@ def delay_status(value):
 
 df = pd.DataFrame(pd.read_csv(
     "Datasets/FinalMergedDataset/cleaned_dataset.csv",
-    skiprows=lambda i: i > 0 and random.random() > 0.05)
+    skiprows=lambda i: i > 0 and random.random() > 0.02)
 )
 
 df["Delay_Status"] = df["Delay"].apply(delay_status, 1)
